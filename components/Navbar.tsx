@@ -15,6 +15,7 @@ export default function Navbar() {
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -41,7 +42,7 @@ function NavbarScroll({ isScrolling }: any) {
       animate={isScrolling ? "animate" : "initial"}
       exit="exit"
       variants={NavAnimations}
-      className="fixed z-10 flex justify-between px-4 py-2 rounded-full ts-bg left-1/2 top-10 border-black text-gray-600 border-2 backdrop-blur-[8px]"
+      className="fixed z-50 flex justify-between px-4 py-2 rounded-full ts-bg left-1/2 top-10 border-black text-gray-600 border-2 backdrop-blur-[8px]"
     >
       <div className="flex items-center text-black">
         <div className="navbarItem">

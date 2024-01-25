@@ -1,14 +1,9 @@
-
-import React from "react";
-export default function ContactUs (){
-    return(
-        
-
-
+export default function AboutUs() {
+  return (
     <>
       <section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-white dark:bg-dark">
         <div className="container mx-auto">
-          <div className="flex flex-wrap items-center justify-between -mx-4">
+          <div className="flex  items-center justify-between gap-8">
             <div className="w-full px-4 lg:w-6/12">
               <div className="flex items-center -mx-3 sm:-mx-4">
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
@@ -609,12 +604,12 @@ export default function ContactUs (){
               </div>
             </div>
 
-            <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
+            <div className="w-full px-4 lg:w-1/2 xl:w-5/12 text-black">
               <div className="mt-10 lg:mt-0">
-                <span className="block mb-4 text-lg font-semibold text-primary">
+                <span className="block mb-4 text-lg font-semibold text-blue-600">
                   Why Choose Us
                 </span>
-                <h2 className="mb-5 text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px]">
+                <h2 className="mb-5 text-3xl font-bold text-dark  sm:text-[40px]/[48px]">
                   Make your customers happy by giving services.
                 </h2>
                 <p className="mb-5 text-base text-body-color dark:text-dark-6">
@@ -627,10 +622,7 @@ export default function ContactUs (){
                   brand. Secure a consistent brand image with a domain name that
                   matches your business.
                 </p>
-                <a
-                  href="javascript:void(0)"
-                  className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-primary hover:bg-opacity-90"
-                >
+                <a href="/contact us" className="navbarButton rounded-lg">
                   Get Started
                 </a>
               </div>
@@ -640,9 +632,4 @@ export default function ContactUs (){
       </section>
     </>
   );
-};
-
-export default About1;
-
-    )
 }
