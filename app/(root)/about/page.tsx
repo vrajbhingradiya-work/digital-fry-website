@@ -1,7 +1,7 @@
 export default function AboutUs() {
   return (
     <>
-      <section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-white dark:bg-dark">
+      <section className="overflow-hidden pt-4 pb-12 lg:pt-[30px] lg:pb-[90px] bg-white dark:bg-dark">
         <div className="container mx-auto">
           <div className="flex  items-center justify-between gap-8">
             <div className="w-full px-4 lg:w-6/12">
@@ -622,7 +622,7 @@ export default function AboutUs() {
                   brand. Secure a consistent brand image with a domain name that
                   matches your business.
                 </p>
-                <a href="/contact us" className="navbarButton rounded-lg">
+                <a href="/contactus" className="navbarButton rounded-lg">
                   Get Started
                 </a>
               </div>

@@ -5,7 +5,9 @@ import logo from "../public/next.svg";
 
 const Footer = () => {
   return (
-    <footer className=" p-6 bg-white sm:pt-16 ">
+    <footer className=" p-6 bg-white sm:pt-16 shadow-3xl">
+      <hr className="py-6" />
+
       <div className="mx-auto max-w-screen-xl">
         <div className="md:flex md:justify-between">
           <div className="mb-12 md:mb-0  flex flex-col gap-4 items-start">
