@@ -1,11 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-
 const FixedNavbar = () => {
-  const handleClick = () => {
-    console.log("linked clicked");
-  };
   return (
     <nav className=" flex justify-between w-full px-8 py-4 ">
       <div className="flex items-center gap-2 text-white">
@@ -28,20 +24,16 @@ const FixedNavbar = () => {
       </div>
       <div className="flex items-center gap-6 ">
         <div className="navbarItem">
-          <Link onClick={handleClick} href="/" />
-          Home
+          <Link href="/">Home</Link>
         </div>
         <div className="navbarItem">
-          <Link href="/About" />
-          About
+          <Link href="/about">About</Link>
         </div>
         <div className="navbarItem">
-          <Link href="/services" />
-          Services
+          <Link href="/services">Services</Link>
         </div>
         <div className="navbarItem">
-          <Link href="/blog" />
-          Blog
+          <Link href="/blog">Blog</Link>
         </div>
       </div>
       <div className=" ">

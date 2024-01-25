@@ -30,10 +30,6 @@ export default function Navbar() {
   );
 }
 
-function NavbarFixed() {
-  return <div></div>;
-}
-
 function NavbarScroll({ isScrolling }: any) {
   return (
     <motion.nav

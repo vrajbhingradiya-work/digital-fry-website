@@ -33,7 +33,7 @@ const Footer = () => {
             <div className="flex  mt-4 space-x-6 sm:justify-center sm:mt-0">
               {/* facebook */}
               <Link
-                href="#"
+                href="/"
                 className="text-gray-500 hover:text-gray-900 dark:hover:text-black"
               >
                 <svg
@@ -51,7 +51,7 @@ const Footer = () => {
               </Link>
               {/* Instagram */}
               <Link
-                href="#"
+                href="/"
                 className="text-gray-500 hover:text-gray-900 dark:hover:text-black"
               >
                 <svg
@@ -69,7 +69,7 @@ const Footer = () => {
               </Link>
               {/* Twitter */}
               <Link
-                href="#"
+                href="/"
                 className="text-gray-500 hover:text-gray-900 dark:hover:text-black"
               >
                 <svg
@@ -90,47 +90,47 @@ const Footer = () => {
               </h1>
               <div className="text-gray-600 dark:text-gray-400 gap-2">
                 <div className="">
-                  <Link href="/" className="hover:underline text-sm">
+                  <Link href="/services" className="hover:underline text-sm">
                     Social Media Management
                   </Link>
                 </div>
                 <div>
-                  <Link href="/" className="hover:underline text-sm">
+                  <Link href="/services" className="hover:underline text-sm">
                     Content Marketing
                   </Link>
                 </div>
                 <div className="">
-                  <Link href="/" className="hover:underline text-sm">
+                  <Link href="/services" className="hover:underline text-sm">
                     Search Engine Optimization ( SEO )
                   </Link>
                 </div>
                 <div className="">
-                  <Link href="/" className="hover:underline text-sm">
+                  <Link href="/services" className="hover:underline text-sm">
                     Paid Advertising
                   </Link>
                 </div>
                 <div className="">
-                  <Link href="/" className="hover:underline text-sm">
+                  <Link href="/services" className="hover:underline text-sm">
                     Email Marketing
                   </Link>
                 </div>
                 <div className="">
-                  <Link href="/" className="hover:underline text-sm">
+                  <Link href="/services" className="hover:underline text-sm">
                     Web Design and Development
                   </Link>
                 </div>
                 <div className="">
-                  <Link href="/" className="hover:underline text-sm">
+                  <Link href="/services" className="hover:underline text-sm">
                     Label and Logo Design
                   </Link>
                 </div>
                 <div className="">
-                  <Link href="/" className="hover:underline text-sm">
+                  <Link href="/services" className="hover:underline text-sm">
                     Ecommerce Management
                   </Link>
                 </div>
                 <div className="">
-                  <Link href="/" className="hover:underline text-sm">
+                  <Link href="/services" className="hover:underline text-sm">
                     Brand Story Telling
                   </Link>
                 </div>
@@ -143,17 +143,17 @@ const Footer = () => {
                 </h1>
                 <div className="text-gray-600 dark:text-gray-400">
                   <div className="">
-                    <Link href="/" className="hover:underline text-sm ">
+                    <Link href="/about" className="hover:underline text-sm ">
                       About
                     </Link>
                   </div>
                   <div>
-                    <Link href="/" className="hover:underline text-sm">
+                    <Link href="/blog" className="hover:underline text-sm">
                       Blog
                     </Link>
                   </div>
                   <div>
-                    <Link href="/" className="hover:underline text-sm">
+                    <Link href="/contactus" className="hover:underline text-sm">
                       Career{" "}
                     </Link>
                   </div>

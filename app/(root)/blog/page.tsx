@@ -14,7 +14,7 @@ URL: https://flowbite.com/docs/components/typography/
           <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
             <header className="mb-4 lg:mb-6 not-format">
               <address className="flex items-center mb-6 not-italic">
-                <div className="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
+                <div className="inline-flex items-center mr-3 text-sm text-gray-900 ">
                   <img
                     className="mr-4 w-16 h-16 rounded-full"
                     src="https://flowbite.com/docs/images/people/profile-picture-2.jpg"
@@ -24,7 +24,7 @@ URL: https://flowbite.com/docs/components/typography/
                     <Link
                       href="#"
                       rel="author"
-                      className="text-xl font-bold text-gray-900 dark:text-white"
+                      className="text-xl font-bold text-gray-900 "
                     >
                       Jese Leos
                     </Link>
@@ -39,7 +39,7 @@ URL: https://flowbite.com/docs/components/typography/
                   </div>
                 </div>
               </address>
-              <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">
+              <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl ">
                 Best practices for successful prototypes
               </h1>
             </header>
@@ -209,39 +209,39 @@ URL: https://flowbite.com/docs/components/typography/
             </p>
             <section className="not-format">
               <div className="flex justify-between items-center mb-6">
-                <h2 className="text-lg lg:text-2xl font-bold text-gray-900 dark:text-white">
+                <h2 className="text-lg lg:text-2xl font-bold text-gray-900 ">
                   Discussion (20)
                 </h2>
               </div>
               <form className="mb-6">
-                <div className="py-2 px-4 mb-4 bg-white rounded-lg rounded-t-lg border border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+                <div className="py-2 px-4 mb-4  rounded-lg rounded-t-lg border border-gray-200 bg-gray-800 border-gray-700">
                   <label htmlFor="comment" className="sr-only">
                     Your comment
                   </label>
                   <textarea
                     id="comment"
                     rows={6}
-                    className="px-0 w-full text-sm text-gray-900 border-0 focus:ring-0 dark:text-white dark:placeholder-gray-400 dark:bg-gray-800"
+                    className="px-0 w-full text-sm text-gray-900 border-0 focus:ring-0  placeholder-gray-400 bg-gray-800"
                     placeholder="Write a comment..."
                     defaultValue={""}
                   />
                 </div>
-                <div className="inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white bg-primary-700 rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900 hover:bg-primary-800">
+                <div className="inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900 hover:bg-blue-800">
                   Post comment
                 </div>
               </form>
-              <article className="p-6 mb-6 text-base bg-white rounded-lg dark:bg-gray-900">
+              <article className="p-6 mb-6 text-base  rounded-lg bg-gray-900">
                 <footer className="flex justify-between items-center mb-2">
                   <div className="flex items-center">
-                    <p className="inline-flex items-center mr-3 font-semibold text-sm text-gray-900 dark:text-white">
+                    <p className="inline-flex items-center mr-3 font-semibold text-sm text-blue-400 ">
                       <img
-                        className="mr-2 w-6 h-6 rounded-full"
+                        className=" mr-2 w-6 h-6 rounded-full"
                         src="https://flowbite.com/docs/images/people/profile-picture-2.jpg"
                         alt="Michael Gough"
                       />
                       Michael Gough
                     </p>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">
+                    <p className="text-sm  text-gray-400">
                       <time dateTime="2022-02-08" title="February 8th, 2022">
                         Feb. 8, 2022
                       </time>
@@ -299,7 +299,7 @@ URL: https://flowbite.com/docs/components/typography/
                     </ul>
                   </div>
                 </footer>
-                <p>
+                <p className="text-white">
                   Very straight-to-point article. Really worth time reading.
                   Thank you! But tools are just the instruments for the UX
                   designers. The knowledge of the design tools are as important
@@ -323,7 +323,7 @@ URL: https://flowbite.com/docs/components/typography/
               <article className="p-6 mb-6 ml-6 lg:ml-12 text-base bg-white rounded-lg dark:bg-gray-900">
                 <footer className="flex justify-between items-center mb-2">
                   <div className="flex items-center">
-                    <p className="inline-flex items-center mr-3 font-semibold text-sm text-gray-900 dark:text-white">
+                    <p className="inline-flex items-center mr-3 font-semibold text-sm text-gray-900 ">
                       <img
                         className="mr-2 w-6 h-6 rounded-full"
                         src="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
@@ -408,7 +408,7 @@ URL: https://flowbite.com/docs/components/typography/
               <article className="p-6 mb-6 text-base bg-white border-t border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                 <footer className="flex justify-between items-center mb-2">
                   <div className="flex items-center">
-                    <p className="inline-flex items-center mr-3 font-semibold text-sm text-gray-900 dark:text-white">
+                    <p className="inline-flex items-center mr-3 font-semibold text-sm text-gray-900 ">
                       <img
                         className="mr-2 w-6 h-6 rounded-full"
                         src="https://flowbite.com/docs/images/people/profile-picture-3.jpg"
@@ -497,7 +497,7 @@ URL: https://flowbite.com/docs/components/typography/
               <article className="p-6 text-base bg-white border-t border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                 <footer className="flex justify-between items-center mb-2">
                   <div className="flex items-center">
-                    <p className="inline-flex items-center mr-3 font-semibold text-sm text-gray-900 dark:text-white">
+                    <p className="inline-flex items-center mr-3 font-semibold text-sm text-gray-900 ">
                       <img
                         className="mr-2 w-6 h-6 rounded-full"
                         src="https://flowbite.com/docs/images/people/profile-picture-4.jpg"
@@ -591,7 +591,7 @@ URL: https://flowbite.com/docs/components/typography/
         className="py-8 lg:py-24 bg-gray-50 dark:bg-gray-800"
       >
         <div className="px-4 mx-auto max-w-screen-xl">
-          <h2 className="mb-8 text-2xl font-bold text-gray-900 dark:text-white">
+          <h2 className="mb-8 text-2xl font-bold text-gray-900 ">
             Related articles
           </h2>
           <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
@@ -603,7 +603,7 @@ URL: https://flowbite.com/docs/components/typography/
                   alt="Image 1"
                 />
               </Link>
-              <h2 className="mb-2 text-xl font-bold leading-tight text-gray-900 dark:text-white">
+              <h2 className="mb-2 text-xl font-bold leading-tight text-gray-900 ">
                 <Link href="#">Our first office</Link>
               </h2>
               <p className="mb-4 text-gray-500 dark:text-gray-400">
@@ -625,7 +625,7 @@ URL: https://flowbite.com/docs/components/typography/
                   alt="Image 2"
                 />
               </Link>
-              <h2 className="mb-2 text-xl font-bold leading-tight text-gray-900 dark:text-white">
+              <h2 className="mb-2 text-xl font-bold leading-tight text-gray-900 ">
                 <Link href="#">Enterprise design tips</Link>
               </h2>
               <p className="mb-4  text-gray-500 dark:text-gray-400">
@@ -647,7 +647,7 @@ URL: https://flowbite.com/docs/components/typography/
                   alt="Image 3"
                 />
               </Link>
-              <h2 className="mb-2 text-xl font-bold leading-tight text-gray-900 dark:text-white">
+              <h2 className="mb-2 text-xl font-bold leading-tight text-gray-900 ">
                 <Link href="#">We partnered with Google</Link>
               </h2>
               <p className="mb-4  text-gray-500 dark:text-gray-400">
@@ -669,7 +669,7 @@ URL: https://flowbite.com/docs/components/typography/
                   alt="Image 4"
                 />
               </Link>
-              <h2 className="mb-2 text-xl font-bold leading-tight text-gray-900 dark:text-white">
+              <h2 className="mb-2 text-xl font-bold leading-tight text-gray-900 ">
                 <Link href="#">Our first project with React</Link>
               </h2>
               <p className="mb-4  text-gray-500 dark:text-gray-400">
@@ -689,7 +689,7 @@ URL: https://flowbite.com/docs/components/typography/
       <section className="bg-white dark:bg-gray-900">
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div className="mx-auto max-w-screen-md sm:text-center">
-            <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl dark:text-white">
+            <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl ">
               Sign up for our newsletter
             </h2>
             <p className="mx-auto mb-8 max-w-2xl  text-gray-500 md:mb-12 sm:text-xl dark:text-gray-400">
@@ -718,7 +718,7 @@ URL: https://flowbite.com/docs/components/typography/
                     </svg>
                   </div>
                   <input
-                    className="block p-3 pl-9 w-full text-sm text-gray-900 bg-white rounded-lg border border-gray-300 sm:rounded-none sm:rounded-l-lg focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                    className="block p-3 pl-9 w-full text-sm text-white bg-white rounded-lg border border-gray-300 sm:rounded-none sm:rounded-l-lg focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-primary-500 dark:focus:border-primary-500"
                     placeholder="Enter your email"
                     type="email"
                     id="email"
