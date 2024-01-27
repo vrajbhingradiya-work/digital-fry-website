@@ -222,10 +222,18 @@ function FixedNavbar({ pathname }: any) {
             })}
           </motion.ul>
           <motion.div variants={fadeInVariant} className="contact">
-            <div className=" md:block ">
+            <div className=" md:block " onClick={() => setMobileNavOpen(false)}>
               <Reveal sequence={5}>
-                <motion.button whileTap={{ scale: 0.85 }} className="p-2">
-                  <Link href="/contactus" className=" navbarButton rounded-lg">
+                <motion.button
+                  whileTap={{ scale: 0.85 }}
+                  onClick={() => setMobileNavOpen(false)}
+                  className="p-2"
+                >
+                  <Link
+                    href="/contactus"
+                    onClick={() => setMobileNavOpen(false)}
+                    className=" navbarButton rounded-lg"
+                  >
                     Contact Us
                   </Link>
                 </motion.button>
