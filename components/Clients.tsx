@@ -21,7 +21,7 @@ const Clients = () => {
   ];
 
   return (
-    <AppContainer className="">
+    <AppContainer className="max-w-screen overflow-hidden">
       <Wrapper>
         <Text>Elevating success</Text>
         <Note>Our Clients Flourish with Exceptional Benefits.</Note>
