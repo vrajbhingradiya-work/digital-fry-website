@@ -1,3 +1,4 @@
+import Reveal from "@/components/utils/Reveal";
 import Link from "next/link";
 
 export default function Blog() {
@@ -13,30 +14,32 @@ URL: https://flowbite.com/docs/components/typography/
           <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
             <header className="mb-4 lg:mb-6 not-format">
               <address className="flex items-center mb-6 not-italic">
-                <div className="inline-flex items-center mr-3 text-sm text-gray-900 ">
-                  <img
-                    className="mr-4 w-16 h-16 rounded-full"
-                    src="https://flowbite.com/docs/images/people/profile-picture-2.jpg"
-                    alt="Jese Leos"
-                  />
-                  <div>
-                    <Link
-                      href="#"
-                      rel="author"
-                      className="text-xl font-bold text-gray-900 "
-                    >
-                      Jese Leos
-                    </Link>
-                    <p className="text-base text-gray-500 dark:text-gray-400">
-                      Graphic Designer, educator &amp; CEO Flowbite
-                    </p>
-                    <p className="text-base text-gray-500 dark:text-gray-400">
-                      <time dateTime="2022-02-08" title="February 8th, 2022">
-                        Feb. 8, 2022
-                      </time>
-                    </p>
+                <Reveal sequence={10}>
+                  <div className="inline-flex items-center mr-3 text-sm text-gray-900 ">
+                    <img
+                      className="mr-4 w-16 h-16 rounded-full"
+                      src="https://flowbite.com/docs/images/people/profile-picture-2.jpg"
+                      alt="Jese Leos"
+                    />
+                    <div>
+                      <Link
+                        href="#"
+                        rel="author"
+                        className="text-xl font-bold text-gray-900 "
+                      >
+                        Jese Leos
+                      </Link>
+                      <p className="text-base text-gray-500 dark:text-gray-400">
+                        Graphic Designer, educator &amp; CEO Flowbite
+                      </p>
+                      <p className="text-base text-gray-500 dark:text-gray-400">
+                        <time dateTime="2022-02-08" title="February 8th, 2022">
+                          Feb. 8, 2022
+                        </time>
+                      </p>
+                    </div>
                   </div>
-                </div>
+                </Reveal>
               </address>
               <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl ">
                 Best practices for successful prototypes
