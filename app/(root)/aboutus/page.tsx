@@ -1,9 +1,9 @@
 export default function AboutUs() {
   return (
     <>
-      <section className="overflow-hidden pt-4 pb-12 lg:pt-[30px] lg:pb-[90px] bg-white dark:bg-dark">
+      <section className="overflow-hidden pt-32 pb-12 lg:pt-24 lg:pb-[90px] bg-white dark:bg-dark">
         <div className="container mx-auto">
-          <div className="flex  items-center justify-between gap-8">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
             <div className="w-full px-4 lg:w-6/12">
               <div className="flex items-center -mx-3 sm:-mx-4">
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">

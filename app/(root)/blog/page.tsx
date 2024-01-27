@@ -1,4 +1,3 @@
-import FixedNavbar from "@/components/FixedNavbar";
 import Link from "next/link";
 
 export default function Blog() {
@@ -9,7 +8,7 @@ Install the "flowbite-typography" NPM package to apply styles and format the art
 
 URL: https://flowbite.com/docs/components/typography/ 
 */}
-      <main className="pt-4 pb-16 lg:pt-4 lg:pb-24 bg-white text-black antialiased">
+      <main className="pt-32 pb-16 lg:pt-32 lg:pb-24 bg-white text-black antialiased">
         <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
           <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
             <header className="mb-4 lg:mb-6 not-format">
