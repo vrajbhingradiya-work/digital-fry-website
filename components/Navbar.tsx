@@ -211,7 +211,7 @@ function FixedNavbar({ pathname }: any) {
                     className="navbarItem p-3"
                   >
                     <Link
-                      className="text-blue-600 font-black text-6xl "
+                      className="text-blue-600 font-extrabold text-5xl "
                       href={element.url}
                     >
                       {element.title}
@@ -221,13 +221,16 @@ function FixedNavbar({ pathname }: any) {
               );
             })}
           </motion.ul>
-          <motion.div variants={fadeInVariant} className="contact">
+          <motion.div
+            variants={fadeInVariant}
+            className="flex justify-center items-center "
+          >
             <div className=" md:block " onClick={() => setMobileNavOpen(false)}>
               <Reveal sequence={5}>
                 <motion.button
                   whileTap={{ scale: 0.85 }}
                   onClick={() => setMobileNavOpen(false)}
-                  className="p-2"
+                  className="p-24"
                 >
                   <Link
                     href="/contactus"
