@@ -21,7 +21,7 @@ const Clients = () => {
   ];
 
   return (
-    <AppContainer className="max-w-screen overflow-hidden">
+    <AppContainer className=" overflow-hidden">
       <Wrapper>
         <Text>Elevating success</Text>
         <Note>Our Clients Flourish with Exceptional Benefits.</Note>
@@ -65,8 +65,8 @@ const Clients = () => {
 export default Clients;
 
 const AppContainer = styled.div`
-  width: 100vw;
-  height: 50vh;
+  width: 70vw;
+  height: 60vh;
   color: #000000;
 
   position: relative;
