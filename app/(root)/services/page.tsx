@@ -1,24 +1,27 @@
+"use client";
 import Reveal from "@/components/utils/Reveal";
-import React from "react";
 
-const Service = () => {
+export default function Service() {
   return (
     <section className="pb-12 pt-20  lg:pb-[90px] lg:pt-[120px]">
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap">
-          <div className="w-full px-4">
-            <div className="mx-auto mb-12 max-w-[510px] text-center lg:mb-20">
-              <span className="mb-2 block text-lg font-semibold text-blue-600">
-                Our Services
-              </span>
-              <h2 className="mb-3 text-3xl font-bold leading-[1.2] text-black sm:text-4xl md:text-[40px]">
-                What We Offer
-              </h2>
-              <p className="text-base text-body-color text-gray-600">
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
-              </p>
-            </div>
+          <div className="w-full px-4 flex justify-center items-center">
+            <Reveal sequence={4}>
+              <div className="mx-auto mb-12 max-w-[510px] text-center lg:mb-20">
+                <span className="mb-2 block text-lg font-semibold text-blue-600">
+                  Our Services
+                </span>
+
+                <h2 className="mb-3 text-3xl font-bold leading-[1.2] text-black sm:text-4xl md:text-[40px]">
+                  What We Offer
+                </h2>
+                <p className="text-base text-body-color text-gray-600">
+                  There are many variations of passages of Lorem Ipsum available
+                  but the majority have suffered alteration in some form.
+                </p>
+              </div>
+            </Reveal>
           </div>
         </div>
 
@@ -157,25 +160,21 @@ const Service = () => {
       </div>
     </section>
   );
-};
-
-export default Service;
+}
 
 const ServiceCard = ({ icon, title, details }: any) => {
   return (
     <>
       <div className="w-full px-4 md:w-1/2 lg:w-1/3">
-        <Reveal sequence={5}>
-          <div className="mb-9 rounded-[20px] bg-gray-300 p-10  shadow-sm hover:shadow-lg md:px-7 xl:px-10">
-            <div className="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-blue-600">
-              {icon}
-            </div>
-            <h4 className="mb-[14px] text-2xl font-semibold text-black dark:text-black">
-              {title}
-            </h4>
-            <p className="text-black">{details}</p>
+        <div className="mb-9 rounded-[20px] bg-gray-300 p-10  shadow-sm hover:shadow-lg md:px-7 xl:px-10">
+          <div className="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-blue-600">
+            {icon}
           </div>
-        </Reveal>
+          <h4 className="mb-[14px] text-2xl font-semibold text-black dark:text-black">
+            {title}
+          </h4>
+          <p className="text-black">{details}</p>
+        </div>
       </div>
     </>
   );
