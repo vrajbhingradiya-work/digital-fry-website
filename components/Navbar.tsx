@@ -58,7 +58,7 @@ function FixedNavbar({ pathname }: any) {
       opacity: 1,
       x: "0%",
       transition: {
-        delay: 1.1,
+        delay: 0.5,
         duration: 0.5,
         ease: "easeInOut",
       },
@@ -175,75 +175,78 @@ function FixedNavbar({ pathname }: any) {
       </div>
 
       {mobileNavOpen ? (
-        <motion.div
-          variants={mobileMenuVariant}
-          className="fixed top-0 left-0 h-screen  w-full flex flex-col items-center  bg-white/70 backdrop-blur-[8px] pt-12"
-        >
-          <motion.button
-            className=" flex justify-between w-full"
-            variants={fadeInVariant}
-            onClick={() => setMobileNavOpen(false)}
+        <AnimatePresence>
+          <motion.div
+            variants={mobileMenuVariant}
+            className="fixed top-0 left-0 h-screen  w-full flex flex-col items-center  bg-black/80 backdrop-blur-[8px] pt-12"
           >
-            <div className=" ">
-              <motion.h1
-                className="text-black font-bold text-2xl"
-                variants={hideNavItemsVariant}
-              >
+            <div className=" flex justify-between items-center p-4 w-full">
+              <motion.h1 className="text-white font-bold text-xl">
                 Digital Fry
               </motion.h1>
+
+              <motion.button
+                className=" flex justify-between items-center w-full"
+                variants={fadeInVariant}
+                onClick={() => setMobileNavOpen(false)}
+              >
+                <svg
+                  className="fill-white  h-8 w-8 "
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 384 512"
+                >
+                  <path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+                </svg>
+              </motion.button>
             </div>
-            <svg
-              className="fill-blue-600 h-12 w-12 "
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 384 512"
+            <motion.ul className="w-full px-4" variants={ulVariant}>
+              {navbarOptions.map((element, i) => {
+                return (
+                  <Reveal sequence={i + 1} key={element.url}>
+                    <motion.button
+                      variants={liVariant}
+                      whileTap={{ scale: 0.85 }}
+                      onClick={() => setMobileNavOpen(false)}
+                      className="navbarItem p-3"
+                    >
+                      <Link
+                        className="text-white font-extrabold text-5xl "
+                        href={element.url}
+                      >
+                        {element.title}
+                      </Link>
+                    </motion.button>
+                  </Reveal>
+                );
+              })}
+            </motion.ul>
+            <motion.div
+              variants={fadeInVariant}
+              className="flex justify-center items-center "
             >
-              <path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
-            </svg>
-          </motion.button>
-          <motion.ul className="w-full px-4" variants={ulVariant}>
-            {navbarOptions.map((element, i) => {
-              return (
-                <Reveal sequence={i + 1} key={element.url}>
+              <div
+                className=" md:block "
+                onClick={() => setMobileNavOpen(false)}
+              >
+                <Reveal sequence={5}>
                   <motion.button
-                    variants={liVariant}
                     whileTap={{ scale: 0.85 }}
                     onClick={() => setMobileNavOpen(false)}
-                    className="navbarItem p-3"
+                    className="p-24"
                   >
                     <Link
-                      className="text-blue-600 font-extrabold text-5xl "
-                      href={element.url}
+                      href="/contactus"
+                      onClick={() => setMobileNavOpen(false)}
+                      className=" navbarButton rounded-lg"
                     >
-                      {element.title}
+                      Contact Us
                     </Link>
                   </motion.button>
                 </Reveal>
-              );
-            })}
-          </motion.ul>
-          <motion.div
-            variants={fadeInVariant}
-            className="flex justify-center items-center "
-          >
-            <div className=" md:block " onClick={() => setMobileNavOpen(false)}>
-              <Reveal sequence={5}>
-                <motion.button
-                  whileTap={{ scale: 0.85 }}
-                  onClick={() => setMobileNavOpen(false)}
-                  className="p-24"
-                >
-                  <Link
-                    href="/contactus"
-                    onClick={() => setMobileNavOpen(false)}
-                    className=" navbarButton rounded-lg"
-                  >
-                    Contact Us
-                  </Link>
-                </motion.button>
-              </Reveal>
-            </div>
+              </div>
+            </motion.div>
           </motion.div>
-        </motion.div>
+        </AnimatePresence>
       ) : (
         <div className="hidden md:flex items-center gap-6 ">
           {navbarOptions.map((element, i) => {

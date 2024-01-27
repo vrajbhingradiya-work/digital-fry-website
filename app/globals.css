@@ -28,7 +28,7 @@ body {
   }
 
   .section{
-    @apply mb-16 sm:mb-32 ;
+    @apply mb-24 sm:mb-32 ;
   }
 
   .sectionHeader{
@@ -40,11 +40,11 @@ body {
   }
 
   .sectionDescription{
-    @apply w-3/5   text-xs;
+    @apply md:w-3/5 w-11/12 text-xs;
   }
 
   .responsiveHeading{
-    @apply text-xl sm:text-2xl md:text-3xl lg:text-4xl;
+    @apply text-lg sm:text-2xl md:text-3xl lg:text-4xl;
   }
    
   .fixedNavbar{
@@ -60,7 +60,7 @@ body {
   }
 
   .navbarButton2{
-    @apply px-4 py-2 ml-2 text-white bg-black rounded-full text-md      ;
+    @apply px-4 py-2 ml-2 text-white bg-black rounded-full text-md ;
   }
   
 

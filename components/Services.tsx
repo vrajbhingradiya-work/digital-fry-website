@@ -1,5 +1,6 @@
 import React from "react";
 import ServicesCard from "./ServicesCard";
+import Popup from "./utils/PopUp";
 
 const Services = () => {
   const services = [
@@ -29,9 +30,9 @@ const Services = () => {
     },
   ];
   return (
-    <div className="section p-8 md:p-16 py-12 md:py-24  flex flex-col justify-center gap-6  bg-gray-500 rounded-xl  ">
-      <div className="text-sm text-white ">SERVICES</div>
-      <div className="sectionHeader">
+    <div className="section p-6  md:p-16 py-12 md:py-24  flex flex-col justify-center gap-6  bg-gray-800 md:bg-gray-500 rounded-xl  ">
+      <div className="text-sm font-semibold text-blue-600 ">SERVICES</div>
+      <div className="sectionHeader px-2">
         <div className="sectionHeading text-white ">
           Our Fundamentals <br />
           Expertise
@@ -43,8 +44,16 @@ const Services = () => {
         </div>
       </div>
       <div className="grid grid-cols-1  md:grid-cols-2 gap-4">
-        {services.map((service) => {
-          return <ServicesCard service={service} key={service.title} />;
+        {services.map((service, i) => {
+          return (
+            <Popup sequence={i} key={i}>
+              <ServicesCard
+                service={service}
+                sequence={i}
+                key={service.title}
+              />
+            </Popup>
+          );
         })}
       </div>
     </div>

@@ -8,7 +8,7 @@ const About = () => {
     );
 
   return (
-    <div className="section  bg-gray-600 rounded-xl  flex flex-col justify-center gap-10  px-16 py-24">
+    <div className="section   rounded-xl  flex flex-col justify-center gap-10  px-4 md:px-16 py-24">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{
@@ -23,7 +23,7 @@ const About = () => {
       >
         ABOUT DIGITAL FRY
       </motion.div>
-      <div className="font-bold text-4xl  text-white">
+      <div className="font-bold text-xl md:text-4xl  text-black">
         {text.map((el, i) => (
           <motion.span
             initial={{ opacity: 0 }}

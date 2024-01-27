@@ -1,5 +1,6 @@
 import React from "react";
 import LatestWorksCard from "./LatestWorksCard";
+import Popup from "./utils/PopUp";
 
 const LatestWorks = () => {
   const works = [
@@ -24,7 +25,7 @@ const LatestWorks = () => {
   ];
   return (
     <div className="section flex flex-col justify-center gap-6  md:px-16">
-      <div className="text-sm text-blue-600 ">SERVICES</div>
+      <div className="text-sm font-semibold text-blue-600 ">SERVICES</div>
       <div className="sectionHeader w-full">
         <div className="sectionHeading text-black">
           Presenting Our
@@ -37,8 +38,12 @@ const LatestWorks = () => {
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {works.map((work) => {
-          return <LatestWorksCard work={work} key={work.title} />;
+        {works.map((work, i) => {
+          return (
+            <Popup sequence={i} key={i}>
+              <LatestWorksCard work={work} />
+            </Popup>
+          );
         })}
       </div>
     </div>
