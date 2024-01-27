@@ -21,19 +21,19 @@ const Clients = () => {
   ];
 
   return (
-    <AppContainer>
+    <AppContainer className="">
       <Wrapper>
         <Text>Elevating success</Text>
         <Note>Our Clients Flourish with Exceptional Benefits.</Note>
         <Marquee>
-          <MarqueeGroup>
+          <MarqueeGroup className="scale-50 md:scale-100">
             {row1.map((el) => (
               <ImageGroup>
                 <Image src={el} />
               </ImageGroup>
             ))}
           </MarqueeGroup>
-          <MarqueeGroup>
+          <MarqueeGroup className="scale-50 md:scale-100">
             {row1.map((el) => (
               <ImageGroup>
                 <Image src={el} />
@@ -42,14 +42,14 @@ const Clients = () => {
           </MarqueeGroup>
         </Marquee>
         <Marquee>
-          <MarqueeGroup2>
+          <MarqueeGroup2 className="scale-50 md:scale-100">
             {row2.map((el) => (
               <ImageGroup>
                 <Image src={el} />
               </ImageGroup>
             ))}
           </MarqueeGroup2>
-          <MarqueeGroup2>
+          <MarqueeGroup2 className="scale-50 md:scale-100">
             {row2.map((el) => (
               <ImageGroup>
                 <Image src={el} />
@@ -66,7 +66,7 @@ export default Clients;
 
 const AppContainer = styled.div`
   width: 100vw;
-  height: 100vh;
+  height: 50vh;
   color: #000000;
 
   position: relative;
