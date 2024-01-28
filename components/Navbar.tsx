@@ -178,7 +178,7 @@ function FixedNavbar({ pathname }: any) {
         <AnimatePresence>
           <motion.div
             variants={mobileMenuVariant}
-            className="fixed top-0 left-0 h-screen  w-full flex flex-col items-center  bg-black/80 backdrop-blur-[8px] pt-12"
+            className="fixed top-0 left-0 h-screen  w-full flex flex-col items-center  bg-black/80 backdrop-blur-[8px] "
           >
             <div className=" flex justify-between items-center p-4 w-full">
               <motion.h1 className="text-white font-bold text-xl">
@@ -186,7 +186,7 @@ function FixedNavbar({ pathname }: any) {
               </motion.h1>
 
               <motion.button
-                className=" flex justify-between items-center w-full"
+                className=" flex justify-center items-center"
                 variants={fadeInVariant}
                 onClick={() => setMobileNavOpen(false)}
               >
