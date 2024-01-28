@@ -1,4 +1,5 @@
 "use client";
+import HorizontalScrollCarousel from "@/components/HorizontalScrollCarousel";
 import Reveal from "@/components/utils/Reveal";
 
 export default function Service() {
@@ -24,6 +25,8 @@ export default function Service() {
             </Reveal>
           </div>
         </div>
+
+        <HorizontalScrollCarousel />
 
         <div className="-mx-4 flex flex-wrap">
           <ServiceCard

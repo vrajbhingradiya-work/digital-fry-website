@@ -5,7 +5,6 @@ import React from "react";
 import RevealUp from "./utils/RevealUp";
 import RevealLeft from "./utils/RevealLeft";
 import RevealRight from "./utils/RevealRight";
-import Popup from "./utils/PopUp";
 const Footer = () => {
   return (
     <footer className=" p-6 bg-white sm:pt-16 shadow-3xl">
@@ -175,7 +174,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-col gap-8">
               <div>
-                <Popup sequence={3}>
+                <RevealLeft sequence={3}>
                   <div>
                     <h1 className="mb-3 text-lg font-semibold text-gray-900 ">
                       Company
@@ -204,10 +203,10 @@ const Footer = () => {
                       </div>
                     </div>
                   </div>
-                </Popup>
+                </RevealLeft>
               </div>
               <div>
-                <Popup sequence={7}>
+                <RevealLeft sequence={7}>
                   <div>
                     <h1 className="mb-3 text-lg font-semibold text-gray-900 ">
                       Legals
@@ -225,7 +224,7 @@ const Footer = () => {
                       </div>
                     </div>
                   </div>
-                </Popup>
+                </RevealLeft>
               </div>
             </div>
           </div>

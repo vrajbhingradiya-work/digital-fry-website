@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import image from "../public/images/pexels-pixabay-267350.jpg";
+import { motion } from "framer-motion";
 import Reveal from "./utils/Reveal";
 
 const ContactUs = () => {
@@ -16,12 +16,13 @@ const ContactUs = () => {
             </div>
           </Reveal>
           <Reveal sequence={8}>
-            <button
+            <motion.button
+              whileTap={{ scale: 0.85 }}
               type="button"
               className=" text-xs text-white bg-white hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg md:text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 hover:scale-105 transition hover:ease-in-out shadow-black hover:shadow-2xl"
             >
               Schedule a Meeting
-            </button>
+            </motion.button>
           </Reveal>
         </div>
       </div>

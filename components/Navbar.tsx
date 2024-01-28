@@ -58,7 +58,7 @@ function FixedNavbar({ pathname }: any) {
       opacity: 1,
       x: "0%",
       transition: {
-        delay: 0.5,
+        delay: 0.2,
         duration: 0.5,
         ease: "easeInOut",
       },
@@ -70,7 +70,7 @@ function FixedNavbar({ pathname }: any) {
       x: "0%",
       transition: {
         delay: 0.15,
-        duration: 1.1,
+        duration: 0.5,
         ease: [0.74, 0, 0.19, 1.02],
       },
     },
@@ -88,7 +88,7 @@ function FixedNavbar({ pathname }: any) {
     opened: {
       opacity: 1,
       transition: {
-        delay: 1.2,
+        delay: 0.5,
       },
     },
     closed: { opacity: 0 },
@@ -97,7 +97,7 @@ function FixedNavbar({ pathname }: any) {
   const ulVariant = {
     opened: {
       transition: {
-        delayChildren: 1,
+        delayChildren: 0.5,
         staggerChildren: 0.18,
       },
     },
@@ -140,9 +140,9 @@ function FixedNavbar({ pathname }: any) {
       initial="closed"
       animate={mobileNavOpen ? "opened" : "closed"}
       className={`${
-        pathname == "/"
+        pathname === "/"
           ? " text-white fixed bg-white md:bg-transparent md:absolute top-0 md:top-6 z-50 flex justify-between w-full px-8 md:px-16 py-4     "
-          : "text-black fixed bg-white md:bg-transparent md:absolute top-0        z-50  flex justify-between w-full px-8 md:px-16 py-4 "
+          : "text-black fixed bg-white md:bg-transparent md:absolute top-0 z-50  flex justify-between w-full px-8 md:px-16 py-4 "
       }`}
     >
       <div className="flex items-center gap-2 text-white">

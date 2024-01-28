@@ -7,23 +7,17 @@ interface Props {
   sequence: number;
 }
 
-const Popup = ({ children, sequence }: Props) => {
-  const textReveal = {
+const SimpleReveal = ({ children, sequence }: Props) => {
+  const reveal = {
     hidden: {
       opacity: 0,
-      scale: 0,
-      y: -100,
-      x: -100,
     },
     visible: {
       opacity: 1,
-      scale: 1,
-      y: 0,
-      x: 0,
       transition: {
-        delay: 0.2 * (sequence / 2),
-        duration: 0.5,
-        type: "tween",
+        delay: 0.1 * (sequence / 2),
+        duration: 0.6,
+        stiffness: 100,
         ease: "easeInOut",
       },
     },
@@ -31,7 +25,7 @@ const Popup = ({ children, sequence }: Props) => {
   return (
     <div>
       <motion.div
-        variants={textReveal}
+        variants={reveal}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
@@ -42,4 +36,4 @@ const Popup = ({ children, sequence }: Props) => {
   );
 };
 
-export default Popup;
+export default SimpleReveal;
