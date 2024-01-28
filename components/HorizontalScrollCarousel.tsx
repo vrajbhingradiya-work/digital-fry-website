@@ -108,7 +108,7 @@ const HorizontalScrollCarousel = () => {
 
   const x = useTransform(scrollYProgress, [0, 1], ["42.75%", "-95%"]);
   return (
-    <section ref={targetRef} className="relative h-[350vh] ">
+    <section ref={targetRef} className="relative  h-[200vh]">
       <div className="sticky top-20 h-[50vh] flex items-center justify-center overflow-hidden ">
         <motion.div style={{ x }} className="flex gap-24 ">
           {serviceData.map((service: any, index: any) => {
