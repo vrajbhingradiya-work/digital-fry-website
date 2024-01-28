@@ -64,4 +64,46 @@ body {
   }
   
 
+  /* services section */
+  .services {
+    @apply h-full flex flex-col justify-between;
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+  }
+  .services .textContainer {
+    @apply flex-1 self-end flex items-center gap-5 self-center text-center flex-col;
+  }
+  .services .textContainer p {
+    @apply font-extralight text-xl text-[gray] text-right;
+  }
+  .services .textContainer hr {
+    @apply w-[500px] w-[300px] border-t-[0.5px] border-t-[gray] border-[none] border-solid;
+  }
+  .services .titleContainer {
+    @apply flex-[2] flex flex-col items-center w-full;
+  }
+  .services .titleContainer .title {
+    @apply flex items-center gap-[50px] flex-col text-center gap-5;
+  }
+  .services .titleContainer .title img {
+    @apply w-[300px] h-[100px] object-cover w-[200px] h-[50px] rounded-[50px];
+  }
+  .services .titleContainer .title h1 {
+    @apply text-8xl font-thin text-4xl;
+  }
+  .services .titleContainer .title button {
+    @apply w-[300px] h-[100px] bg-[orange] text-2xl cursor-pointer text-base w-[150px] h-[50px] rounded-[50px] border-[none];
+  }
+  .services .listContainer {
+    @apply flex-[2] flex max-w-[1366px] flex-col w-full m-auto;
+  }
+  .services .listContainer .box {
+    @apply flex flex-col justify-between items-center gap-5 p-[50px] p-2.5 border-[0.5px] border-solid border-[gray] border-[none];
+  }
+  .services .listContainer .box p {
+    @apply hidden;
+  }
+  .services .listContainer .box button {
+    @apply bg-[orange] cursor-pointer bg-transparent border text-[orange] w-6/12 p-2.5 p-[5px] rounded-[5px] border-[none] border-solid border-[orange];
+  }
+
 }
