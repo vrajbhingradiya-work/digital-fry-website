@@ -40,7 +40,7 @@ body {
   }
 
   .sectionDescription{
-    @apply md:w-3/5 w-11/12 text-xs;
+    @apply md:w-3/5 w-11/12 text-sm;
   }
 
   .responsiveHeading{

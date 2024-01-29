@@ -1,6 +1,6 @@
 "use client";
 import About from "@/components/About";
-import Clients from "@/components/Clients";
+import ClientsHorizontalScroll from "@/components/ClientsHorizontalScroll";
 import ContactUs from "@/components/ContactUs";
 import Footer from "@/components/Footer";
 import LatestWorks from "@/components/LatestWorks";
@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <div className="px-8  flex flex-col gap-4">
       <Profile />
-      <Clients />
+      <ClientsHorizontalScroll />
       <About />
       <Services />
       <LatestWorks />
