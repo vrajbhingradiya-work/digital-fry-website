@@ -1,6 +1,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import React, { useRef } from "react";
 import ServiceProvidedCard from "./ServiceProvidedCard";
+import SimpleRevealUp from "./utils/SimpleRevealUp";
 
 const HorizontalScrollCarousel = () => {
   const serviceData = [
@@ -106,13 +107,17 @@ const HorizontalScrollCarousel = () => {
     target: targetRef,
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], ["42.75%", "-95%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["42.75%", "-65%"]);
   return (
-    <section ref={targetRef} className="relative  h-[200vh]">
-      <div className="sticky top-20 h-[50vh] flex items-center justify-center overflow-hidden ">
+    <section ref={targetRef} className="relative  h-[600vh]">
+      <div className="sticky top-24 h-[85vh] flex items-center justify-center overflow-hidden ">
         <motion.div style={{ x }} className="flex gap-24 ">
           {serviceData.map((service: any, index: any) => {
-            return <ServiceProvidedCard key={index} {...service} />;
+            return (
+              <SimpleRevealUp sequence={index}>
+                <ServiceProvidedCard key={index} {...service} />
+              </SimpleRevealUp>
+            );
           })}
         </motion.div>
       </div>

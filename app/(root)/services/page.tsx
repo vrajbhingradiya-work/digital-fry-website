@@ -2,11 +2,12 @@
 import ContactUs from "@/components/ContactUs";
 import HorizontalScrollCarousel from "@/components/HorizontalScrollCarousel";
 import Reveal from "@/components/utils/Reveal";
+import SimpleReveal from "@/components/utils/Simple Reveal";
 
 export default function Service() {
   return (
-    <section className="pb-12 pt-20  lg:pb-[90px] lg:pt-[120px] p-4">
-      <div className="container ">
+    <section className="pb-12 pt-20  lg:pb-[90px] lg:pt-[120px] flex  justify-center items-center ">
+      <div className="container flex flex-col items-center w-full">
         <div className=" flex flex-wrap">
           <div className="w-full px-4 flex justify-center items-center">
             <Reveal sequence={4}>
@@ -28,7 +29,11 @@ export default function Service() {
         </div>
 
         <HorizontalScrollCarousel />
-        <ContactUs />
+        <SimpleReveal sequence={2}>
+          <div className="w-full flex justify-center items-center ">
+            <ContactUs />
+          </div>
+        </SimpleReveal>
       </div>
     </section>
   );

@@ -2,12 +2,14 @@
 import Reveal from "@/components/utils/Reveal";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import ContactUs from "@/components/ContactUs";
+import SimpleReveal from "@/components/utils/Simple Reveal";
 
 export default function AboutUs() {
   return (
     <>
       <section className="overflow-hidden pt-32 pb-12 lg:pt-32 lg:pb-[90px] bg-white ">
-        <div className="container mx-auto">
+        <div className="container mx-auto flex flex-col gap-8 ">
           <div className="flex flex-col lg:flex-row items-center justify-center gap-8 w-full">
             <Reveal sequence={4}>
               <div className="w-full px-4 lg:w-4/5  ">
@@ -613,7 +615,7 @@ export default function AboutUs() {
               </div>
             </Reveal>
 
-            <div className="w-full px-4 lg:w-1/2 xl:w-5/12 text-black">
+            <div className="w-full px-4 lg:w-1/2 xl:w-5/12 text-black flex flex-col gap-4">
               <div className="mt-10 lg:mt-0">
                 <Reveal sequence={6}>
                   <span className="block mb-4 text-lg font-semibold text-blue-600">
@@ -655,6 +657,11 @@ export default function AboutUs() {
               </div>
             </div>
           </div>
+          <SimpleReveal sequence={2}>
+            <div className="w-full flex justify-center items-center p-4">
+              <ContactUs />
+            </div>
+          </SimpleReveal>
         </div>
       </section>
     </>

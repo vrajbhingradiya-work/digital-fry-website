@@ -5,10 +5,10 @@ import Reveal from "./utils/Reveal";
 
 const ContactUs = () => {
   return (
-    <div className=" section bg-black  rounded-xl py-12 mb-16">
+    <div className=" section bg-black  rounded-xl md:py-12 p-24 w-full md:mb-16    ">
       <div className="h-full flex justify-center items-end">
         <Image src="" objectFit="contain" alt="" />
-        <div className=" w-full p-6 flex md:flex-row flex-col gap-6 md:gap-0  justify-center md:justify-between items-center  ">
+        <div className=" w-full md:p-6 flex md:flex-row flex-col items-center gap-6 md:gap-4 justify-center md:justify-between ">
           <Reveal sequence={2}>
             <div className="text-sm sm:text-md md:text-2xl font-black text-white text-center md:text-left w-7/8 sm:w-3/5 md:w-full">
               Elevate your brand. <br />
