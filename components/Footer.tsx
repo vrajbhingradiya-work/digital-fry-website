@@ -4,7 +4,6 @@ import Link from "next/link";
 import React from "react";
 import RevealUp from "./utils/RevealUp";
 import RevealLeft from "./utils/RevealLeft";
-import RevealRight from "./utils/RevealRight";
 const Footer = () => {
   return (
     <footer className=" p-6 bg-white sm:pt-16 shadow-3xl">
@@ -36,7 +35,7 @@ const Footer = () => {
               <div className="flex  mt-4 space-x-6 sm:justify-center sm:mt-0">
                 {/* facebook */}
                 <Link
-                  href="/"
+                  href=""
                   className="text-gray-500 hover:text-gray-900 dark:hover:text-black"
                 >
                   <svg
@@ -54,7 +53,7 @@ const Footer = () => {
                 </Link>
                 {/* Instagram */}
                 <Link
-                  href="/"
+                  href="https://www.instagram.com/digitalfry.in?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                   className="text-gray-500 hover:text-gray-900 dark:hover:text-black"
                 >
                   <svg
@@ -70,7 +69,7 @@ const Footer = () => {
                     />
                   </svg>
                 </Link>
-                {/* Twitter */}
+                {/* linked In */}
                 <Link
                   href="/"
                   className="text-gray-500 hover:text-gray-900 dark:hover:text-black"
@@ -78,10 +77,10 @@ const Footer = () => {
                   <svg
                     className="w-8 h-8"
                     fill="currentColor"
-                    viewBox="0 0 24 24"
-                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
                   >
-                    <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+                    <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
                   </svg>
                 </Link>
               </div>
@@ -193,14 +192,14 @@ const Footer = () => {
                           Blog
                         </Link>
                       </div>
-                      <div className="">
+                      {/* <div className="">
                         <Link
                           href="/career"
                           className="hover:underline text-sm"
                         >
                           Career
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </RevealLeft>
@@ -213,12 +212,18 @@ const Footer = () => {
                     </h1>
                     <div className="text-gray-600 dark:text-gray-400">
                       <div className="">
-                        <Link href="#" className="hover:underline text-sm">
+                        <Link
+                          href="https://drive.google.com/file/d/1Hcw_FxnPFAK_Lpo6rZslXQcK6KVcjh_K/view?usp=drive_link"
+                          className="hover:underline text-sm"
+                        >
                           Privacy Policy
                         </Link>
                       </div>
                       <div>
-                        <Link href="#" className="hover:underline text-sm">
+                        <Link
+                          href="https://drive.google.com/file/d/1iMSBpH8zMn4HuiA1N3ogluve-L6M0lkr/view?usp=drive_link"
+                          className="hover:underline text-sm"
+                        >
                           Terms &amp; Conditions
                         </Link>
                       </div>

@@ -624,27 +624,32 @@ export default function AboutUs() {
                 </Reveal>
                 <Reveal sequence={7}>
                   <h2 className="mb-5 text-3xl font-bold text-dark  sm:text-[40px]/[48px]">
-                    Make your customers happy by giving services.
+                    Pioneering the Future of Digital Excellence
                   </h2>
                 </Reveal>
 
                 <Reveal sequence={8}>
                   <p className="mb-5 text-base text-body-color dark:text-dark-6">
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at
-                    its layout. The point of using Lorem Ipsum is that it has a
-                    more-or-less.
+                    Welcome to Digital Fry, Jaipur's leading digital marketing
+                    hub. We specialize in elevating your online presence through
+                    tailored strategies, encompassing SEO, paid advertising, and
+                    social media management. Beyond being marketers, we're
+                    storytellers, forging meaningful connections with your
+                    audience.
                   </p>
                 </Reveal>
                 <Reveal sequence={9}>
                   <p className="mb-8 text-base text-body-color dark:text-dark-6">
-                    A domain name is one of the first steps to establishing your
-                    brand. Secure a consistent brand image with a domain name
-                    that matches your business.
+                    Our expertise extends to crafting visually striking websites
+                    that align seamlessly with your brand identity. At Digital
+                    Fry, success is not a mere goal; it's a guarantee. Join us
+                    in transforming your brand, expanding your reach, and
+                    conquering the digital landscape. Let's embark on a journey
+                    to digital excellence together.
                   </p>
                 </Reveal>
 
-                <Reveal sequence={10}>
+                <Reveal sequence={11}>
                   <motion.button
                     whileTap={{ scale: 0.85 }}
                     className="navbarButton rounded-lg"
