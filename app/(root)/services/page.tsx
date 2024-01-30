@@ -1,8 +1,8 @@
 "use client";
-import TiltCard from "@/components/TiltCard";
 import ContactUs from "@/components/ContactUs";
-import SimpleReveal from "@/components/utils/Simple Reveal";
-
+import Button from "@/components/button/Button";
+import HorizontalServicesScroll from "@/components/servicesPage/HorizontalServicesScroll";
+import SimpleReveal from "@/components/utils/SimpleReveal";
 export default function Service() {
   return (
     <section className="p-4 flex flex-col justify-center items-center  w-full">
@@ -11,8 +11,16 @@ export default function Service() {
           <p>What do we Offer ?</p>
         </SimpleReveal>
       </div>
-      <div className="container flex flex-col items-center w-full">
-        <TiltCard />
+      <div className="container flex flex-col  items-center w-full">
+        <div className="section w-full p-2 md:p-16  py-12 md:py-24  flex flex-col justify-center items-center gap-6  ">
+          <div className=" sticky  top-16 md:top-28 text-center text-sm font-semibold text-blue-600 mb-64 ">
+            SERVICES
+          </div>
+
+          <div className="w-full lg:w-[65vw] ">
+            <HorizontalServicesScroll />
+          </div>
+        </div>
         <SimpleReveal sequence={3}>
           <div className="w-full flex justify-center items-center ">
             <ContactUs />

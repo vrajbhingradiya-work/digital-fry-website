@@ -1,5 +1,5 @@
 import React from "react";
-import HorizontalScrollCarousel from "./HorizontalScrollCarousel";
+import HorizontalScrollCarousel from "./HorizontalClientsScroll";
 
 const ClientsHorizontalScroll = () => {
   return (

@@ -3,7 +3,7 @@ import Reveal from "@/components/utils/Reveal";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import ContactUs from "@/components/ContactUs";
-import SimpleReveal from "@/components/utils/Simple Reveal";
+import SimpleReveal from "@/components/utils/SimpleReveal";
 
 export default function AboutUs() {
   return (

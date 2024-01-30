@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Popup from "@/components/utils/PopUp";
-import SimpleReveal from "@/components/utils/Simple Reveal";
+import SimpleReveal from "@/components/utils/SimpleReveal";
 import SimpleRevealUp from "@/components/utils/SimpleRevealUp";
 
 export default function Contact() {
