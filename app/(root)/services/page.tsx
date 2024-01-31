@@ -1,6 +1,5 @@
 "use client";
 import ContactUs from "@/components/ContactUs";
-import Button from "@/components/button/Button";
 import HorizontalServicesScroll from "@/components/servicesPage/HorizontalServicesScroll";
 import SimpleReveal from "@/components/utils/SimpleReveal";
 export default function Service() {
