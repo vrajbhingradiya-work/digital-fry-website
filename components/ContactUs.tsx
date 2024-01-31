@@ -1,22 +1,22 @@
-import Image from "next/image";
+// import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import Reveal from "./utils/Reveal";
-import { useEffect, useRef } from "react";
+// import { useEffect, useRef } from "react";
 
 const ContactUs = () => {
-  const videoRef = useRef(null);
-  useEffect(() => {
-    // Check if the videoRef is not null before accessing the currentTime property
-    if (videoRef.current) {
-      // Set the currentTime to 5 seconds
-      videoRef.current.currentTime = 5;
-    }
-  }, []);
+  // const videoRef = useRef(null);
+  // useEffect(() => {
+  //   // Check if the videoRef is not null before accessing the currentTime property
+  //   if (videoRef.current) {
+  //     // Set the currentTime to 5 seconds
+  //     videoRef.current.currentTime = 5;
+  //   }
+  // }, []);
   return (
     <div className=" section bg-black  rounded-xl overflow-hidden  w-full md:mb-16    relative">
       <video
-        ref={videoRef}
+        // ref={videoRef}
         className="w-full h-[80vh] md:h-[50vh]  object-cover min-w-screen"
         loop
         preload="auto"
