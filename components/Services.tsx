@@ -7,31 +7,27 @@ const Services = () => {
     {
       title: "Social Media Management",
       desc: " Account handling and content creation for your social media accounts",
-      imageUrl:
-        "https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=600",
+      imageUrl: "/images/services/SocialMediaManagement.jpg",
     },
     {
       title: "Search Engine Optimization (SEO)",
       desc: " Account handling and content creation for your social media accounts",
-      imageUrl:
-        "https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=600",
+      imageUrl: "/images/services/SEO.jpg",
     },
     {
       title: "Content Marketing",
       desc: " Account handling and content creation for your social media accounts",
-      imageUrl:
-        "https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=600",
+      imageUrl: "/images/services/ContentManagement.jpg",
     },
     {
       title: "Web Development",
       desc: " Account handling and content creation for your social media accounts",
-      imageUrl:
-        "https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=600",
+      imageUrl: "/images/services/WebDev.jpg",
     },
   ];
   return (
     <div className="section p-6  md:p-16 py-12 md:py-24  flex flex-col justify-center gap-6  bg-gray-800 md:bg-gray-500 rounded-xl  ">
-      <div className="text-sm font-semibold text-blue-600 ">SERVICES</div>
+      <div className="text-sm font-semibold text-white ">SERVICES</div>
       <div className="sectionHeader px-2">
         <div className="sectionHeading text-white ">
           Our Fundamentals <br />

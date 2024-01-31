@@ -35,7 +35,7 @@ const Footer = () => {
               <div className="flex  mt-4 space-x-6 sm:justify-center sm:mt-0">
                 {/* facebook */}
                 <Link
-                  href=""
+                  href="https://www.facebook.com/profile.php?id=100083335640634"
                   className="text-gray-500 hover:text-gray-900 dark:hover:text-black"
                 >
                   <svg
@@ -71,7 +71,7 @@ const Footer = () => {
                 </Link>
                 {/* linked In */}
                 <Link
-                  href="/"
+                  href="https://www.linkedin.com/in/digital-fry-5baa72276/"
                   className="text-gray-500 hover:text-gray-900 dark:hover:text-black"
                 >
                   <svg

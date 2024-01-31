@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Reveal from "./utils/Reveal";
+import SimpleReveal from "./utils/SimpleReveal";
 
 const Profile = () => {
   const textRevealChildVariants = {
@@ -21,16 +22,27 @@ const Profile = () => {
     },
   };
   return (
-    <div className="section mt-20 md:mt-4 bg-black py-32 md:py-64 flex justify-center items-center rounded-xl  ">
-      <div className="flex flex-col items-center justify-center gap-4 text-center ">
-        <div className="  w-4/5 sm:w-5/7 md:w-2/3  xl:max-w-[880px] responsiveHeading font-black   ">
-          <Reveal sequence={5}>
-            <div>
-              Navigating the Digital Frontier with Precision and Imagination
-            </div>
-          </Reveal>
+    <div className="section mt-20 md:mt-4 bg-black overflow-hidden flex justify-center items-center rounded-xl  relative">
+      <video className="w-full" loop preload="auto" autoPlay muted>
+        <source src="/videos/theme3.mp4" type="video/mp4" />
+      </video>
+
+      {/* <iframe
+          width="640"
+          height="360"
+          src="https://www.youtube.com/embed/_5cYyThlt8U"
+          title="Redtheme"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe> */}
+      <div className="flex flex-col items-center justify-center gap-4 text-center absolute">
+        <div className="  w-4/5 sm:w-5/7 md:w-full  xl:max-w-[880px] responsiveHeading font-black   ">
+          <SimpleReveal sequence={5}>
+            <div className="">Digitalize your Reach!</div>
+          </SimpleReveal>
         </div>
-        <div className="w-3/5  sm:w-[350px]  text-sm">
+        <div className="w-3/5  sm:w-[350px]  text-xs sm:text-sm">
           <Reveal sequence={6}>
             <div>
               Maximize online impact with our creative solutions and strategic
