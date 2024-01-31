@@ -14,7 +14,7 @@ const ServicesCard = ({ service, sequence }: any) => {
         layout="fill"
         objectFit="cover"
       />
-      <div className="p-4 text-white absolute">
+      <div className="p-4 text-white absolute bg-gradient-to-t from-black via-black/80 to-transparent w-full">
         <RevealRight sequence={2}>
           <div className=" text-xl font-semibold">{service.title}</div>
         </RevealRight>

@@ -1,0 +1,65 @@
+export const ClientLogosList = [
+  { title: "Pro BodyLine", imgUrl: "/images/ClientLogo/ProBodyLine.png" },
+  { title: "Looks Salon", imgUrl: "/images/ClientLogo/LooksSalon.png" },
+  { title: "Joy E Bike", imgUrl: "/images/ClientLogo/JoyEBike.png" },
+  { title: "Rominus", imgUrl: "/images/ClientLogo/Rominus.png" },
+  { title: "Arora Hyundai", imgUrl: "/images/ClientLogo/AroraHyundai.png" },
+  { title: "Wheels of World", imgUrl: "/images/ClientLogo/WheelsOfWorld.png" },
+  { title: "O2 Gym", imgUrl: "/images/ClientLogo/O2Gym.png" },
+  { title: "Neofitness", imgUrl: "/images/ClientLogo/NeoFitnes.png" },
+  //   {
+  //     title: "Go Green Carpets",
+  //     imgUrl: "/images/ClientLogo/GoGreenCarpets.png",
+  //   },
+  { title: "The Workship", imgUrl: "/images/ClientLogo/TheWorkship.png" },
+  { title: "Shop QSE", imgUrl: "/images/ClientLogo/ShopQSE.png" },
+  {
+    title: "Vibrant Technique",
+    imgUrl: "/images/ClientLogo/VibrantTechnik.png",
+  },
+  { title: "Havana", imgUrl: "/images/ClientLogo/Havana.png" },
+  {
+    title: "Ishana Celestial",
+    imgUrl: "/images/ClientLogo/IshanaCelestial.png",
+  },
+  { title: "Booze Up", imgUrl: "/images/ClientLogo/BoozeUp.png" },
+  { title: "Nyxweb", imgUrl: "/images/ClientLogo/Nyxweb.png" },
+  {
+    title: "3D Dream Design",
+    imgUrl: "/images/ClientLogo/3DDreamDesignDecor.png",
+  },
+  { title: "Evoque", imgUrl: "/images/ClientLogo/EvoqueGym.png" },
+  { title: "Facevue", imgUrl: "/images/ClientLogo/FaceVue.png" },
+  {
+    title: "Kingswood Interior",
+    imgUrl: "/images/ClientLogo/KingsWood.png",
+  },
+  { title: "24Carat", imgUrl: "/images/ClientLogo/24Carat.png" },
+  {
+    title: "Rtech Capital Highstreet",
+    imgUrl: "/images/ClientLogo/CapitalHighstreet.png",
+  },
+  { title: "ISA", imgUrl: "/images/ClientLogo/ISA.png" },
+  {
+    title: "Confident Bharat",
+    imgUrl: "/images/ClientLogo/ConfidentBharat.png",
+  },
+  //   { title: "iMighty", imgUrl: "/images/ClientLogo/IMighty.png" },
+  //   { title: "Skin Clinic", imgUrl: "/images/ClientLogo/SkinClinic.png" },
+  {
+    title: "Paraakhya",
+    imgUrl: "/images/ClientLogo/Paraakhya.png",
+  },
+  { title: "CII", imgUrl: "/images/ClientLogo/CII.png" },
+  { title: "Sankalp Infra", imgUrl: "/images/ClientLogo/SankalpInfra.png" },
+  //   { title: "Bugclue", imgUrl: "/images/ClientLogo/Bugclue.png" },
+  { title: "Event Crafter", imgUrl: "/images/ClientLogo/EventCrafter.png" },
+  //   {
+  //     title: "Jaipur Handicrafts",
+  //     imgUrl: "/images/ClientLogo/JaipurHandicrafts.png",
+  //   },
+  //   {
+  //     title: "Jaipur Diagnostics",
+  //     imgUrl: "/images/ClientLogo/JaipurDiagnostics.png",
+  //   },
+];
