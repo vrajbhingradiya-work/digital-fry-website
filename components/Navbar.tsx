@@ -137,7 +137,7 @@ function FixedNavbar({ pathname }: any) {
     { title: "Home", url: "/" },
     { title: "About", url: "/aboutus" },
     { title: "Services", url: "/services" },
-    { title: "Blog", url: "/blog" },
+    // { title: "Blog", url: "/blog" },
   ];
 
   return (
@@ -150,11 +150,11 @@ function FixedNavbar({ pathname }: any) {
           : "text-black fixed bg-white md:bg-transparent md:absolute top-0 z-50  flex justify-between w-full px-8 md:px-16 py-4 "
       }`}
     >
-      <div className="flex items-center gap-2 text-white">
+      <div className="flex items-center gap-2 text-white w-1/2">
         <div className="overflow-y-hidden ">
           <SimpleReveal sequence={1}>
             <motion.h1
-              className="text-black text-2xl font-boldgap-4 flex items-center"
+              className="text-black text-2xl font-boldgap-4 flex items-center w-full"
               variants={hideNavItemsVariant}
             >
               {/* digital fry logo */}
@@ -409,9 +409,9 @@ function NavbarScroll({ isScrolling }: any) {
         <div className="navbarItem">
           <Link href="/services">Services</Link>
         </div>
-        <div className="navbarItem">
+        {/* <div className="navbarItem">
           <Link href="/blog">Blog</Link>
-        </div>
+        </div> */}
         <motion.button
           whileTap={{ scale: 0.85 }}
           className="navbarButton rounded-full "

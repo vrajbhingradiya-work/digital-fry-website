@@ -4,6 +4,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import ContactUs from "@/components/ContactUs";
 import SimpleReveal from "@/components/utils/SimpleReveal";
+import FounderSection from "@/components/FounderSection";
 
 export default function AboutUs() {
   return (
@@ -662,6 +663,11 @@ export default function AboutUs() {
               </div>
             </div>
           </div>
+          <SimpleReveal sequence={2}>
+            <div className="p-4">
+              <FounderSection />
+            </div>
+          </SimpleReveal>
           <SimpleReveal sequence={2}>
             <div className="w-full flex justify-center items-center p-4">
               <ContactUs />
