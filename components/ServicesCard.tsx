@@ -1,9 +1,8 @@
 import React from "react";
-import Popup from "./utils/PopUp";
 import RevealRight from "./utils/RevealRight";
 import Image from "next/image";
 
-const ServicesCard = ({ service, sequence }: any) => {
+const ServicesCard = ({ service }: any) => {
   return (
     <div
       className={`w-full h-[250px] md:h-[370px] flex flex-col justify-end items-start rounded-xl overflow-hidden transition hover:scale-[102%] hover:shadow-2xl shadow-black hover:ease-in-out relative`}

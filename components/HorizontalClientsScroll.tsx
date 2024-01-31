@@ -10,11 +10,26 @@ const HorizontalScrollCarousel = () => {
     target: targetRef,
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], ["2%", "-62%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["0%", "-91%"]);
+  const xv = useTransform(scrollYProgress, [0, 1], ["-62%", "2%"]);
+
   return (
-    <section ref={targetRef} className=" relative h-[300vh] ">
-      <div className="sticky md:top-56 top-36 h-[35vh] flex items-center  overflow-hidden ">
+    <section
+      ref={targetRef}
+      className=" relative h-[220vh] md:h-[300vh] flex flex-col gap-32"
+    >
+      <div className="sticky md:top-[12rem] top-56 h-[15vh] lg:h-[35vh] flex items-center  overflow-hidden flex-col gap-12">
         <motion.div style={{ x }} className="flex  gap-12 md:gap-36 absolute">
+          {ClientLogos.map((logo) => {
+            return <Logo Logo={logo} key={logo.title} />;
+          })}
+        </motion.div>
+      </div>
+      <div className="sticky top-[24rem] h-[15vh]   flex items-center  overflow-hidden ">
+        <motion.div
+          style={{ x: xv }}
+          className="flex  gap-12 md:gap-36 absolute"
+        >
           {ClientLogos.map((logo) => {
             return <Logo Logo={logo} key={logo.title} />;
           })}

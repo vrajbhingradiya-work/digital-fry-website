@@ -21,7 +21,7 @@ export default function Home() {
   }, [pathname]);
 
   return (
-    <div className="px-8  flex flex-col gap-4">
+    <div className="px-4  flex flex-col gap-4">
       <Profile />
       <ClientsHorizontalScroll />
       <About />

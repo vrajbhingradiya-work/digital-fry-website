@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import SimpleReveal from "./utils/SimpleReveal";
 
 const About = () => {
   const text =
@@ -9,20 +10,11 @@ const About = () => {
 
   return (
     <div className="section   rounded-xl  flex flex-col justify-center gap-10  px-4 md:px-16 py-24">
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{
-          opacity: 1,
-          transition: {
-            duration: 0.5,
-            delay: 0.2,
-          },
-        }}
-        viewport={{ once: true }}
-        className="text-sm text-blue-600 "
-      >
-        ABOUT DIGITAL FRY
-      </motion.div>
+      <div className="text-sm text-blue-600  font-bold">
+        <SimpleReveal sequence={1}>
+          <p> ABOUT DIGITAL FRY</p>
+        </SimpleReveal>
+      </div>
       <div className="font-bold text-xl md:text-4xl  text-black">
         {text.map((el, i) => (
           <motion.span
@@ -31,7 +23,7 @@ const About = () => {
               opacity: 1,
               transition: {
                 duration: 0.25,
-                delay: i / 25,
+                delay: i / 30,
               },
             }}
             viewport={{ once: true }}
