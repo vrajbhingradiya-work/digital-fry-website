@@ -1,10 +1,20 @@
 import { motion, useScroll, useTransform } from "framer-motion";
-import React, { useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Logo from "./Logo";
 import { ClientLogosList } from "./Data/ClientsLogos";
+import { usePathname } from "next/navigation";
 
 const HorizontalScrollCarousel = () => {
-  const ClientLogos = ClientLogosList.slice(0, 8);
+  const pathname = usePathname();
+  useEffect(() => {
+    if (pathname === "/") {
+      setClientLogos(ClientLogosList.slice(0, 8));
+    } else {
+      setClientLogos(ClientLogosList);
+    }
+  }, [pathname]);
+  const [clientLogos, setClientLogos] = useState(ClientLogosList.slice(0, 8));
+
   const targetRef = useRef<HTMLDivElement | null>(null);
   const { scrollYProgress } = useScroll({
     target: targetRef,
@@ -20,7 +30,7 @@ const HorizontalScrollCarousel = () => {
     >
       <div className="sticky md:top-[12rem] top-56 h-[15vh] lg:h-[35vh] flex items-center  overflow-hidden flex-col gap-12">
         <motion.div style={{ x }} className="flex  gap-12 md:gap-36 absolute">
-          {ClientLogos.map((logo) => {
+          {clientLogos.map((logo) => {
             return <Logo Logo={logo} key={logo.title} />;
           })}
         </motion.div>
@@ -30,7 +40,7 @@ const HorizontalScrollCarousel = () => {
           style={{ x: xv }}
           className="flex  gap-12 md:gap-36 absolute"
         >
-          {ClientLogos.map((logo) => {
+          {clientLogos.map((logo) => {
             return <Logo Logo={logo} key={logo.title} />;
           })}
         </motion.div>
