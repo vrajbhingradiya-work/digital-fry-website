@@ -1,16 +1,16 @@
 import Image from "next/image";
 const Logo = ({ Logo }: any) => {
+  
   return (
     <div
       key={Logo.title}
-      className="group relative  h-[75px] w-[75px] md:h-[150px] md:w-[150px]  overflow-hidden hover:scale-110 transition-transform duration-300"
+      className={`group relative  h-[150px] w-[150px]  overflow-hidden hover:scale-110 transition-transform duration-300`}
     >
       <Image
         src={Logo.imgUrl}
         alt="Description of your image"
-      fill
-        style={{ objectFit: 'cover' }}
-        className="absolute  inset-0 z-10   "
+        fill
+        className={`object-cover absolute  inset-0 z-10 scale-[${Logo.scale}]  `}   
       />
     </div>
   );

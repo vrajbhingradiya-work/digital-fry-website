@@ -1,7 +1,8 @@
 import React from "react";
-import Marquee from "react-fast-marquee";
 import { ClientLogosList } from "./Data/ClientsLogos";
 import Logo from "./Logo";
+import { Marquee } from "@devnomic/marquee";
+import "@devnomic/marquee/dist/index.css";
 
 const Clients = () => {
   const clientLogos = ClientLogosList;
@@ -11,8 +12,8 @@ const Clients = () => {
         CLIENTS
       </div>
 
-      <Marquee autoFill pauseOnClick>
-        <div className="flex  gap-4 md:gap-16 w-full h-[50vh] mt-32">
+      <Marquee  fade={true} pauseOnHover={true}>
+        <div className="flex  gap-16 md:gap-16 w-full  h-[25vh] md:mt-16">
           {clientLogos.map((logo) => {
             return <Logo Logo={logo} key={logo.title} />;
           })}

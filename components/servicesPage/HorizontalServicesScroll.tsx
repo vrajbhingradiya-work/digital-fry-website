@@ -1,7 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import React, { useRef } from "react";
 import { servicesCardsInfo } from "../Data/ServicesInfo";
-import Logo from "../Logo";
 import HoverDevCards from "./HoverDevCards";
 
 const HorizontalServicesScroll = () => {
@@ -11,7 +10,7 @@ const HorizontalServicesScroll = () => {
     target: targetRef,
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], ["0.1%", "-96%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["0.1%", "-90%"]);
   return (
     <section ref={targetRef} className=" relative h-[800vh] w-full">
       <div className="sticky top-32 md:top-40 h-[70vh] md:h-[60vh] flex items-center overflow-hidden ">

@@ -25,7 +25,7 @@ const FounderSection = () => {
               <img
                 className="mx-auto h-full w-full -rotate-45 scale-125 object-cover transition duration-300 group-hover:scale-[1.4]"
                 src="/images/FounderSushilSir.png"
-                alt="woman"
+                alt="founder"
                 loading="lazy"
                 width={640}
                 height={805}

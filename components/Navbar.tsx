@@ -4,8 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Reveal from "./utils/Reveal";
-import DigitalFryCursive from "../public/logo/DigitalFryCursive.svg";
-import Icon from "../public/logo/Icon.svg";
+
 import Image from "next/image";
 import SimpleReveal from "./utils/SimpleReveal";
 
