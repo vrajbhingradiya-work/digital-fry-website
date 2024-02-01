@@ -10,8 +10,8 @@ const ServicesCard = ({ service }: any) => {
       <Image
         src={`${service.imageUrl}`}
         alt="Description of your image"
-        layout="fill"
-        objectFit="cover"
+        fill
+        style={{ objectFit: 'cover' }}
       />
       <div className="p-4 text-white absolute bg-gradient-to-t from-black via-black/80 to-transparent w-full">
         <RevealRight sequence={2}>

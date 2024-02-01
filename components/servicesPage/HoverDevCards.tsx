@@ -10,8 +10,8 @@ const HoverDevCards = ({ service, Icon }: any) => {
         <Image
           src={`${service.imgUrl}`}
           alt="Description of your image"
-          layout="fill"
-          objectFit="cover"
+          fill
+      style={{objectFit:"cover"}}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-violet-600 to-indigo-600 translate-y-[100%] group-hover:translate-y-[0%] transition-transform duration-300 p-4">
           <p className="text-sm md:text-base text-slate-400 group-hover:text-violet-200 relative z-10 duration-300">

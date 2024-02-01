@@ -8,7 +8,8 @@ const Logo = ({ Logo }: any) => {
       <Image
         src={Logo.imgUrl}
         alt="Description of your image"
-        layout="fill"
+      fill
+        style={{ objectFit: 'cover' }}
         className="absolute  inset-0 z-10   "
       />
     </div>
