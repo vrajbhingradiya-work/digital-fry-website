@@ -1,22 +1,23 @@
 "use client";
-import ClientsHorizontalScroll from "@/components/ClientsHorizontalScroll";
 import ContactUs from "@/components/ContactUs";
 import { servicesCardsInfo } from "@/components/Data/ServicesInfo";
 import HorizontalServicesScroll from "@/components/servicesPage/HorizontalServicesScroll";
 import SimpleReveal from "@/components/utils/SimpleReveal";
 import Popup from "@/components/utils/PopUp";
 import HoverDevCards from "@/components/servicesPage/HoverDevCards";
+import Clients from "@/components/Clients";
+
 export default function Service() {
   const services = servicesCardsInfo;
   return (
     <div className="p-2 flex flex-col justify-center items-center  w-full">
-      <div className=" w-full text-center mt-32 text-black  text-5xl md:text-6xl lg:text-8xl font-bold  ">
+      <div className=" w-full text-center mt-16 flex justify-center items-center text-black  text-5xl md:text-6xl lg:text-8xl font-bold  ">
         <SimpleReveal sequence={4}>
-          <ClientsHorizontalScroll />
+          <Clients />
         </SimpleReveal>
       </div>
 
-      <div className=" w-full text-center mt-32 text-black  text-5xl md:text-6xl lg:text-8xl font-bold  ">
+      <div className=" w-full text-center  text-black  text-5xl md:text-6xl lg:text-8xl font-bold  ">
         <SimpleReveal sequence={4}>
           <p>What do we Offer ?</p>
         </SimpleReveal>

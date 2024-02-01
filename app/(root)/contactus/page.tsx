@@ -3,8 +3,43 @@ import React from "react";
 import Popup from "@/components/utils/PopUp";
 import SimpleReveal from "@/components/utils/SimpleReveal";
 import SimpleRevealUp from "@/components/utils/SimpleRevealUp";
+import { useState, useEffect } from "react";
+import axios from "axios";
+import { useRouter } from "next/navigation";
 
 export default function Contact() {
+  const router = useRouter();
+  const [client, setClient] = useState({
+    clientName: "",
+    clientNumber: "",
+    clientEmailId: "",
+    clientMessage: "",
+  });
+  useEffect(() => {
+    if (
+      client.clientName.length > 0 &&
+      client.clientEmailId.length > 0 &&
+      client.clientNumber.length > 0
+    ) {
+      setButtonDisabled(false);
+    } else {
+      setButtonDisabled(true);
+    }
+  }, [client]);
+  const [buttonDisabled, setButtonDisabled] = React.useState(false);
+  const [loading, setLoading] = React.useState(false);
+
+  const handleSend = async () => {
+    try {
+      setLoading(true);
+      const response = await axios.post("/api/mailInquiry", client);
+      console.log("Email Sent!", response.data);
+      router.push("/");
+    } catch (error: any) {
+      console.log("Email not Sent!", error.message);
+    }
+  };
+
   return (
     <>
       <section className="bg-white mt-24">
@@ -21,7 +56,7 @@ export default function Contact() {
           <SimpleReveal sequence={1}>
             <img
               className="object-cover w-full h-64 mt-10 rounded-lg lg:h-96"
-              src="https://images.unsplash.com/photo-1568992688065-536aad8a12f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=100"
+              src="https://images.unsplash.com/photo-1568992688065-536aad8a12f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=divat&fit=crop&w=1632&q=100"
               alt=""
             />
           </SimpleReveal>
@@ -46,14 +81,13 @@ export default function Contact() {
                     </svg>
                   </span>
                   <h2 className="mt-4 text-base font-medium text-gray-800 ">
-                    Chat to sales
+                    Chat with us
                   </h2>
                   <p className="mt-2 text-sm text-gray-500 ">
                     Speak to our friendly team.
                   </p>
-                  <p className="mt-2 text-sm text-blue-500 ">
-                    hello@merakiui.com
-                  </p>
+                  <p className="mt-2 text-sm text-blue-500 "></p>
+                  info@digitalfry.in
                 </div>
               </Popup>
               <Popup sequence={3}>
@@ -86,7 +120,8 @@ export default function Contact() {
                     Visit our office HQ..
                   </p>
                   <p className="mt-2 text-sm text-blue-500 ">
-                    100 Smith Street Collingwood VIC 3066 AU
+                    6th Floor RTech, Capital Highstreet Mall, Apparel Park,Mahal
+                    Rd, Jagatpura, Jaipur, Rajasthan-302017
                   </p>
                 </div>
               </Popup>
@@ -112,11 +147,9 @@ export default function Contact() {
                     Call us
                   </h2>
                   <p className="mt-2 text-sm text-gray-500 ">
-                    Mon-Fri from 8am to 5pm.
+                    Mon-Sat from 10am to 8pm.
                   </p>
-                  <p className="mt-2 text-sm text-blue-500 ">
-                    +1 (555) 000-0000
-                  </p>
+                  <p className="mt-2 text-sm text-blue-500 ">+91 6376555246</p>
                 </div>
               </Popup>
             </div>
@@ -124,17 +157,23 @@ export default function Contact() {
               <SimpleReveal sequence={20}>
                 <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-white shadow-2xl rounded-xl dark:bg-gray-900 lg:max-w-xl">
                   <h1 className="text-xl font-medium text-gray-700 dark:text-gray-200">
-                    Contact form
+                    Contact Us!
                   </h1>
                   <p className="mt-2 text-gray-500 dark:text-gray-400">
                     Ask us everything and we would love to hear from you
                   </p>
-                  <form className="mt-6">
+                  <div className="mt-6">
                     <div className="flex-1">
                       <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
                         Full Name
                       </label>
                       <input
+                        onChange={(e) =>
+                          setClient({
+                            ...client,
+                            clientName: e.target.value,
+                          })
+                        }
                         type="text"
                         placeholder="John Doe"
                         className="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
@@ -145,6 +184,12 @@ export default function Contact() {
                         Email address
                       </label>
                       <input
+                        onChange={(e) =>
+                          setClient({
+                            ...client,
+                            clientEmailId: e.target.value,
+                          })
+                        }
                         type="email"
                         placeholder="johndoe@example.com"
                         className="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
@@ -155,6 +200,12 @@ export default function Contact() {
                         Phone Number
                       </label>
                       <input
+                        onChange={(e) =>
+                          setClient({
+                            ...client,
+                            clientNumber: e.target.value,
+                          })
+                        }
                         type="tel"
                         placeholder="+91 12345 67890"
                         className="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
@@ -166,15 +217,31 @@ export default function Contact() {
                         Message
                       </label>
                       <textarea
+                        onChange={(e) =>
+                          setClient({
+                            ...client,
+                            clientMessage: e.target.value,
+                          })
+                        }
                         className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
                         placeholder="Message"
                         defaultValue={""}
                       />
                     </div>
-                    <button className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50">
-                      get in touch
-                    </button>
-                  </form>
+                    {loading ? (
+                      <button className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transdiv bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50">
+                        Processing...
+                      </button>
+                    ) : (
+                      <button
+                        disabled={buttonDisabled}
+                        className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transdiv bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50"
+                        onClick={handleSend}
+                      >
+                        get in touch
+                      </button>
+                    )}
+                  </div>
                 </div>
               </SimpleReveal>
             </div>
