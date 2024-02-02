@@ -4,29 +4,10 @@ import Popup from "./utils/PopUp";
 import Reveal from "./utils/Reveal";
 import RevealLeft from "./utils/RevealLeft";
 import SimpleReveal from "./utils/SimpleReveal";
+import { servicesCardsInfo } from "./Data/ServicesInfo";
+import Link from "next/link";
 const Services = () => {
-  const services = [
-    {
-      title: "Social Media Management",
-      desc: " Account handling and content creation for your social media accounts",
-      imageUrl: "/images/services/SocialMediaManagement.jpg",
-    },
-    {
-      title: "Search Engine Optimization (SEO)",
-      desc: " Account handling and content creation for your social media accounts",
-      imageUrl: "/images/services/SEO.jpg",
-    },
-    {
-      title: "Content Marketing",
-      desc: " Account handling and content creation for your social media accounts",
-      imageUrl: "/images/services/ContentManagement.jpg",
-    },
-    {
-      title: "Web Development",
-      desc: " Account handling and content creation for your social media accounts",
-      imageUrl: "/images/services/WebDev.jpg",
-    },
-  ];
+  const services = servicesCardsInfo.slice(0, 4);
   return (
     <div className="section p-6  md:p-16 py-12 md:py-24  flex flex-col justify-center gap-6  bg-gray-800 md:bg-gray-500 rounded-xl  ">
       <div className="text-sm font-semibold text-white ">
@@ -42,7 +23,7 @@ const Services = () => {
           </div>
         </RevealLeft>
 
-        <div className=" sectionDescription text-white">
+        <div className=" sectionDescription text-white ">
           <SimpleReveal sequence={12}>
             <p>
               Unleashing strategic prowess, we leverage cutting-edge tech,
@@ -61,6 +42,11 @@ const Services = () => {
             </Popup>
           );
         })}
+      </div>
+      <div className=" text-base  text-black text-center w-full mt-2 hover:underline">
+        <SimpleReveal sequence={12}>
+          <Link href="/services">See all...</Link>
+        </SimpleReveal>
       </div>
     </div>
   );

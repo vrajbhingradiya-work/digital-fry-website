@@ -431,7 +431,7 @@ function FixedNavbar({ pathname }: any) {
               </SimpleReveal>
             </div>
           </div>
-          <div className="hidden lg:flex gap-4 w-full justify-center">
+          <div className="hidden xl:flex gap-4 w-full justify-center">
             {navbarOptions.map((element, i) => {
               return (
                 <Reveal sequence={i + 1} key={element.url}>
