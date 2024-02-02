@@ -55,8 +55,7 @@ body {
   }
 
   .navbarButton {
-    @apply text-white bg-blue-700 hover:bg-blue-800 font-medium text-sm px-5 py-2.5  
-     transition hover:ease-in-out hover:scale-[105%]  hover:shadow-2xl shadow-slate-100 cursor-pointer;
+    @apply ;
   }
 
   .navbarButton2{
