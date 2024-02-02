@@ -24,7 +24,7 @@ const Features = ({ feature }: any) => {
         </div>
       </div>
 
-      <div className="ml-4 grow">
+      <div className="ml-4 flex flex-col ">
         <p className="mb-1 font-bold text-gray-600">{feature.title}</p>
         <p className="text-neutral-500 dark:text-neutral-300">
           {feature.content}

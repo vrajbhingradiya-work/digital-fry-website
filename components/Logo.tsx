@@ -3,7 +3,7 @@ const Logo = ({ Logo }: any) => {
   return (
     <div
       key={Logo.title}
-      className={`group relative  h-[150px] w-[150px]  overflow-hidden hover:scale-110 transition-transform duration-300`}
+      className={`group relative ${Logo.start} h-[150px] w-[150px]  overflow-hidden hover:scale-110 transition-transform duration-300`}
     >
       <Image
         src={Logo.imgUrl}

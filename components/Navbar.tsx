@@ -302,7 +302,7 @@ function FixedNavbar({ pathname }: any) {
                     <Link
                       href="/contactus"
                       onClick={() => setMobileNavOpen(false)}
-                      className=" navbarButton rounded-lg"
+                      className=" bg-blue-600 hover:bg-blue-400 transition p-4  text-white font-base hover:ease-linear rounded-lg"
                     >
                       Contact Us
                     </Link>
@@ -514,7 +514,7 @@ function NavbarScroll({ isScrolling }: any) {
         </div> */}
         <motion.button
           whileTap={{ scale: 0.85 }}
-          className="navbarButton rounded-full "
+          className="bg-blue-600 hover:bg-blue-400 transition px-4 py-2  text-white font-base hover:ease-linear rounded-full "
         >
           <Link href="/contactus">Contact us</Link>
         </motion.button>

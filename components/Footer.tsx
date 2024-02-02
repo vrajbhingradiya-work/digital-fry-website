@@ -173,7 +173,7 @@ const Footer = () => {
                   <h1 className="mb-3 text-lg font-semibold text-gray-900 ">
                     Services
                   </h1>
-                  <div className="w-full text-gray-600 dark:text-gray-400  flex flex-row md:flex-col gap-4 md:gap-0">
+                  <div className="w-full text-gray-600 dark:text-gray-400  flex flex-row md:flex-col gap-4 ">
                     <div>
                       <div className="">
                         <Link

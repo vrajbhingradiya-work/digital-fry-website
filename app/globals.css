@@ -54,9 +54,7 @@ body {
     @apply px-2 text-base  transition hover:ease-in-out hover:scale-105 hover:cursor-pointer hover:font-semibold ;
   }
 
-  .navbarButton {
-    @apply ;
-  }
+ 
 
   .navbarButton2{
     @apply px-4 py-2 ml-2 text-white bg-black rounded-full text-md ;

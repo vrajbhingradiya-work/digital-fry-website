@@ -6,6 +6,7 @@ import SimpleRevealUp from "@/components/utils/SimpleRevealUp";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 export default function Contact() {
   const router = useRouter();
@@ -43,7 +44,7 @@ export default function Contact() {
   return (
     <>
       <section className="bg-white mt-24">
-        <div className="container px-6 py-12 mx-auto">
+        <div className=" px-6 py-12 ">
           <SimpleRevealUp sequence={1}>
             <div className="text-center ">
               <p className="font-medium text-blue-500 ">Contact us</p>
@@ -55,16 +56,16 @@ export default function Contact() {
           </SimpleRevealUp>
           <SimpleReveal sequence={1}>
             <img
-              className="object-cover w-full h-64 mt-10 rounded-lg lg:h-96"
+              className="object-cover  h-64 mt-10 rounded-lg lg:h-96 w-[90vw]"
               src="https://images.unsplash.com/photo-1568992688065-536aad8a12f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=divat&fit=crop&w=1632&q=100"
               alt=""
             />
           </SimpleReveal>
-          <div className="flex flex-col lg:flex-row gap-12 mt-10">
-            <div className="grid grid-cols-1 gap-12 mt-10 lg:w-1/3">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-10">
+            <div className="grid grid-cols-1 gap-12 mt-10 w-full ">
               <Popup sequence={1}>
                 <div className="p-4 rounded-lg bg-blue-50 md:p-6 ">
-                  <span className="inline-block p-3 text-blue-500 rounded-lg bg-blue-100/80">
+                  <span className="inline-block p-3 text-blue-500 rounded-lg bg-blue-200/80">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -86,13 +87,14 @@ export default function Contact() {
                   <p className="mt-2 text-sm text-gray-500 ">
                     Speak to our friendly team.
                   </p>
-                  <p className="mt-2 text-sm text-blue-500 "></p>
-                  info@digitalfry.in
+                  <Link href="#" className="mt-2 text-sm text-blue-500 ">info@digitalfry.in</Link>
+                  
+                  
                 </div>
               </Popup>
               <Popup sequence={3}>
                 <div className="p-4 rounded-lg bg-blue-50 md:p-6 ">
-                  <span className="inline-block p-3 text-blue-500 rounded-lg bg-blue-100/80">
+                  <span className="inline-block p-3 text-blue-500 rounded-lg bg-blue-200/80">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -127,7 +129,7 @@ export default function Contact() {
               </Popup>
               <Popup sequence={5}>
                 <div className="p-4 rounded-lg bg-blue-50 md:p-6 ">
-                  <span className="inline-block p-3 text-blue-500 rounded-lg bg-blue-100/80">
+                  <span className="inline-block p-3 text-blue-500 rounded-lg bg-blue-200/80">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -153,10 +155,10 @@ export default function Contact() {
                 </div>
               </Popup>
             </div>
-            <div className="mt-8 lg:w-2/3 ">
+            <div className="mt-8 w-full ">
               <SimpleReveal sequence={20}>
-                <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-white shadow-2xl rounded-xl dark:bg-gray-900 lg:max-w-xl">
-                  <h1 className="text-xl font-medium text-gray-700 dark:text-gray-200">
+                <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-[#1F2937] shadow-2xl rounded-xl  lg:max-w-xl">
+                  <h1 className="text-xl font-medium text-blue-400 ">
                     Contact Us!
                   </h1>
                   <p className="mt-2 text-gray-500 dark:text-gray-400">
@@ -164,7 +166,7 @@ export default function Contact() {
                   </p>
                   <div className="mt-6">
                     <div className="flex-1">
-                      <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+                      <label className="block mb-2 text-sm text-[#98A3AF]">
                         Full Name
                       </label>
                       <input
@@ -176,11 +178,11 @@ export default function Contact() {
                         }
                         type="text"
                         placeholder="John Doe"
-                        className="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
+                        className="block w-full px-5 py-3 mt-2 text-white bg-white border border-gray-200 rounded-md  bg-[#111827] dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
                       />
                     </div>
                     <div className="flex-1 mt-6">
-                      <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+                      <label className="block mb-2 text-sm text-[#98A3AF]">
                         Email address
                       </label>
                       <input
@@ -192,11 +194,11 @@ export default function Contact() {
                         }
                         type="email"
                         placeholder="johndoe@example.com"
-                        className="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
+                        className="block w-full px-5 py-3 mt-2 text-white bg-white border border-gray-200 rounded-md  bg-[#111827] dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
                       />
                     </div>
                     <div className="flex-1 mt-6">
-                      <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+                      <label className="block mb-2 text-sm text-[#98A3AF]">
                         Phone Number
                       </label>
                       <input
@@ -208,12 +210,12 @@ export default function Contact() {
                         }
                         type="tel"
                         placeholder="+91 12345 67890"
-                        className="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
+                        className="block w-full px-5 py-3 mt-2 text-white bg-white border border-gray-200 rounded-md  bg-[#111827] dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
                       />
                     </div>
 
                     <div className="w-full mt-6">
-                      <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+                      <label className="block mb-2 text-sm text-[#98A3AF]">
                         Message
                       </label>
                       <textarea
@@ -223,19 +225,19 @@ export default function Contact() {
                             clientMessage: e.target.value,
                           })
                         }
-                        className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
+                        className="block w-full h-32 px-5 py-3 mt-2 text-white placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48  bg-[#111827] dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
                         placeholder="Message"
                         defaultValue={""}
                       />
                     </div>
                     {loading ? (
-                      <button className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transdiv bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50">
+                      <button className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-[#98A3AF] capitalize transition-colors duration-300 transdiv bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50">
                         Processing...
                       </button>
                     ) : (
                       <button
                         disabled={buttonDisabled}
-                        className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transdiv bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50"
+                        className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-[#98A3AF] capitalize transition-colors duration-300 transdiv bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50"
                         onClick={handleSend}
                       >
                         get in touch
