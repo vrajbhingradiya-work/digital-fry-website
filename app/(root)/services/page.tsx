@@ -11,13 +11,13 @@ export default function Service() {
   const services = servicesCardsInfo;
   return (
     <div className="p-2 flex flex-col  items-center  w-full xl:mt-16 mt-8">
-      <div className="mb-16 overflow-hidden w-full text-center mt-16 flex justify-center items-center text-black  text-5xl md:text-6xl lg:text-8xl font-bold  ">
+      {/* <div className="mb-16 overflow-hidden w-full text-center mt-16 flex justify-center items-center text-black  text-5xl md:text-6xl lg:text-8xl font-bold  ">
         <SimpleReveal sequence={4}>
           <Clients />
         </SimpleReveal>
-      </div>
+      </div> */}
 
-      <div className=" w-full text-center  text-black  text-5xl md:text-6xl lg:text-8xl font-bold  ">
+      <div className=" w-full text-center  text-black  text-5xl md:text-6xl lg:text-8xl font-bold mt-16  ">
         <SimpleReveal sequence={4}>
           <p>What do we Offer ?</p>
         </SimpleReveal>
