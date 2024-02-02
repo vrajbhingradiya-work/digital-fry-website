@@ -28,7 +28,7 @@ const ContactUs = () => {
       </video>
 
       <div className="absolute bottom-0  w-full h-[40%] flex  p-4 items-center justify-between  bg-gradient-to-t from-black via-black/40 to-transparent   ">
-        <div className="text-sm sm:text-md md:text-2xl font-black text-white text-center lg:text-left w-full ">
+        <div className="text-sm sm:text-md md:text-2xl font-black text-white text-center xl:text-left w-full ">
           <SimpleReveal sequence={4}>
             <p>
               Elevate your brand. <br />
@@ -36,7 +36,7 @@ const ContactUs = () => {
             </p>
           </SimpleReveal>
         </div>
-        <div className=" hidden lg:block w-[200px]">
+        <div className=" hidden xl:block w-[200px]">
           <Link href="/contactus">
             <motion.button
               whileTap={{ scale: 0.85 }}

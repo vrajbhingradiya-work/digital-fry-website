@@ -22,7 +22,7 @@ const Profile = () => {
     },
   };
   return (
-    <div className="section mt-24 md:mt-4  overflow-hidden flex justify-center items-center rounded-xl  relative">
+    <div className="section mt-24 xl:mt-4  overflow-hidden flex justify-center items-center rounded-xl  relative">
       <video
         className="w-full h-[80vh]   md:h-full object-cover min-w-screen"
         loop

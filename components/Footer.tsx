@@ -166,7 +166,7 @@ const Footer = () => {
             </div>
           </RevealUp>
 
-          <div className="grid grid-cols-1 gap-8 sm:w-1/2 sm:grid-cols-2">
+          <div className="grid grid-cols-1 gap-8 sm:w-1/2 xl:grid-cols-2">
             <div>
               <RevealLeft sequence={3}>
                 <div>
