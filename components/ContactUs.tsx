@@ -15,7 +15,7 @@ const ContactUs = () => {
   // }, []);
 
   return (
-    <div className="  bg-black  rounded-xl overflow-hidden  w-full md:mb-16    relative">
+    <div className="  bg-black  rounded-xl overflow-hidden  w-full md:mb-16  relative">
       <video
         // ref={videoRef}
         className="w-full h-[80vh] md:h-[50vh]  object-cover min-w-screen"

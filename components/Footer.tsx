@@ -255,39 +255,38 @@ const Footer = () => {
                 </div>
               </RevealLeft>
             </div>
-            <div className="w-full">
-              <RevealLeft sequence={3}>
-                <div className="flex flex-col gap-8 ">
-                  <div className="w-full">
+            {/* <div className="w-full">
+              <div>
+                <RevealLeft sequence={7}>
+                  <div>
                     <h1 className="mb-3 text-lg font-semibold text-gray-900 ">
-                      Company
+                      Legals
                     </h1>
-                    <div className="text-gray-600 dark:text-gray-400 gap-2">
+                    <div className="text-gray-600 dark:text-gray-400">
                       <div className="">
                         <Link
                           href="/aboutus"
                           className="hover:underline text-sm"
                         >
-                          About
+                          About{" "}
                         </Link>
                       </div>
-                      <div>
-                        <Link href="/blog" className="hover:underline text-sm">
-                          Blog
-                        </Link>
-                      </div>
-                      {/* <div className="">
+                      {/* <div>
                         <Link
-                          href="/career"
+                          href="https://drive.google.com/file/d/1iMSBpH8zMn4HuiA1N3ogluve-L6M0lkr/view?usp=drive_link"
                           className="hover:underline text-sm"
                         >
-                          Career
+                          Terms &amp; Conditions
                         </Link>
-                      </div> */}
+                      </div> 
                     </div>
                   </div>
-                </div>
-              </RevealLeft>
+                </RevealLeft>
+              </div>
+            </div> 
+          */}
+
+            <div className="w-full">
               <div>
                 <RevealLeft sequence={7}>
                   <div>
