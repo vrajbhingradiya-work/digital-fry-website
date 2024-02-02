@@ -13,13 +13,13 @@ const Footer = () => {
         <div className="md:flex md:justify-between">
           <RevealUp sequence={2}>
             <div className="mb-12 md:mb-0  flex flex-col gap-4 items-start">
-              <Link href="/" className="flex items-center ">
-              <svg
-                  className={`h-12 w-24 md:h-24 md:w-40 overflow-hidden fill-black`}
+              <Link href="/" className="flex items-center w-full">
+                <svg
+                  className={` md:h-24 md:w-40 overflow-hidden fill-black`}
                   xmlns="http://www.w3.org/2000/svg"
                   width="320"
                   zoomAndPan="magnify"
-                  viewBox="20 20 240 135.000003"
+                  viewBox="0 0 240 135.000003"
                   height="180"
                   preserveAspectRatio="xMidYMid meet"
                   version="1.0"
@@ -166,94 +166,99 @@ const Footer = () => {
             </div>
           </RevealUp>
 
-          <div className="grid grid-cols-2 gap-8 sm:w-1/2 sm:grid-cols-2">
+          <div className="grid grid-cols-1 gap-8 sm:w-1/2 sm:grid-cols-2">
             <div>
               <RevealLeft sequence={3}>
                 <div>
                   <h1 className="mb-3 text-lg font-semibold text-gray-900 ">
                     Services
                   </h1>
-                  <div className="text-gray-600 dark:text-gray-400 gap-2">
-                    <div className="">
-                      <Link
-                        href="/services"
-                        className="hover:underline text-sm"
-                      >
-                        Social Media Management
-                      </Link>
+                  <div className="w-full text-gray-600 dark:text-gray-400  flex flex-row md:flex-col gap-4 md:gap-0">
+                    <div>
+                      <div className="">
+                        <Link
+                          href="/services"
+                          className="hover:underline text-sm"
+                        >
+                          Social Media Management
+                        </Link>
+                      </div>
+                      <div>
+                        <Link
+                          href="/services"
+                          className="hover:underline text-sm"
+                        >
+                          Content Marketing
+                        </Link>
+                      </div>
+                      <div className="">
+                        <Link
+                          href="/services"
+                          className="hover:underline text-sm"
+                        >
+                          Search Engine Optimization ( SEO )
+                        </Link>
+                      </div>
+                      <div className="">
+                        <Link
+                          href="/services"
+                          className="hover:underline text-sm"
+                        >
+                          Paid Advertising
+                        </Link>
+                      </div>
+                      <div className="">
+                        <Link
+                          href="/services"
+                          className="hover:underline text-sm"
+                        >
+                          Email Marketing
+                        </Link>
+                      </div>
                     </div>
                     <div>
-                      <Link
-                        href="/services"
-                        className="hover:underline text-sm"
-                      >
-                        Content Marketing
-                      </Link>
-                    </div>
-                    <div className="">
-                      <Link
-                        href="/services"
-                        className="hover:underline text-sm"
-                      >
-                        Search Engine Optimization ( SEO )
-                      </Link>
-                    </div>
-                    <div className="">
-                      <Link
-                        href="/services"
-                        className="hover:underline text-sm"
-                      >
-                        Paid Advertising
-                      </Link>
-                    </div>
-                    <div className="">
-                      <Link
-                        href="/services"
-                        className="hover:underline text-sm"
-                      >
-                        Email Marketing
-                      </Link>
-                    </div>
-                    <div className="">
-                      <Link
-                        href="/services"
-                        className="hover:underline text-sm"
-                      >
-                        Web Design and Development
-                      </Link>
-                    </div>
-                    <div className="">
-                      <Link
-                        href="/services"
-                        className="hover:underline text-sm"
-                      >
-                        Label and Logo Design
-                      </Link>
-                    </div>
-                    <div className="">
-                      <Link
-                        href="/services"
-                        className="hover:underline text-sm"
-                      >
-                        Ecommerce Management
-                      </Link>
-                    </div>
-                    <div className="">
-                      <Link
-                        href="/services"
-                        className="hover:underline text-sm"
-                      >
-                        Brand Story Telling
-                      </Link>
+                      <div className="">
+                        <Link
+                          href="/services"
+                          className="hover:underline text-sm"
+                        >
+                          Web Design and Development
+                        </Link>
+                      </div>
+
+                      <div className="">
+                        <Link
+                          href="/services"
+                          className="hover:underline text-sm"
+                        >
+                          Label and Logo Design
+                        </Link>
+                      </div>
+                      <div className="">
+                        <Link
+                          href="/services"
+                          className="hover:underline text-sm"
+                        >
+                          Ecommerce Management
+                        </Link>
+                      </div>
+                      <div className="">
+                        <Link
+                          href="/services"
+                          className="hover:underline text-sm"
+                        >
+                          Brand Story Telling
+                        </Link>
+                      </div>
                     </div>
                   </div>
                 </div>
               </RevealLeft>
             </div>
-            <div className="flex flex-col gap-8">
-              <div>
-                <RevealLeft sequence={3}>
-                  <div>
+            <div className="w-full">
+              <RevealLeft sequence={3}>
+                <div className="flex flex-col gap-8 ">
+                  <div className="w-full">
                     <h1 className="mb-3 text-lg font-semibold text-gray-900 ">
                       Company
                     </h1>
@@ -281,8 +286,8 @@ const Footer = () => {
                       </div> */}
                     </div>
                   </div>
-                </RevealLeft>
-              </div>
+                </div>
+              </RevealLeft>
               <div>
                 <RevealLeft sequence={7}>
                   <div>

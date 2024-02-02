@@ -9,8 +9,8 @@ import FounderSection from "@/components/FounderSection";
 export default function AboutUs() {
   return (
     <>
-      <section className="overflow-hidden pt-32 pb-12 lg:pt-32 lg:pb-[90px] bg-white ">
-        <div className="container mx-auto flex flex-col gap-8 ">
+      <section className="overflow-hidden pt-16 pb-12 lg:pt-16 lg:pb-16 bg-white ">
+        <div className="container  flex flex-col gap-8 ">
           <div className="flex flex-col lg:flex-row items-center justify-center gap-8 w-full">
             <Reveal sequence={4}>
               <div className="w-full px-4 lg:w-4/5  ">

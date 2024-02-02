@@ -10,11 +10,11 @@ const HorizontalServicesScroll = () => {
     target: targetRef,
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], ["0.1%", "-90%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["0.5%", "-88%"]);
   return (
-    <section ref={targetRef} className=" relative h-[800vh] w-full">
+    <section ref={targetRef} className=" relative h-[700vh] w-full ">
       <div className="sticky top-32 md:top-40 h-[70vh] md:h-[60vh] flex items-center overflow-hidden ">
-        <motion.div style={{ x }} className="flex gap-64 absolute p-4">
+        <motion.div style={{ x }} className="flex gap-32 absolute p-6 ">
           {serviceData.map((service) => {
             return <HoverDevCards service={service} key={service.title} />;
           })}

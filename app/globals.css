@@ -28,7 +28,7 @@ body {
   }
 
   .section{
-    @apply mb-16 md:mb-32 ;
+    @apply mb-16 md:mb-20 ;
   }
 
   .sectionHeader{
