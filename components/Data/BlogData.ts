@@ -3,7 +3,7 @@ export const BlogData = [
     id: "1",
 
     author: {
-      imgUrl: "https://flowbite.com/docs/images/people/profile-picture-2.jpg",
+      imgUrl: "/images/services/SEO.jpg",
       name: "Jese Leos",
       designation: "Graphic Designer, educator & CEO Flowbite",
       dateOfCreation: "Feb. 8, 2022",
@@ -20,8 +20,8 @@ export const BlogData = [
           "Before going digital, you might benefit from scribbling down some ideas in a sketchbook. This way, you can think things through before committing to an actual design project.",
       },
       imgUrl: {
-        img1: "https://flowbite.s3.amazonaws.com/typography-plugin/typography-image-1.png",
-        img2: "https://flowbite.s3.amazonaws.com/typography-plugin/typography-image-2.png",
+        img1: "/images/services/SEO.jpg",
+        img2: "/images/services/ContentManagement.jpg",
       },
     },
   },
@@ -29,7 +29,7 @@ export const BlogData = [
     id: "2",
 
     author: {
-      imgUrl: "https://flowbite.com/docs/images/people/profile-picture-2.jpg",
+      imgUrl: "/images/services/SEO.jpg",
       name: "Jese Leos",
       designation: "Graphic Designer, educator & CEO Flowbite",
       dateOfCreation: "Feb. 8, 2022",
@@ -46,8 +46,8 @@ export const BlogData = [
           "Before going digital, you might benefit from scribbling down some ideas in a sketchbook. This way, you can think things through before committing to an actual design project.",
       },
       imgUrl: {
-        img1: "https://flowbite.s3.amazonaws.com/typography-plugin/typography-image-1.png",
-        img2: "https://flowbite.s3.amazonaws.com/typography-plugin/typography-image-2.png",
+        img1: "/images/services/SEO.jpg",
+        img2: "/images/services/ContentManagement.jpg",
       },
     },
   },
@@ -55,7 +55,7 @@ export const BlogData = [
     id: "3",
 
     author: {
-      imgUrl: "https://flowbite.com/docs/images/people/profile-picture-2.jpg",
+      imgUrl: "/images/services/SEO.jpg",
       name: "Jese Leos",
       designation: "Graphic Designer, educator & CEO Flowbite",
       dateOfCreation: "Feb. 8, 2022",
@@ -72,8 +72,8 @@ export const BlogData = [
           "Before going digital, you might benefit from scribbling down some ideas in a sketchbook. This way, you can think things through before committing to an actual design project.",
       },
       imgUrl: {
-        img1: "https://flowbite.s3.amazonaws.com/typography-plugin/typography-image-1.png",
-        img2: "https://flowbite.s3.amazonaws.com/typography-plugin/typography-image-2.png",
+        img1: "/images/services/SEO.jpg",
+        img2: "/images/services/ContentManagement.jpg",
       },
     },
   },
@@ -81,7 +81,7 @@ export const BlogData = [
     id: "4",
 
     author: {
-      imgUrl: "https://flowbite.com/docs/images/people/profile-picture-2.jpg",
+      imgUrl: "/images/services/SEO.jpg",
       name: "Jese Leos",
       designation: "Graphic Designer, educator & CEO Flowbite",
       dateOfCreation: "Feb. 8, 2022",
@@ -98,8 +98,8 @@ export const BlogData = [
           "Before going digital, you might benefit from scribbling down some ideas in a sketchbook. This way, you can think things through before committing to an actual design project.",
       },
       imgUrl: {
-        img1: "https://flowbite.s3.amazonaws.com/typography-plugin/typography-image-1.png",
-        img2: "https://flowbite.s3.amazonaws.com/typography-plugin/typography-image-2.png",
+        img1: "/images/services/SEO.jpg",
+        img2: "/images/services/ContentManagement.jpg",
       },
     },
   },
@@ -107,7 +107,7 @@ export const BlogData = [
     id: "5",
 
     author: {
-      imgUrl: "https://flowbite.com/docs/images/people/profile-picture-2.jpg",
+      imgUrl: "/images/services/SEO.jpg",
       name: "Jese Leos",
       designation: "Graphic Designer, educator & CEO Flowbite",
       dateOfCreation: "Feb. 8, 2022",
@@ -124,8 +124,8 @@ export const BlogData = [
           "Before going digital, you might benefit from scribbling down some ideas in a sketchbook. This way, you can think things through before committing to an actual design project.",
       },
       imgUrl: {
-        img1: "https://flowbite.s3.amazonaws.com/typography-plugin/typography-image-1.png",
-        img2: "https://flowbite.s3.amazonaws.com/typography-plugin/typography-image-2.png",
+        img1: "/images/services/SEO.jpg",
+        img2: "/images/services/ContentManagement.jpg",
       },
     },
   },
