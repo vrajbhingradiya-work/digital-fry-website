@@ -24,7 +24,7 @@ const ContactUs = () => {
         autoPlay
         muted
       >
-        <source src="/videos/theme2.mp4" type="video/mp4" />
+        <source src="/videos/theme3.mp4" type="video/mp4" />
       </video>
 
       <div className="absolute bottom-0  w-full h-[40%] flex  p-4 items-center justify-between  bg-gradient-to-t from-black via-black/40 to-transparent   ">
