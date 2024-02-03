@@ -39,7 +39,7 @@ function ProjectCards({ project }: any) {
   return (
     <div
       onClick={() => setIsOpen(true)}
-      className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] h-[30vh] xl:h-[30vh] w-full xl:w-[400px]"
+      className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] h-[30vh] xl:h-[30vh] w-full xl:w-[300px]"
       data-te-ripple-init=""
       data-te-ripple-color="dark"
     >

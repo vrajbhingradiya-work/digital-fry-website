@@ -7,6 +7,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Contact() {
   const router = useRouter();
@@ -46,7 +47,7 @@ export default function Contact() {
       <section className="bg-white mt-24">
         <div className=" px-6 py-12 ">
           <SimpleRevealUp sequence={1}>
-            <div className="text-center ">
+            <div className="text-center pb-4">
               <p className="font-medium text-blue-500 ">Contact us</p>
               <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl">
                 We’d love to hear from you
@@ -55,11 +56,19 @@ export default function Contact() {
             </div>
           </SimpleRevealUp>
           <SimpleReveal sequence={1}>
-            <img
-              className="object-cover  h-64 mt-10 rounded-lg lg:h-96 w-[90vw]"
-              src="https://images.unsplash.com/photo-1568992688065-536aad8a12f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=divat&fit=crop&w=1632&q=100"
-              alt=""
-            />
+            <div
+              className="zoom relative overflow-hidden rounded-xl bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] h-[45vh] lg:h-[80vh] w-[95vw]"
+              data-te-ripple-init=""
+              data-te-ripple-color="dark"
+            >
+              <Image
+                src="/images/contactus/ContactUs.jpg"
+                alt="Footer"
+                layout="fill"
+                objectFit="cover"
+                className="w-full align-middle transition duration-300 hover:ease-linear  "
+              />
+            </div>
           </SimpleReveal>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-10">
             <div className="grid grid-cols-1 gap-12 mt-10 w-full ">

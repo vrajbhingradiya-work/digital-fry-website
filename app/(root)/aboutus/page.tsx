@@ -4,22 +4,31 @@ import { motion } from "framer-motion";
 import ContactUs from "@/components/ContactUs";
 import FounderSection from "@/components/FounderSection";
 import SimpleReveal from "@/components/utils/SimpleReveal";
+import Image from "next/image";
 
 export default function AboutUs() {
   return (
     <>
       <section className="overflow-hidden  lg:pt-16 lg:pb-16 bg-white mt-12">
-        <div className="container  flex flex-col gap-8 ">
+        <div className="container  flex flex-col gap-8 items-center">
           <SimpleReveal sequence={1}>
-            <img
-              className="object-cover w-full h-64 mt-10 rounded-lg lg:h-96"
-              src="https://images.unsplash.com/photo-1568992688065-536aad8a12f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=divat&fit=crop&w=1632&q=100"
-              alt=""
-            />
+            <div
+              className="zoom relative overflow-hidden rounded-xl bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] h-[45vh] lg:h-[80vh] w-[95vw]"
+              data-te-ripple-init=""
+              data-te-ripple-color="dark"
+            >
+              <Image
+                src="/images/aboutus/AboutUs.png"
+                alt="Footer"
+                layout="fill"
+                objectFit="cover"
+                className="w-full align-middle transition duration-300 hover:ease-linear  "
+              />
+            </div>
           </SimpleReveal>
-          <div className="flex flex-col md:flex-row items-center justify-center gap-8 w-full ">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-8 w-full p-4 ">
             <div className="w-full px-4  text-black flex flex-col gap-4">
-              <div className="mt-10 lg:mt-0">
+              <div className="mt-10 lg:mt-0 lg:px-4">
                 <SimpleReveal sequence={6}>
                   <span className="block mb-4 text-lg font-semibold text-blue-600">
                     Why Choose Us
@@ -53,14 +62,14 @@ export default function AboutUs() {
                 </SimpleReveal>
 
                 <SimpleReveal sequence={11}>
-                  <motion.button
-                    whileTap={{ scale: 0.85 }}
-                    className="navbarButton rounded-lg"
+                  <Link
+                    className="underline hover:underline-none text-xs text-white px-4 py-2 bg-blue-600 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg md:text-sm   dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 transition  shadow-black hover:shadow-2xl "
+                    href="/contactus"
                   >
-                    <Link href="/contactus" className="">
+                    <motion.button whileTap={{ scale: 0.85 }} type="button">
                       Get Started
-                    </Link>
-                  </motion.button>
+                    </motion.button>
+                  </Link>
                 </SimpleReveal>
               </div>
             </div>

@@ -43,9 +43,11 @@ const Services = () => {
           );
         })}
       </div>
-      <div className=" text-base  text-black text-center w-full mt-2 hover:underline">
+      <div className=" text-base  text-white text-center w-full mt-2 hover:underline">
         <SimpleReveal sequence={12}>
-          <Link href="/services">See all...</Link>
+          <Link className=" " href="/services">
+            See all...
+          </Link>
         </SimpleReveal>
       </div>
     </div>

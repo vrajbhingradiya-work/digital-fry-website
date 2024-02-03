@@ -136,7 +136,7 @@ function FixedNavbar({ pathname }: any) {
     { title: "Home", url: "/" },
     { title: "About", url: "/aboutus" },
     { title: "Services", url: "/services" },
-    { title: "Blog", url: "/blog" },
+    { title: "Blog", url: "/blog/1" },
   ];
 
   return (
@@ -510,7 +510,7 @@ function NavbarScroll({ isScrolling }: any) {
           <Link href="/services">Services</Link>
         </div>
         <div className="navbarItem">
-          <Link href="/blog">Blog</Link>
+          <Link href="/blog/1">Blog</Link>
         </div>
         <motion.button
           whileTap={{ scale: 0.85 }}
