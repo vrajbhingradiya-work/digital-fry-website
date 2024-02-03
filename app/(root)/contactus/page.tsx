@@ -87,9 +87,9 @@ export default function Contact() {
                   <p className="mt-2 text-sm text-gray-500 ">
                     Speak to our friendly team.
                   </p>
-                  <Link href="#" className="mt-2 text-sm text-blue-500 ">info@digitalfry.in</Link>
-                  
-                  
+                  <Link href="#" className="mt-2 text-sm text-blue-500 ">
+                    info@digitalfry.in
+                  </Link>
                 </div>
               </Popup>
               <Popup sequence={3}>
@@ -178,7 +178,7 @@ export default function Contact() {
                         }
                         type="text"
                         placeholder="John Doe"
-                        className="block w-full px-5 py-3 mt-2 text-white bg-white border border-gray-200 rounded-md  bg-[#111827] dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
+                        className="block w-full px-5 py-3 mt-2 text-white  border border-gray-200 rounded-md  bg-[#111827] dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
                       />
                     </div>
                     <div className="flex-1 mt-6">
@@ -194,7 +194,7 @@ export default function Contact() {
                         }
                         type="email"
                         placeholder="johndoe@example.com"
-                        className="block w-full px-5 py-3 mt-2 text-white bg-white border border-gray-200 rounded-md  bg-[#111827] dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
+                        className="block w-full px-5 py-3 mt-2 text-white  border border-gray-200 rounded-md  bg-[#111827] dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
                       />
                     </div>
                     <div className="flex-1 mt-6">
@@ -210,7 +210,7 @@ export default function Contact() {
                         }
                         type="tel"
                         placeholder="+91 12345 67890"
-                        className="block w-full px-5 py-3 mt-2 text-white bg-white border border-gray-200 rounded-md  bg-[#111827] dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
+                        className="block w-full px-5 py-3 mt-2 text-white  border border-gray-200 rounded-md  bg-[#111827] dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
                       />
                     </div>
 
@@ -225,7 +225,7 @@ export default function Contact() {
                             clientMessage: e.target.value,
                           })
                         }
-                        className="block w-full h-32 px-5 py-3 mt-2 text-white placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48  bg-[#111827] dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
+                        className="block w-full h-32 px-5 py-3 mt-2 text-white placeholder-gray-400  border border-gray-200 rounded-md md:h-48  bg-[#111827] dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
                         placeholder="Message"
                         defaultValue={""}
                       />
@@ -237,7 +237,7 @@ export default function Contact() {
                     ) : (
                       <button
                         disabled={buttonDisabled}
-                        className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-[#98A3AF] capitalize transition-colors duration-300 transdiv bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50"
+                        className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transdiv bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50"
                         onClick={handleSend}
                       >
                         get in touch

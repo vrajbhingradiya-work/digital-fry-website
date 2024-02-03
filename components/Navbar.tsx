@@ -136,7 +136,7 @@ function FixedNavbar({ pathname }: any) {
     { title: "Home", url: "/" },
     { title: "About", url: "/aboutus" },
     { title: "Services", url: "/services" },
-    // { title: "Blog", url: "/blog" },
+    { title: "Blog", url: "/blog" },
   ];
 
   return (
@@ -509,9 +509,9 @@ function NavbarScroll({ isScrolling }: any) {
         <div className="navbarItem">
           <Link href="/services">Services</Link>
         </div>
-        {/* <div className="navbarItem">
+        <div className="navbarItem">
           <Link href="/blog">Blog</Link>
-        </div> */}
+        </div>
         <motion.button
           whileTap={{ scale: 0.85 }}
           className="bg-blue-600 hover:bg-blue-400 transition px-4 py-2  text-white font-base hover:ease-linear rounded-full "
