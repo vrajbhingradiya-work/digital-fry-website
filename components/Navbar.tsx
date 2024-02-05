@@ -145,8 +145,8 @@ function FixedNavbar({ pathname }: any) {
       animate={mobileNavOpen ? "opened" : "closed"}
       className={`${
         pathname === "/"
-          ? " text-white fixed bg-white xl:bg-transparent xl:absolute top-0 xl:top-6 z-50 flex justify-between w-full px-8 xl:px-16 py-4     "
-          : "text-black fixed bg-white xl:bg-transparent xl:absolute top-0 z-50  flex justify-between w-full px-8 xl:px-16 py-4 "
+          ? " text-white fixed bg-white xl:bg-transparent xl:absolute top-0 xl:top-6 z-30 flex justify-between w-full px-8 xl:px-16 py-4     "
+          : "text-black fixed bg-white xl:bg-transparent xl:absolute top-0 z-30  flex justify-between w-full px-8 xl:px-16 py-4 "
       }`}
     >
       {mobileNavOpen ? (

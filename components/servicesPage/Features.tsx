@@ -1,7 +1,6 @@
 import React from "react";
 
 const Features = ({ feature }: any) => {
-  console.log(feature);
   return (
     <div className="mb-12 flex">
       <div className="shrink-0">

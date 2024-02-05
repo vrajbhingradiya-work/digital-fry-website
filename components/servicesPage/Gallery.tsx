@@ -1,8 +1,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import ImageModal from "./ImageModal";
 
-const Gallery = ({ Projects }: any) => {
+const Gallery = ({ Projects, setIsOpen, setSelectedCardProject }: any) => {
   return (
     <>
       {/* Container for demo purpose */}
@@ -21,7 +20,14 @@ const Gallery = ({ Projects }: any) => {
           <div className="grid gap-6 xl:grid-cols-3">
             {/* card */}
             {Projects.map((project: any, index: number) => {
-              return <ProjectCards key={index} project={project} />;
+              return (
+                <ProjectCards
+                  setSelectedCardProject={setSelectedCardProject}
+                  setIsOpen={setIsOpen}
+                  key={index}
+                  project={project}
+                />
+              );
             })}
           </div>
         </section>
@@ -34,8 +40,8 @@ const Gallery = ({ Projects }: any) => {
 
 export default Gallery;
 
-function ProjectCards({ project }: any) {
-  const [isOpen, setIsOpen] = useState(false);
+function ProjectCards({ project, setIsOpen, setSelectedCardProject }: any) {
+  setSelectedCardProject(project);
   return (
     <div
       onClick={() => setIsOpen(true)}
@@ -59,7 +65,6 @@ function ProjectCards({ project }: any) {
       <div>
         <div className="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,99.2%,0.15)]"></div>
       </div>
-      <ImageModal isOpen={isOpen} setIsOpen={setIsOpen} />
     </div>
   );
 }

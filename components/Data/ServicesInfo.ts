@@ -11,24 +11,60 @@ export const servicesCardsInfo = [
     ],
     projects: [
       {
+        id: 1,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 2,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 3,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 4,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 5,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
+      },
+      {
+        id: 6,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
+        imgUrl: "/images/services/SEO.jpg",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
+      },
+      {
+        id: 7,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
+        imgUrl: "/images/services/SEO.jpg",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
     ],
   },
@@ -44,24 +80,60 @@ export const servicesCardsInfo = [
     ],
     projects: [
       {
+        id: 1,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 2,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 3,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 4,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 5,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
+      },
+      {
+        id: 6,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
+        imgUrl: "/images/services/SEO.jpg",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
+      },
+      {
+        id: 7,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
+        imgUrl: "/images/services/SEO.jpg",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
     ],
   },
@@ -77,24 +149,60 @@ export const servicesCardsInfo = [
     ],
     projects: [
       {
+        id: 1,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 2,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 3,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 4,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 5,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
+      },
+      {
+        id: 6,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
+        imgUrl: "/images/services/SEO.jpg",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
+      },
+      {
+        id: 7,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
+        imgUrl: "/images/services/SEO.jpg",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
     ],
   },
@@ -110,24 +218,60 @@ export const servicesCardsInfo = [
     ],
     projects: [
       {
+        id: 1,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 2,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 3,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 4,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 5,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
+      },
+      {
+        id: 6,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
+        imgUrl: "/images/services/SEO.jpg",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
+      },
+      {
+        id: 7,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
+        imgUrl: "/images/services/SEO.jpg",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
     ],
   },
@@ -143,24 +287,60 @@ export const servicesCardsInfo = [
     ],
     projects: [
       {
+        id: 1,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 2,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 3,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 4,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 5,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
+      },
+      {
+        id: 6,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
+        imgUrl: "/images/services/SEO.jpg",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
+      },
+      {
+        id: 7,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
+        imgUrl: "/images/services/SEO.jpg",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
     ],
   },
@@ -176,24 +356,60 @@ export const servicesCardsInfo = [
     ],
     projects: [
       {
+        id: 1,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 2,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 3,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 4,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 5,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
+      },
+      {
+        id: 6,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
+        imgUrl: "/images/services/SEO.jpg",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
+      },
+      {
+        id: 7,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
+        imgUrl: "/images/services/SEO.jpg",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
     ],
   },
@@ -210,24 +426,60 @@ export const servicesCardsInfo = [
     ],
     projects: [
       {
+        id: 1,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 2,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 3,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 4,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 5,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
+      },
+      {
+        id: 6,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
+        imgUrl: "/images/services/SEO.jpg",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
+      },
+      {
+        id: 7,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
+        imgUrl: "/images/services/SEO.jpg",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
     ],
   },
@@ -243,24 +495,60 @@ export const servicesCardsInfo = [
     ],
     projects: [
       {
+        id: 1,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 2,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 3,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 4,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 5,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
+      },
+      {
+        id: 6,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
+        imgUrl: "/images/services/SEO.jpg",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
+      },
+      {
+        id: 7,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
+        imgUrl: "/images/services/SEO.jpg",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
     ],
   },
@@ -276,24 +564,60 @@ export const servicesCardsInfo = [
     ],
     projects: [
       {
+        id: 1,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 2,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 3,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 4,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
       {
+        id: 5,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
         imgUrl: "/images/services/SEO.jpg",
-        title: "city",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
+      },
+      {
+        id: 6,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
+        imgUrl: "/images/services/SEO.jpg",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
+      },
+      {
+        id: 7,
+        title: "Project Name",
+        content:
+          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
+        imgUrl: "/images/services/SEO.jpg",
+        thumbnailImgUrl: "/images/services/ContentManagement.jpg",
       },
     ],
   },

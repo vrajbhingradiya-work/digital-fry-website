@@ -1,68 +1,67 @@
-import { AnimatePresence, motion } from "framer-motion";
-import { Dispatch, SetStateAction } from "react";
-import { FiAlertCircle } from "react-icons/fi";
+import React from "react";
+import { motion, AnimatePresence, easeInOut } from "framer-motion";
+import Link from "next/link";
 import Image from "next/image";
 
-const ImageModal = ({
-  isOpen,
-  setIsOpen,
-}: {
-  isOpen: boolean;
-  setIsOpen: Dispatch<SetStateAction<boolean>>;
-}) => {
+const Modal = ({ isOpen, setIsOpen, project }: any) => {
+  const backdrop = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+    },
+  };
+  const containerVariants = {
+    hidden: { opacity: 0, y: "-100vh" },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { type: "spring", delay: 0.25, duration: 0.5 },
+    },
+    exit: { y: "-100vh", transition: { ease: easeInOut } },
+  };
   return (
     <AnimatePresence>
       {isOpen && (
         <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
+          variants={backdrop}
+          initial="hidden"
+          animate="visible"
+          exit="hidden"
           onClick={() => setIsOpen(false)}
-          className="bg-slate-900/20 backdrop-blur p-8 fixed inset-0 z-50 grid place-items-center overflow-y-scroll cursor-pointer"
+          className="backdrop flex items-center justify-center "
         >
-          {/* <div className=" absolute top-12  mt-1 h-[50vh] w-[80vw]">
-<Image
-        src="/images/services/SEO.jpg"
-        alt="heloo"
-        layout="fill"
-        objectFit="cover"
-        className="w-full align-middle transition rounded-xl "
-      />
-</div> */}
           <motion.div
-            initial={{ scale: 0, rotate: "12.5deg" }}
-            animate={{ scale: 1, rotate: "0deg" }}
-            exit={{ scale: 0, rotate: "0deg" }}
-            onClick={(e) => e.stopPropagation()}
-            className="bg-gradient-to-br from-blue-600 to-blue-800 text-white p-6 rounded-lg w-full max-w-lg shadow-xl cursor-default relative overflow-hidden"
+            variants={containerVariants}
+            initial="hidden"
+            animate="visible"
+            exit="exit"
+            onClick={() => setIsOpen(false)}
+            className="px-6 py-8 mx-6 flex flex-col xl:flex-row justify-center bg-white rounded-xl   gap-2 max-w-[900px]"
           >
-            
-            <FiAlertCircle className="text-white/10 rotate-12 text-[250px] absolute z-0 -top-24 -left-24" />
-            <div className="relative z-10">
-              <div className="bg-white w-16 h-16 mb-2 rounded-full text-3xl text-indigo-600 grid place-items-center mx-auto">
-                <FiAlertCircle />
-              </div>
-              
-
-
-             
-           
-              
-              <h3 className="text-3xl font-bold text-center mb-2">
-                One more thing!
-              </h3>
-              <p className="text-center mb-6">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-                aperiam vitae, sapiente ducimus eveniet in velit.
-              </p>
-              <div className="flex gap-2">
-                <button
-                  onClick={() => setIsOpen(false)}
-                  className="bg-transparent hover:bg-white/10 transition-colors text-white font-semibold w-full py-2 rounded"
-                >
-                  Close
-                </button>
-              </div>
+            <div
+              className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] h-[60vh] lg:h-[80vh]  w-full  "
+              data-te-ripple-init=""
+              data-te-ripple-color="dark"
+            >
+              <Image
+                src={project.imgUrl}
+                alt="boom"
+                layout="fill"
+                objectFit="cover"
+                className="w-full align-middle transition duration-300 hover:ease-linear"
+              />
+            </div>
+            <div className="flex flex-col h-full  justify-between w-full xl:w-1/3 p-4 gap-4">
+              <p className="text-lg text-[#444]">{project.title}</p>
+              <p className="text-xs text-[#444]">{project.content} </p>
+              {/* <button
+                onClick={() => {
+                  setIsOpen(false);
+                }}
+                className=" p-2 px-4 border-2 border-[#444] text-[#444] hover:scale-110 transition hover:ease-in-out rounded-xl"
+              >
+                close!
+              </button> */}
             </div>
           </motion.div>
         </motion.div>
@@ -71,4 +70,4 @@ const ImageModal = ({
   );
 };
 
-export default ImageModal;
+export default Modal;
