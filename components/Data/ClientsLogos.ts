@@ -94,7 +94,7 @@ export const ClientLogosList = [
     start: "mx-0",
     size: "h-[95px] w-[95px]",
     title: "Shop QSE",
-    imgUrl: "/images/ClientLogo/ShopQSE.jpg",
+    imgUrl: "/images/ClientLogo/ShopQSE.png",
   },
 
   {
