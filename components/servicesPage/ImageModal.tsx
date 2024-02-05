@@ -39,7 +39,7 @@ const Modal = ({ isOpen, setIsOpen, project }: any) => {
             className="px-6 py-8 mx-6 grid  grid-cols-1 xl:grid-cols-3  justify-center bg-white rounded-xl   gap-2 max-w-[900px]"
           >
             <div
-              className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] h-[45vh] md:h-[60vh] lg:h-[80vh]  w-full  xl:cols-span-2"
+              className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] h-[45vh] md:h-[60vh] lg:h-[80vh]  w-full  xl:col-span-2"
               data-te-ripple-init=""
               data-te-ripple-color="dark"
             >
