@@ -9,7 +9,7 @@ import Link from "next/link";
 const Services = () => {
   const services = servicesCardsInfo.slice(0, 4);
   return (
-    <div className="section p-6  md:p-16 py-12 md:py-24  flex flex-col justify-center gap-6  bg-gray-800 md:bg-gray-500 rounded-xl  ">
+    <div className="section p-6  md:p-16 py-12 md:py-24  flex flex-col justify-center gap-6  bg-black/70  rounded-xl  ">
       <div className="text-sm font-semibold text-white ">
         <Reveal sequence={2}>
           <p>SERVICES</p>

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const FounderSection = () => {
   return (
-    <div className="bg-gray-50 dark:bg-black/70 py-20 rounded-2xl  mb-32 md:my-16 bg-backdrop-[8px] ">
+    <div className="bg-black/70 py-20 rounded-2xl  mb-32 md:my-16 bg-backdrop-[8px] ">
       <div className="xl:container mx-auto px-6 md:px-12">
         <div className="mb-28">
           <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">
