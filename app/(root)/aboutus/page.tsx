@@ -13,7 +13,7 @@ export default function AboutUs() {
         <div className="container  flex flex-col gap-8 items-center">
           <SimpleReveal sequence={1}>
             <div
-              className="zoom relative overflow-hidden rounded-xl bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] h-[45vh] lg:h-[80vh] w-[95vw]"
+              className="zoom relative overflow-hidden rounded-xl bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] h-[45vh] lg:h-[50vh] w-[90vw] mt-16 xl:mt-0 md:w-[85vw]  xl:w-[80vw]"
               data-te-ripple-init=""
               data-te-ripple-color="dark"
             >
@@ -22,7 +22,7 @@ export default function AboutUs() {
                 alt="Footer"
                 layout="fill"
                 objectFit="cover"
-                className="w-full align-middle transition duration-300 hover:ease-linear  "
+                className="w-full align-middle transition duration-300 hover:ease-linear rounded-xl "
               />
             </div>
           </SimpleReveal>
@@ -79,11 +79,8 @@ export default function AboutUs() {
               <FounderSection />
             </div>
           </SimpleReveal>
-          <SimpleReveal sequence={2}>
-            <div className="w-full flex justify-center items-center p-4">
-              <ContactUs />
-            </div>
-          </SimpleReveal>
+
+          <ContactUs />
         </div>
       </section>
     </>

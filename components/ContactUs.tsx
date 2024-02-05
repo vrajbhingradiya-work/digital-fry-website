@@ -16,23 +16,23 @@ const ContactUs = () => {
   // }, []);
 
   return (
-    <div className="  bg-black  rounded-xl overflow-hidden  w-full md:mb-16  relative">
+    <div className=" rounded-xl overflow-hidden  w-full  ">
       <SimpleReveal sequence={4}>
-        <div>
+        <div className="mx-4">
           <div
-            className="zoom relative overflow-hidden rounded-t-xl bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] h-[45vh] lg:h-[80vh] w-full"
+            className="zoom relative overflow-hidden rounded-t-xl bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] h-[45vh] lg:h-[80vh] w-full "
             data-te-ripple-init=""
             data-te-ripple-color="dark"
           >
             <Image
-              src="/images/footer/Footer1.png"
+              src="/images/footer/Footer1.jpg"
               alt="Footer"
               layout="fill"
               objectFit="cover"
               className="w-full align-middle transition duration-300 hover:ease-linear"
             />
           </div>
-          <div className="p-4 w-full h-[25%] grid grid-cols-1 lg:grid-cols-2  xl:pb-4 lg:px-8 px-4 items-center justify-between  bg-gradient-to-t from-black via-black/40 to-transparent   ">
+          <div className="p-4 w-full h-[25%] grid grid-cols-1 lg:grid-cols-2  xl:pb-4 lg:px-8 px-4 items-center justify-between bg-black   rounded-b-xl">
             <div className="text-sm sm:text-md md:text-2xl font-black text-white text-center xl:text-left w-full ">
               <SimpleReveal sequence={4}>
                 <p>

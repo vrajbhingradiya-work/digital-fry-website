@@ -18,7 +18,7 @@ const Clients = () => {
         pauseOnHover={true}
         className="motion-reduce:overflow-auto [--duration:50s]"
       >
-        <div className="flex  gap-16 md:gap-16 w-full  h-[150px] md:mt-16 pl-4 ">
+        <div className="flex  gap-16 md:gap-16 w-full items-center md:mt-16 pl-4 ">
           {clientLogos1.map((logo) => {
             return <Logo Logo={logo} key={logo.title} />;
           })}
