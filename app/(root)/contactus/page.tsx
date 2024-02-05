@@ -96,7 +96,11 @@ export default function Contact() {
                   <p className="mt-2 text-sm text-gray-500 ">
                     Speak to our friendly team.
                   </p>
-                  <Link href="#" className="mt-2 text-sm text-blue-500 ">
+
+                  <Link
+                    className="mt-2 text-sm text-blue-500 "
+                    href="mailto:info@digitalfry.in"
+                  >
                     info@digitalfry.in
                   </Link>
                 </div>
@@ -162,7 +166,11 @@ export default function Contact() {
                   <p className="mt-2 text-sm text-gray-500 ">
                     Mon-Sat from 10am to 8pm.
                   </p>
-                  <p className="mt-2 text-sm text-blue-500 ">+91 6376555246</p>
+                  <Link href="tel:+916376555246">
+                    <p className="mt-2 text-sm text-blue-500 hover:underline ">
+                      +91 6376555246
+                    </p>
+                  </Link>
                 </div>
               </Popup>
             </div>
