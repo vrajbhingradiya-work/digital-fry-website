@@ -131,8 +131,8 @@ export default function Contact() {
                     Visit our office HQ..
                   </p>
                   <p className="mt-2 text-sm text-blue-500 ">
-                    6th Floor RTech, Capital Highstreet Mall, Apparel Park,Mahal
-                    Rd, Jagatpura, Jaipur, Rajasthan-302017
+                    6th Floor, RTech Capital Highstreet Mall, Apparel Park,
+                    Mahal Rd, Jagatpura, Jaipur, Rajasthan-302017
                   </p>
                 </div>
               </Popup>

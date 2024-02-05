@@ -36,10 +36,10 @@ const Modal = ({ isOpen, setIsOpen, project }: any) => {
             animate="visible"
             exit="exit"
             onClick={() => setIsOpen(false)}
-            className="px-6 py-8 mx-6 grid  grid-cols-1 xl:grid-cols-2  justify-center bg-white rounded-xl   gap-2 max-w-[900px]"
+            className="px-6 py-8 mx-6 grid  grid-cols-1 xl:grid-cols-3  justify-center bg-white rounded-xl   gap-2 max-w-[900px]"
           >
             <div
-              className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] h-[45vh] md:h-[60vh] lg:h-[80vh]  w-full  "
+              className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] h-[45vh] md:h-[60vh] lg:h-[80vh]  w-full  xl:cols-span-2"
               data-te-ripple-init=""
               data-te-ripple-color="dark"
             >
@@ -51,7 +51,7 @@ const Modal = ({ isOpen, setIsOpen, project }: any) => {
                 className="w-full align-middle transition duration-300 hover:ease-linear"
               />
             </div>
-            <div className="flex flex-col h-full  justify-between w-full xl:w-1/3 p-4 gap-4">
+            <div className="flex flex-col h-full  justify-between w-full  p-4 gap-4 xl:col-span-1">
               <p className="text-lg text-[#444]">{project.title}</p>
               <p className="text-xs text-[#444]">{project.content} </p>
               {/* <button
