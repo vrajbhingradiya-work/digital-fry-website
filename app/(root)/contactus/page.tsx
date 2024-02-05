@@ -130,10 +130,12 @@ export default function Contact() {
                   <p className="mt-2 text-sm text-gray-500 ">
                     Visit our office HQ..
                   </p>
-                  <p className="mt-2 text-sm text-blue-500 ">
-                    6th Floor, RTech Capital Highstreet Mall, Apparel Park,
-                    Mahal Rd, Jagatpura, Jaipur, Rajasthan-302017
-                  </p>
+                  <Link href="https://www.google.com/maps/place/6th+Floor+RTech,+DIGITAL+FRY,+Capital+Highstreet+Mall,+Apparel+Park,+Main,+Mahal+Rd,+Jagatpura,+Jaipur,+Shri+Kishanpura,+Rajasthan+302017/@26.7990679,75.8581066,18z/data=!4m9!1m2!2m1!1s6th+Floor+RTech,+DIGITAL+FRY,+Capital+Highstreet+Mall,+Apparel+Park,+Mahal+Road,+Jagatpura,+Jaipur,+Rajasthan!3m5!1s0x396dc91a12f2bf03:0xace078e3184837d6!8m2!3d26.7990679!4d75.8581066!16s%2Fg%2F11t6vymh64">
+                    <p className="mt-2 text-sm text-blue-500  hover:underline">
+                      6th Floor, RTech Capital Highstreet Mall, Apparel Park,
+                      Mahal Rd, Jagatpura, Jaipur, Rajasthan-302017
+                    </p>
+                  </Link>
                 </div>
               </Popup>
               <Popup sequence={5}>
