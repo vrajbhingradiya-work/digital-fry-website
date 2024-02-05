@@ -144,7 +144,7 @@ function FixedNavbar({ pathname }: any) {
       initial="closed"
       animate={mobileNavOpen ? "opened" : "closed"}
       className={`${
-        pathname === "/"
+        pathname === "/a"
           ? " text-white fixed bg-white xl:bg-transparent xl:absolute top-0 xl:top-6 z-30 flex justify-between w-full px-8 xl:px-16 py-4     "
           : "text-black fixed bg-white xl:bg-transparent xl:absolute top-0 z-30  flex justify-between w-full px-8 xl:px-16 py-4 "
       }`}
@@ -325,7 +325,7 @@ function FixedNavbar({ pathname }: any) {
                   <Link href="/">
                     <div
                       className={`h-12 w-24 xl:h-24 xl:w-40 overflow-hidden ${
-                        pathname === "/"
+                        pathname === "/a"
                           ? "fill-black xl:fill-white"
                           : "fill-black"
                       }`}
@@ -333,7 +333,7 @@ function FixedNavbar({ pathname }: any) {
                       <div className="overflow-hidden h-24 w-40">
                         <svg
                           className={`h-12 w-24 xl:h-24 xl:w-40 ${
-                            pathname === "/"
+                            pathname === "/a"
                               ? "fill-black xl:fill-white"
                               : "fill-black"
                           }`}
