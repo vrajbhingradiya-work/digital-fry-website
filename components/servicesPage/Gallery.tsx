@@ -3,23 +3,23 @@ import React, { useState } from "react";
 
 const Gallery = ({ Projects, setIsOpen, setSelectedCardProject }: any) => {
   return (
-    <>
-      {/* Container for demo purpose */}
-      <div className="container my-24 mx-auto md:px-6">
-        {/* Section: Design Block */}
-        <section className="mb-32">
-          <style
-            dangerouslySetInnerHTML={{
-              __html:
-                "\n      .zoom:hover img {\n        transform: scale(1.1);\n      }\n    ",
-            }}
-          />
-          <h2 className="mb-12 text-center text-3xl font-bold text-blue-600">
-            Projects we are proud of...
-          </h2>
-          <div className="grid gap-6 xl:grid-cols-3">
+    <div className=" my-24 flex justify-center items-center w-full   md:px-6">
+      {/* Section: Design Block */}
+      <section className="mb-32 w-full">
+        <style
+          dangerouslySetInnerHTML={{
+            __html:
+              "\n      .zoom:hover img {\n        transform: scale(1.1);\n      }\n    ",
+          }}
+        />
+        <h2 className="mb-12 text-left md:text-center text-3xl font-bold text-blue-600 py-8 lg:py-16">
+          Projects we are
+          <br /> proud of...
+        </h2>
+        <div className="flex justify-center items-center lg:w-full w-[95vw]">
+          <div className="grid grid-cols-1 w-full  md:grid-cols-2 gap-3 lg:gap-6 lg:grid-cols-3 ">
             {/* card */}
-            {Projects.map((project: any, index: number) => {
+            {Projects?.map((project: any, index: number) => {
               return (
                 <ProjectCards
                   setSelectedCardProject={setSelectedCardProject}
@@ -30,11 +30,10 @@ const Gallery = ({ Projects, setIsOpen, setSelectedCardProject }: any) => {
               );
             })}
           </div>
-        </section>
-        {/* Section: Design Block */}
-      </div>
-      {/* Container for demo purpose */}
-    </>
+        </div>
+      </section>
+      {/* Section: Design Block */}
+    </div>
   );
 };
 
@@ -45,7 +44,7 @@ function ProjectCards({ project, setIsOpen, setSelectedCardProject }: any) {
   return (
     <div
       onClick={() => setIsOpen(true)}
-      className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] h-[30vh] xl:h-[30vh] w-full xl:w-[300px]"
+      className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] h-[30vh] lg:h-[30vh] w-full lg:w-[300px]"
       data-te-ripple-init=""
       data-te-ripple-color="dark"
     >

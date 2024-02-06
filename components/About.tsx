@@ -9,7 +9,7 @@ const About = () => {
     );
 
   return (
-    <div className="section   rounded-xl  flex flex-col justify-center gap-10  px-4 md:px-16 py-24">
+    <div className="section   rounded-xl  flex flex-col justify-center gap-10  px-4 md:px-16 py-24 -mt-12">
       <div className="text-sm text-blue-600  font-bold">
         <SimpleReveal sequence={1}>
           <p> ABOUT DIGITAL FRY</p>
