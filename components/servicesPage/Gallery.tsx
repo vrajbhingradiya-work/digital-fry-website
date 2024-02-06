@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React, { useState } from "react";
+import socialmediamanagement from "@/public/images/services/socialmediamanagement.svg";
 
 const Gallery = ({ Projects, setIsOpen, setSelectedCardProject }: any) => {
   return (
@@ -49,7 +50,10 @@ function ProjectCards({ project, setIsOpen, setSelectedCardProject }: any) {
       data-te-ripple-color="dark"
     >
       <Image
-        src={project.imgUrl}
+        src={
+          // project.imgUrl ||
+          socialmediamanagement
+        }
         alt={project.title}
         layout="fill"
         objectFit="cover"

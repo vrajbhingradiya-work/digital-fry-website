@@ -8,6 +8,7 @@ import axios from "axios";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
+import ContactUsPageSvg from "@/public/images/contactus/ContactUsPage.svg";
 
 export default function Contact() {
   const router = useRouter();
@@ -62,7 +63,7 @@ export default function Contact() {
               data-te-ripple-color="dark"
             >
               <Image
-                src="/images/contactus/ContactUs.jpg"
+                src={ContactUsPageSvg}
                 alt="Footer"
                 layout="fill"
                 objectFit="cover"

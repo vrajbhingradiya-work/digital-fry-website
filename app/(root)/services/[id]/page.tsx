@@ -8,6 +8,7 @@ import { useState } from "react";
 import Link from "next/link";
 import SimpleReveal from "@/components/utils/SimpleReveal";
 import ImageModal from "@/components/servicesPage/ImageModal";
+import socialmediamanagement from "@/public/images/services/socialmediamanagement.svg";
 
 export default function services() {
   const params = useParams();
@@ -51,8 +52,8 @@ export default function services() {
                 <div className="h-full w-full relative">
                   <Image
                     src={
-                      service?.pageData?.section1?.imgUrl ||
-                      "/images/services/SEO.jpg"
+                      // service?.pageData?.section1?.imgUrl ||
+                      socialmediamanagement
                     }
                     alt="image"
                     objectFit="cover"
@@ -93,8 +94,8 @@ export default function services() {
                 <div className="h-full w-full relative">
                   <Image
                     src={
-                      service?.pageData?.section3?.imgUrl ||
-                      "/images/services/SEO.jpg"
+                      // service?.pageData?.section3?.imgUrl ||
+                      socialmediamanagement
                     }
                     alt="image"
                     objectFit="cover"
@@ -126,8 +127,8 @@ export default function services() {
                 <div className="h-full w-full relative">
                   <Image
                     src={
-                      service?.pageData?.section4?.imgUrl ||
-                      "/images/services/SEO.jpg"
+                      // service?.pageData?.section4?.imgUrl ||
+                      socialmediamanagement
                     }
                     alt="image"
                     objectFit="cover"
@@ -159,8 +160,8 @@ export default function services() {
                 <div className="h-full w-full relative">
                   <Image
                     src={
-                      service?.pageData?.section1?.imgUrl ||
-                      "/images/services/SEO.jpg"
+                      // service?.pageData?.section1?.imgUrl ||
+                      socialmediamanagement
                     }
                     alt="image"
                     objectFit="cover"
@@ -187,8 +188,8 @@ export default function services() {
                 <div className="h-full w-full relative">
                   <Image
                     src={
-                      service?.pageData?.section7?.imgUrl ||
-                      "/images/services/SEO.jpg"
+                      // service?.pageData?.section7?.imgUrl ||
+                      socialmediamanagement
                     }
                     alt="image"
                     objectFit="cover"
@@ -230,8 +231,8 @@ export default function services() {
                 <div className="h-full w-full relative">
                   <Image
                     src={
-                      service?.pageData?.section9?.imgUrl ||
-                      "/images/services/SEO.jpg"
+                      // service?.pageData?.section9?.imgUrl ||
+                      socialmediamanagement
                     }
                     alt="image"
                     objectFit="cover"
@@ -265,8 +266,8 @@ export default function services() {
                 <div className="h-full w-full relative">
                   <Image
                     src={
-                      service?.pageData?.section9?.imgUrl ||
-                      "/images/services/SEO.jpg"
+                      // service?.pageData?.section9?.imgUrl ||
+                      socialmediamanagement
                     }
                     alt="image"
                     objectFit="cover"
