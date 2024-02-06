@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import SimpleReveal from "./utils/SimpleReveal";
+import ContactUsSvg from "@/public/images/contactus/ContactUs.svg";
 
 const ContactUs = () => {
   // const videoRef = useRef(null);
@@ -25,11 +26,11 @@ const ContactUs = () => {
             data-te-ripple-color="dark"
           >
             <Image
-              src="/images/footer/Footer1.jpg"
+              src={ContactUsSvg}
               alt="Footer"
               layout="fill"
-              objectFit="cover"
-              className="w-full align-middle transition duration-300 hover:ease-linear"
+              objectFit="contain"
+              className="w-full align-middle transition duration-300 hover:ease-linear fill-blue-600"
             />
           </div>
           <div className="p-4 w-full h-[25%] grid grid-cols-1 lg:grid-cols-2  xl:pb-4 lg:px-8 px-4 items-center justify-between bg-black   rounded-b-xl">

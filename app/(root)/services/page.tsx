@@ -5,7 +5,6 @@ import HorizontalServicesScroll from "@/components/servicesPage/HorizontalServic
 import SimpleReveal from "@/components/utils/SimpleReveal";
 import Popup from "@/components/utils/PopUp";
 import HoverDevCards from "@/components/servicesPage/HoverDevCards";
-import Clients from "@/components/Clients";
 
 export default function Service() {
   const services = servicesCardsInfo;

@@ -5,20 +5,21 @@ import ContactUs from "@/components/ContactUs";
 import FounderSection from "@/components/FounderSection";
 import SimpleReveal from "@/components/utils/SimpleReveal";
 import Image from "next/image";
+import AboutUsSvg from "@/public/images/aboutus/AboutUs.svg";
 
 export default function AboutUs() {
   return (
     <>
       <section className="overflow-hidden  lg:pt-16 lg:pb-16 bg-white mt-12">
-        <div className="container  flex flex-col gap-8 items-center">
+        <div className="container grid grid-cols-1 md:grid-cols-2 gap-8 items-center p-4 xl:p-12">
           <SimpleReveal sequence={1}>
             <div
-              className="zoom relative overflow-hidden rounded-xl bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] h-[45vh] lg:h-[50vh] w-[90vw] mt-16 xl:mt-0 md:w-[85vw]  xl:w-[80vw]"
+              className="zoom relative overflow-hidden rounded-xl bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] h-[65vh] lg:h-[80vh] w-full mt-16 xl:mt-0 "
               data-te-ripple-init=""
               data-te-ripple-color="dark"
             >
               <Image
-                src="/images/aboutus/AboutUs.png"
+                src={AboutUsSvg}
                 alt="Footer"
                 layout="fill"
                 objectFit="cover"
@@ -74,14 +75,13 @@ export default function AboutUs() {
               </div>
             </div>
           </div>
-          <SimpleReveal sequence={2}>
-            <div className="p-4">
-              <FounderSection />
-            </div>
-          </SimpleReveal>
-
-          <ContactUs />
         </div>
+        <SimpleReveal sequence={2}>
+          <div className="p-4">
+            <FounderSection />
+          </div>
+        </SimpleReveal>
+        <ContactUs />
       </section>
     </>
   );

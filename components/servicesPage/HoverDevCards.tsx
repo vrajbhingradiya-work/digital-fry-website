@@ -3,18 +3,48 @@ import { FiCreditCard, FiMail, FiUser, FiUsers } from "react-icons/fi";
 import SimpleReveal from "../utils/SimpleReveal";
 import Image from "next/image";
 import Link from "next/link";
+// links to svg
+import socialmediamanagement from "@/public/images/services/socialmediamanagement.svg";
+import emailmarketing from "@/public/images/services/emailMarketing.svg";
+import contentcreation from "@/public/images/services/contentcreation.svg";
+import paidadvertising from "@/public/images/services/paidadvertising.svg";
+import logodesigning from "@/public/images/services/logodesigning.svg";
+import brandstorytelling from "@/public/images/services/brandstorytelling.svg";
+import ecommercemanagement from "@/public/images/services/ecommercemanagement.svg";
+import searchengineoptimization from "@/public/images/services/searchengineoptimization.svg";
+import webdesignanddevelopment from "@/public/images/services/webdesignanddevelopment.svg";
+import packagingandlabelling from "@/public/images/services/packagingandlabelling.svg";
 
+// code
 const HoverDevCards = ({ service, Icon }: any) => {
+  const serviceObjects = [
+    { title: "contentcreation", icon: contentcreation },
+    { title: "socialmediamanagement", icon: socialmediamanagement },
+    { title: "emailmarketing", icon: emailmarketing },
+    { title: "paidadvertising", icon: paidadvertising },
+    { title: "logodesigning", icon: logodesigning },
+    { title: "brandstorytelling", icon: brandstorytelling },
+    { title: "ecommercemanagement", icon: ecommercemanagement },
+    { title: "searchengineoptimization", icon: searchengineoptimization },
+    { title: "webdesignanddevelopment", icon: webdesignanddevelopment },
+    { title: "packagingandlabelling", icon: packagingandlabelling },
+  ];
+
+  const imgSrc = serviceObjects.find(
+    (obj) => service.title.replace(/\s/g, "").toLowerCase() === obj.title
+  );
   return (
     <Link href={`/services/${service.title.replace(/\s/g, "").toLowerCase()}`}>
       <SimpleReveal sequence={2}>
-        <div className="cursor-pointer w-[80vw] h-[40vh] xl:w-[60vw]  xl:h-[60vh]  rounded-xl border-[1px] border-slate-300  overflow-hidden group bg-white  flex flex-col justify-end relative">
+        <div className="cursor-pointer w-[70vw] h-[60vh] xl:w-[40vw]  xl:h-[70vh]  rounded-xl border-[1px] border-slate-300  overflow-hidden group bg-white  flex flex-col justify-end relative">
           <Image
-            src={`${service.imgUrl}`}
+            src={imgSrc?.icon}
+            // src={socialmediamanagement}
             alt="Description of your image"
             fill
             style={{ objectFit: "cover" }}
           />
+
           <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-indigo-700 translate-y-[100%] group-hover:translate-y-[0%] transition-transform duration-300 p-4">
             <p className="text-sm xl:text-base lg:text-lg text-slate-400 group-hover:text-violet-200 relative z-10 duration-300">
               {service.desc}
