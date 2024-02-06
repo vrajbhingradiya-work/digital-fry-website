@@ -34,7 +34,7 @@ const Services = () => {
           </SimpleReveal>
         </div>
       </div>
-      <div className="grid grid-cols-1  md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1  md:grid-cols-2 gap-8">
         {services.map((service, i) => {
           return (
             <Popup sequence={i} key={i}>

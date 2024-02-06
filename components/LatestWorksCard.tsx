@@ -2,6 +2,7 @@ import React from "react";
 import RevealLeft from "./utils/RevealLeft";
 import Image from "next/image";
 import Link from "next/link";
+import contentcreation from "@/public/images/services/contentcreation.svg";
 
 const LatestWorksCard = ({ work }: any) => {
   return (
@@ -10,7 +11,7 @@ const LatestWorksCard = ({ work }: any) => {
         {/* add container image */}
         <div className=" flex justify-center items-center w-full h-[250px] md:h-[250px]  bg-gray-400 relative">
           <Image
-            src={work.imgUrl}
+            src={contentcreation}
             alt="Description of your image"
             fill
             className="object-cover"

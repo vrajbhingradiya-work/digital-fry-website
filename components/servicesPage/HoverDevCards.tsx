@@ -5,15 +5,15 @@ import Image from "next/image";
 import Link from "next/link";
 // links to svg
 import socialmediamanagement from "@/public/images/services/socialmediamanagement.svg";
-import emailmarketing from "@/public/images/services/emailMarketing.svg";
+import packagingandlabelling from "@/public/images/services/packagingandlabelling.svg";
+import logodesigning from "@/public/images/services/logodesigning.svg";
 import contentcreation from "@/public/images/services/contentcreation.svg";
 import paidadvertising from "@/public/images/services/paidadvertising.svg";
-import logodesigning from "@/public/images/services/logodesigning.svg";
 import brandstorytelling from "@/public/images/services/brandstorytelling.svg";
 import ecommercemanagement from "@/public/images/services/ecommercemanagement.svg";
 import searchengineoptimization from "@/public/images/services/searchengineoptimization.svg";
 import webdesignanddevelopment from "@/public/images/services/webdesignanddevelopment.svg";
-import packagingandlabelling from "@/public/images/services/packagingandlabelling.svg";
+import emailmarketing from "@/public/images/services/emailMarketing.svg";
 
 // code
 const HoverDevCards = ({ service, Icon }: any) => {
