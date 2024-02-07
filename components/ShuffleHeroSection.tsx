@@ -89,67 +89,67 @@ const shuffle = (array: (typeof squareData)[0][]) => {
 const squareData = [
   {
     id: 1,
-    src: "/images/HeroSection/01.jpg",
+    src: "/images/HeroSection/01-min.jpg",
   },
   {
     id: 2,
-    src: "/images/HeroSection/02.jpg",
+    src: "/images/HeroSection/02-min.jpg",
   },
   {
     id: 3,
-    src: "/images/HeroSection/03.jpg",
+    src: "/images/HeroSection/03-min.jpg",
   },
   {
     id: 4,
-    src: "/images/HeroSection/04.jpg",
+    src: "/images/HeroSection/04-min.jpg",
   },
   {
     id: 5,
-    src: "/images/HeroSection/05.jpg",
+    src: "/images/HeroSection/05-min.jpg",
   },
   {
     id: 6,
-    src: "/images/HeroSection/06.jpg",
+    src: "/images/HeroSection/06-min.jpg",
   },
   {
     id: 7,
-    src: "/images/HeroSection/07.jpg",
+    src: "/images/HeroSection/07-min.jpg",
   },
   {
     id: 8,
-    src: "/images/HeroSection/08.jpg",
+    src: "/images/HeroSection/08-min.jpg",
   },
   {
     id: 9,
-    src: "/images/HeroSection/09.jpg",
+    src: "/images/HeroSection/09-min.jpg",
   },
   {
     id: 10,
-    src: "/images/HeroSection/10.jpg",
+    src: "/images/HeroSection/10-min.jpg",
   },
   {
     id: 11,
-    src: "/images/HeroSection/11.jpg",
+    src: "/images/HeroSection/11-min.jpg",
   },
   {
     id: 12,
-    src: "/images/HeroSection/12.jpg",
+    src: "/images/HeroSection/12-min.jpg",
   },
   {
     id: 13,
-    src: "/images/HeroSection/13.jpg",
+    src: "/images/HeroSection/13-min.jpg",
   },
   {
     id: 14,
-    src: "/images/HeroSection/14.jpg",
+    src: "/images/HeroSection/14-min.jpg",
   },
   {
     id: 15,
-    src: "/images/HeroSection/15.jpg",
+    src: "/images/HeroSection/15-min.jpg",
   },
   {
     id: 16,
-    src: "/images/HeroSection/16.jpg",
+    src: "/images/HeroSection/16-min.jpg",
   },
 ];
 
