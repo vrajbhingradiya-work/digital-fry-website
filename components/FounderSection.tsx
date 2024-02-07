@@ -9,7 +9,7 @@ const FounderSection = () => {
           <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">
             Founders Forging Futures
           </h2>
-          <p className="text-center text-gray-600 dark:text-gray-100 lg:mx-auto lg:w-8/12 text-xs md:text-base lg:text-xl">
+          <p className="text-center text-gray-100 lg:mx-auto lg:w-8/12 text-xs md:text-base lg:text-xl">
             Meet the visionaries of Digital Fry, a dynamic marketing firm that
             drives digital greatness. Our founders offer knowledge, creativity,
             and passion to every project, developing creative methods that stand

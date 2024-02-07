@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React, { useState } from "react";
+import React from "react";
 import socialmediamanagement from "@/public/images/services/socialmediamanagement.svg";
 
 const Gallery = ({ Projects, setIsOpen, setSelectedCardProject }: any) => {

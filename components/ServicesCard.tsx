@@ -6,6 +6,8 @@ import socialmediamanagement from "@/public/images/services/socialmediamanagemen
 import packagingandlabelling from "@/public/images/services/packagingandlabelling.svg";
 import logodesigning from "@/public/images/services/logodesigning.svg";
 import contentcreation from "@/public/images/services/contentcreation.svg";
+import webdesignanddevelopment from "@/public/images/services/webdesignanddevelopment.svg";
+import paidadvertising from "@/public/images/services/paidadvertising.svg";
 
 const ServicesCard = ({ service }: any) => {
   const serviceObjects = [
@@ -15,6 +17,8 @@ const ServicesCard = ({ service }: any) => {
     { title: "logodesigning", icon: logodesigning },
 
     { title: "packagingandlabelling", icon: packagingandlabelling },
+    { title: "webdesignanddevelopment", icon: webdesignanddevelopment },
+    { title: "paidadvertising", icon: paidadvertising },
   ];
 
   const imgSrc = serviceObjects.find(

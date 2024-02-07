@@ -7,7 +7,7 @@ import SimpleReveal from "./utils/SimpleReveal";
 import { servicesCardsInfo } from "./Data/ServicesInfo";
 import Link from "next/link";
 const Services = () => {
-  const services = servicesCardsInfo.slice(0, 4);
+  const services = servicesCardsInfo.slice(0, 6);
   return (
     <div className="section p-6  md:p-16 py-12 md:py-24  flex flex-col justify-center gap-6  bg-black/70  rounded-xl  ">
       <div className="text-sm font-semibold text-white ">
@@ -34,7 +34,7 @@ const Services = () => {
           </SimpleReveal>
         </div>
       </div>
-      <div className="grid grid-cols-1  md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1  md:grid-cols-3 gap-8">
         {services.map((service, i) => {
           return (
             <Popup sequence={i} key={i}>

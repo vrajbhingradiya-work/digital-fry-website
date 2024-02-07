@@ -4,15 +4,15 @@ import Popup from "@/components/utils/PopUp";
 import SimpleReveal from "@/components/utils/SimpleReveal";
 import SimpleRevealUp from "@/components/utils/SimpleRevealUp";
 import { useState, useEffect } from "react";
-import axios from "axios";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import ContactUsPageSvg from "@/public/images/contactus/ContactUsPage.svg";
+import axios from "axios";
 
 export default function Contact() {
   const router = useRouter();
-  const [client, setClient] = useState({
+  const [formData, setFormData] = useState({
     clientName: "",
     clientNumber: "",
     clientEmailId: "",
@@ -20,26 +20,33 @@ export default function Contact() {
   });
   useEffect(() => {
     if (
-      client.clientName.length > 0 &&
-      client.clientEmailId.length > 0 &&
-      client.clientNumber.length > 0
+      formData.clientName.length > 0 &&
+      formData.clientEmailId.length > 0 &&
+      formData.clientNumber.length > 0
     ) {
       setButtonDisabled(false);
     } else {
       setButtonDisabled(true);
     }
-  }, [client]);
+  }, [formData]);
   const [buttonDisabled, setButtonDisabled] = React.useState(false);
   const [loading, setLoading] = React.useState(false);
 
-  const handleSend = async () => {
+  const handleSubmit = async (e: any) => {
+    e.preventDefault();
+
     try {
       setLoading(true);
-      const response = await axios.post("/api/mailInquiry", client);
-      console.log("Email Sent!", response.data);
-      router.push("/");
-    } catch (error: any) {
-      console.log("Email not Sent!", error.message);
+      setButtonDisabled(true);
+
+      const response = await axios.post("/api/mailInquiry", formData);
+
+      alert("Message successfully sent");
+      setButtonDisabled(false);
+    } catch (err: any) {
+      console.error(err);
+      alert("Error, please try resubmitting the form");
+      setButtonDisabled(false);
     }
   };
 
@@ -177,7 +184,10 @@ export default function Contact() {
             </div>
             <div className="mt-8 w-full ">
               <SimpleReveal sequence={20}>
-                <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-[#1F2937] shadow-2xl rounded-xl  lg:max-w-xl">
+                <form
+                  onSubmit={handleSubmit}
+                  className="w-full px-8 py-10 mx-auto overflow-hidden bg-[#1F2937] shadow-2xl rounded-xl  lg:max-w-xl"
+                >
                   <h1 className="text-xl font-medium text-blue-400 ">
                     Contact Us!
                   </h1>
@@ -190,9 +200,10 @@ export default function Contact() {
                         Full Name
                       </label>
                       <input
+                        value={formData.clientName}
                         onChange={(e) =>
-                          setClient({
-                            ...client,
+                          setFormData({
+                            ...formData,
                             clientName: e.target.value,
                           })
                         }
@@ -206,9 +217,10 @@ export default function Contact() {
                         Email address
                       </label>
                       <input
+                        value={formData.clientEmailId}
                         onChange={(e) =>
-                          setClient({
-                            ...client,
+                          setFormData({
+                            ...formData,
                             clientEmailId: e.target.value,
                           })
                         }
@@ -222,9 +234,10 @@ export default function Contact() {
                         Phone Number
                       </label>
                       <input
+                        value={formData.clientNumber}
                         onChange={(e) =>
-                          setClient({
-                            ...client,
+                          setFormData({
+                            ...formData,
                             clientNumber: e.target.value,
                           })
                         }
@@ -239,9 +252,10 @@ export default function Contact() {
                         Message
                       </label>
                       <textarea
+                        value={formData.clientMessage}
                         onChange={(e) =>
-                          setClient({
-                            ...client,
+                          setFormData({
+                            ...formData,
                             clientMessage: e.target.value,
                           })
                         }
@@ -258,13 +272,13 @@ export default function Contact() {
                       <button
                         disabled={buttonDisabled}
                         className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transdiv bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50"
-                        onClick={handleSend}
+                        type="submit"
                       >
                         get in touch
                       </button>
                     )}
                   </div>
-                </div>
+                </form>
               </SimpleReveal>
             </div>
           </div>

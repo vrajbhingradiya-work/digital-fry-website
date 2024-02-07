@@ -1,6 +1,6 @@
 import nodemailer from "nodemailer";
 
-export const sendEmail = async ({ client }: any) => {
+export const sendEmail = async ({ formData }: any) => {
   try {
     const transporter = nodemailer.createTransport({
       service: "Gmail", // Use your email service
@@ -14,13 +14,13 @@ export const sendEmail = async ({ client }: any) => {
       from: "junexus.edgerunners@gmail.com",
       to: "lll.rg3.lll@gmail.com",
       //   to: "info@digitalfry.in"
-      subject: `Inquiry Raised by ${client.clientName}`,
-      text: `Please find the attached file Client Name : ${client.clientName}
-      Client EmailId : ${client.clientEmailId}
-      Client Number : ${client.clientNumber}
-      Client Message : ${client.clientMessage} `,
+      subject: `Inquiry Raised by ${formData.clientName}`,
+      text: `Please find the attached file Client Name : ${formData.clientName}
+      Client EmailId : ${formData.clientEmailId}
+      Client Number : ${formData.clientNumber}
+      Client Message : ${formData.clientMessage} `,
     };
-    const mailresponse = await transporter.sendMail(mailOptions, (error) => {
+    const mailresponse = transporter.sendMail(mailOptions, (error) => {
       if (error) {
         console.error("Email error:", error);
       }
