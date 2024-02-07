@@ -6,7 +6,7 @@ const FounderSection = () => {
     <div className="bg-black/70 py-20 rounded-2xl  mb-32 md:my-16 bg-backdrop-[8px] ">
       <div className="xl:container mx-auto px-6 md:px-12">
         <div className="mb-28">
-          <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">
+          <h2 className="mb-4 text-center text-2xl font-bold text-white md:text-4xl">
             Founders Forging Futures
           </h2>
           <p className="text-center text-gray-100 lg:mx-auto lg:w-8/12 text-xs md:text-base lg:text-xl">
