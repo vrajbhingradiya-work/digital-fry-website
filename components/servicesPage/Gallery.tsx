@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import socialmediamanagement from "@/public/images/services/socialmediamanagement.svg";
+import socialmediamarketing from "@/public/images/services/socialmediamarketing.svg";
 
 const Gallery = ({ Projects, setIsOpen, setSelectedCardProject }: any) => {
   return (
@@ -52,7 +52,7 @@ function ProjectCards({ project, setIsOpen, setSelectedCardProject }: any) {
       <Image
         src={
           // project.imgUrl ||
-          socialmediamanagement
+          socialmediamarketing
         }
         alt={project.title}
         layout="fill"

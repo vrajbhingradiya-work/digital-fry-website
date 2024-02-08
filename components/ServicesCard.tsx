@@ -2,7 +2,7 @@ import React from "react";
 import RevealRight from "./utils/RevealRight";
 import Image from "next/image";
 import Link from "next/link";
-import socialmediamanagement from "@/public/images/services/socialmediamanagement.svg";
+import socialmediamarketing from "@/public/images/services/socialmediamarketing.svg";
 import packagingandlabelling from "@/public/images/services/packagingandlabelling.svg";
 import logodesigning from "@/public/images/services/logodesigning.svg";
 import contentcreation from "@/public/images/services/contentcreation.svg";
@@ -12,7 +12,7 @@ import paidadvertising from "@/public/images/services/paidadvertising.svg";
 const ServicesCard = ({ service }: any) => {
   const serviceObjects = [
     { title: "contentcreation", icon: contentcreation },
-    { title: "socialmediamanagement", icon: socialmediamanagement },
+    { title: "socialmediamarketing", icon: socialmediamarketing },
 
     { title: "logodesigning", icon: logodesigning },
 

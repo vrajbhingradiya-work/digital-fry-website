@@ -6,7 +6,7 @@ import RevealUp from "./utils/RevealUp";
 import RevealLeft from "./utils/RevealLeft";
 const Footer = () => {
   return (
-    <footer className=" p-6 bg-white sm:pt-16 shadow-3xl">
+    <footer className=" p-6 bg-blue-200 sm:mt-16 shadow-3xl">
       <hr className="py-6" />
 
       <div className="mx-auto max-w-screen-xl">
@@ -180,7 +180,7 @@ const Footer = () => {
                           href="/services"
                           className="hover:underline text-sm"
                         >
-                          Social Media Management
+                          Social Media Marketing
                         </Link>
                       </div>
                       <div>

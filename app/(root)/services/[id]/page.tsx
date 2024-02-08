@@ -8,7 +8,7 @@ import { useState } from "react";
 import Link from "next/link";
 import SimpleReveal from "@/components/utils/SimpleReveal";
 import ImageModal from "@/components/servicesPage/ImageModal";
-import socialmediamanagement from "@/public/images/services/socialmediamanagement.svg";
+import socialmediamarketing from "@/public/images/services/socialmediamarketing.svg";
 
 export default function services() {
   const params = useParams();
@@ -24,6 +24,7 @@ export default function services() {
         isOpen={isOpen}
         setIsOpen={setIsOpen}
       />
+
       {service ? (
         <div className="flex flex-col gap-12  items-center p-2  md:p-0  text-black mt-20 xl:mt-32 w-full">
           <SimpleReveal sequence={4}>
@@ -32,267 +33,302 @@ export default function services() {
             </div>
           </SimpleReveal>
           {/* section1 */}
-          <SimpleReveal sequence={6}>
-            <div className="grid grid-cols-1 lg:grid-cols-2 overflow-hidden  items-center w-full h-[80vh] my-12">
-              <div className="w-full h-full flex flex-col gap-4 md:gap-12 p-4 py-12 lg:py-24 md:p-8 lg:p-16 xl:p-24 bg-blue-200">
-                <div className="text-xl md:text-2xl xl:text-3xl font-black">
-                  {service?.pageData?.section7.title}
+          {service.pageData.section1.title ? (
+            <SimpleReveal sequence={6}>
+              <div className="grid grid-cols-1 lg:grid-cols-2 overflow-hidden  items-center w-full  lg:my-8 ">
+                <div className="w-full h-full flex flex-col gap-4 md:gap-12 p-4 py-12 lg:py-24 md:p-8 lg:p-16 xl:p-24 bg-blue-200">
+                  <div className="text-xl md:text-2xl xl:text-3xl font-black px-2 lg:px-0 ">
+                    {service?.pageData?.section1.title}
+                  </div>
+                  <div className="text-sm px-2 lg:px-0 mb-6 ">
+                    {service.pageData.section1.content}
+                  </div>
+                  <motion.button
+                    whileTap={{ scale: 0.85 }}
+                    className="text-[0.5rem] w-[150px] rounded-2xl border-2 border-dashed border-black bg-white px-4 py-2 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none ml-2 xl:ml-0"
+                  >
+                    <Link href="/contactus">Get Started</Link>
+                  </motion.button>
                 </div>
-                <div className="text-sm">
-                  {service?.pageData?.section7?.content}
+                <div className="  w-full xl:h-[60vh] h-[40vh]  ">
+                  <div className=" w-full relative h-full">
+                    <Image
+                      src={
+                        // service.pageData.section1.imgUrl ||
+                        socialmediamarketing
+                      }
+                      alt="image"
+                      objectFit="cover"
+                      layout="fill"
+                      className="w-full align-middle transition duration-300 hover:ease-linear "
+                    />
+                  </div>
                 </div>
-                <motion.button
-                  whileTap={{ scale: 0.85 }}
-                  className="text-[0.5rem] w-[150px] rounded-2xl border-2 border-dashed border-black bg-white px-4 py-2 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none"
-                >
-                  <Link href="/contactus">Get Started</Link>
-                </motion.button>
               </div>
-              <div className="  w-full lg:h-full h-[40vh] ">
-                <div className="h-full w-full relative">
-                  <Image
-                    src={
-                      // service?.pageData?.section1?.imgUrl ||
-                      socialmediamanagement
-                    }
-                    alt="image"
-                    objectFit="cover"
-                    layout="fill"
-                    className="w-full align-middle transition duration-300 hover:ease-linear "
-                  />
-                </div>
-              </div>
-            </div>
-          </SimpleReveal>
+            </SimpleReveal>
+          ) : (
+            <></>
+          )}
+
           {/* section2 */}
-          <SimpleReveal sequence={4}>
-            <div className="justify-center flex items-center py-8 font-black text-xl md:text-2xl lg:text-3xl text-center  ">
-              <p>
-                Sell to your customers where
-                <br /> they actually shop...
-              </p>
-            </div>
-          </SimpleReveal>
+          {service.pageData.section2.title ? (
+            <SimpleReveal sequence={4}>
+              <div className="justify-center flex items-center py-8 font-black text-xl md:text-2xl lg:text-3xl text-center px-6 lg:px-0  ">
+                <p>{service?.pageData?.section2.title}</p>
+              </div>
+            </SimpleReveal>
+          ) : (
+            <></>
+          )}
           {/* section3 */}
-          <SimpleReveal sequence={4}>
-            <div className="grid grid-cols-1 lg:grid-cols-2  items-center p-2 md:p-4 xl:p-24">
-              <div className="w-full md:gap-8 flex flex-col gap-4  p-4 py-12 lg:py-24 md:p-8 lg:p-16 xl:p-24 ">
-                <div className="text-xl md:text-2xl xl:text-3xl font-black">
-                  {service?.pageData?.section7.title}
+          {service.pageData.section3.title ? (
+            <SimpleReveal sequence={4}>
+              <div className="grid grid-cols-1 lg:grid-cols-2  items-center p-2 md:p-4 xl:p-24">
+                <div className="w-full md:gap-8 flex flex-col gap-4  p-4 py-12 lg:py-24 md:p-8 lg:p-16 xl:p-24 ">
+                  <div className="text-xl md:text-2xl xl:text-3xl font-black px-2 lg:px-0">
+                    {service?.pageData?.section3.title}
+                  </div>
+                  <div className="text-sm px-2 lg:px-0 mb-6">
+                    {service?.pageData?.section3?.content}
+                  </div>
+                  <motion.button
+                    whileTap={{ scale: 0.85 }}
+                    className="text-[0.5rem] w-[150px] rounded-2xl border-2 border-dashed border-black bg-white px-4 py-2 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none ml-2 xl:ml-0"
+                  >
+                    <Link href="/contactus">Get Started</Link>
+                  </motion.button>
                 </div>
-                <div className="text-sm">
-                  {service?.pageData?.section7?.content}
+                <div className="rounded-lg xl:h-[60vh] h-[40vh]  lg:mr-16 xl:mr-24   overflow-hidden w-full lg:h-full ">
+                  <div className="h-full w-full relative">
+                    <Image
+                      src={
+                        // service?.pageData?.section3?.imgUrl ||
+                        socialmediamarketing
+                      }
+                      alt="image"
+                      objectFit="cover"
+                      layout="fill"
+                      className="w-full align-middle transition duration-300 hover:ease-linear "
+                    />
+                  </div>
                 </div>
-                <motion.button
-                  whileTap={{ scale: 0.85 }}
-                  className="text-[0.5rem] w-[150px] rounded-2xl border-2 border-dashed border-black bg-white px-4 py-2 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none"
-                >
-                  <Link href="/contactus">Get Started</Link>
-                </motion.button>
               </div>
-              <div className="rounded-lg  md:h-[60vh]  lg:mr-16 xl:mr-24   overflow-hidden w-full lg:h-full h-[40vh]">
-                <div className="h-full w-full relative">
-                  <Image
-                    src={
-                      // service?.pageData?.section3?.imgUrl ||
-                      socialmediamanagement
-                    }
-                    alt="image"
-                    objectFit="cover"
-                    layout="fill"
-                    className="w-full align-middle transition duration-300 hover:ease-linear "
-                  />
-                </div>
-              </div>
-            </div>
-          </SimpleReveal>
+            </SimpleReveal>
+          ) : (
+            <></>
+          )}
           {/* section4 */}
-          <SimpleReveal sequence={4}>
-            <div className="grid grid-cols-1 lg:grid-cols-2  items-center p-2 md:p-4 xl:p-24">
-              <div className="w-full md:gap-8 flex flex-col gap-4  p-4 py-12 lg:py-24 md:p-8 lg:p-16 xl:p-24 ">
-                <div className="text-xl md:text-2xl xl:text-3xl font-black">
-                  {service?.pageData?.section7.title}
+          {service.pageData.section4.title ? (
+            <SimpleReveal sequence={4}>
+              <div className="grid grid-cols-1 lg:grid-cols-2  items-center p-2 md:p-4 xl:p-24">
+                <div className="w-full md:gap-8 flex flex-col gap-4  p-4 py-12 lg:py-24 md:p-8 lg:p-16 xl:p-24 ">
+                  <div className="text-xl md:text-2xl xl:text-3xl font-black px-2 lg:px-0">
+                    {service?.pageData?.section4.title}
+                  </div>
+                  <div className="text-sm px-2 lg:px-0 mb-6">
+                    {service?.pageData?.section4?.content}
+                  </div>
+                  <motion.button
+                    whileTap={{ scale: 0.85 }}
+                    className="text-[0.5rem] w-[150px] rounded-2xl border-2 border-dashed border-black bg-white px-4 py-2 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none ml-2 xl:ml-0"
+                  >
+                    <Link href="/contactus">Get Started</Link>
+                  </motion.button>
                 </div>
-                <div className="text-sm">
-                  {service?.pageData?.section7?.content}
+                <div className="rounded-lg  xl:h-[60vh] h-[40vh]  lg:mr-16 xl:mr-24   overflow-hidden w-full lg:h-full ">
+                  <div className="h-full w-full relative">
+                    <Image
+                      src={
+                        // service?.pageData?.section4?.imgUrl ||
+                        socialmediamarketing
+                      }
+                      alt="image"
+                      objectFit="cover"
+                      layout="fill"
+                      className="w-full align-middle transition duration-300 hover:ease-linear "
+                    />
+                  </div>
                 </div>
-                <motion.button
-                  whileTap={{ scale: 0.85 }}
-                  className="text-[0.5rem] w-[150px] rounded-2xl border-2 border-dashed border-black bg-white px-4 py-2 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none"
-                >
-                  <Link href="/contactus">Get Started</Link>
-                </motion.button>
               </div>
-              <div className="rounded-lg  md:h-[60vh]  lg:mr-16 xl:mr-24   overflow-hidden w-full lg:h-full h-[40vh]">
-                <div className="h-full w-full relative">
-                  <Image
-                    src={
-                      // service?.pageData?.section4?.imgUrl ||
-                      socialmediamanagement
-                    }
-                    alt="image"
-                    objectFit="cover"
-                    layout="fill"
-                    className="w-full align-middle transition duration-300 hover:ease-linear "
-                  />
-                </div>
-              </div>
-            </div>
-          </SimpleReveal>
+            </SimpleReveal>
+          ) : (
+            <></>
+          )}
           {/* section-5 */}
-          <SimpleReveal sequence={4}>
-            <div className="grid grid-cols-1 lg:grid-cols-2 overflow-hidden  items-center w-full h-[80vh] my-12 bg-blue-100">
-              <div className="w-full h-full flex flex-col gap-4 md:gap-12 p-4 py-12 lg:py-24 md:p-8 lg:p-16 xl:p-24 bg-blue-200">
-                <div className="text-xl md:text-2xl xl:text-3xl font-black">
-                  {service?.pageData?.section7.title}
+          {service.pageData.section5.title ? (
+            <SimpleReveal sequence={4}>
+              <div className="grid grid-cols-1 lg:grid-cols-2 overflow-hidden  items-center w-full h-[80vh] my-12 bg-blue-100">
+                <div className="w-full h-full flex flex-col gap-4 md:gap-12 p-4 py-12 lg:py-24 md:p-8 lg:p-16 xl:p-24 bg-blue-200">
+                  <div className="text-xl md:text-2xl xl:text-3xl font-black px-2 lg:px-0">
+                    {service?.pageData?.section5.title}
+                  </div>
+                  <div className="text-sm px-2 lg:px-0 mb-6">
+                    {service?.pageData?.section5?.content}
+                  </div>
+                  <motion.button
+                    whileTap={{ scale: 0.85 }}
+                    className="text-[0.5rem] w-[150px] rounded-2xl border-2 border-dashed border-black bg-white px-4 py-2 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none ml-2 xl:ml-0"
+                  >
+                    <Link href="/contactus">Get Started</Link>
+                  </motion.button>
                 </div>
-                <div className="text-sm">
-                  {service?.pageData?.section7?.content}
+                <div className=" w-full xl:h-full p-16 h-[40vh]">
+                  <div className="h-full w-full relative">
+                    <Image
+                      src={
+                        // service.pageData.section1.imgUrl ||
+                        socialmediamarketing
+                      }
+                      alt="image"
+                      objectFit="cover"
+                      layout="fill"
+                      className="w-full align-middle transition duration-300 hover:ease-linear "
+                    />
+                  </div>
                 </div>
-                <motion.button
-                  whileTap={{ scale: 0.85 }}
-                  className="text-[0.5rem] w-[150px] rounded-2xl border-2 border-dashed border-black bg-white px-4 py-2 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none"
-                >
-                  <Link href="/contactus">Get Started</Link>
-                </motion.button>
               </div>
-              <div className=" w-full xl:h-full p-16 h-[40vh]">
-                <div className="h-full w-full relative">
-                  <Image
-                    src={
-                      // service?.pageData?.section1?.imgUrl ||
-                      socialmediamanagement
-                    }
-                    alt="image"
-                    objectFit="cover"
-                    layout="fill"
-                    className="w-full align-middle transition duration-300 hover:ease-linear "
-                  />
-                </div>
-              </div>
-            </div>
-          </SimpleReveal>
+            </SimpleReveal>
+          ) : (
+            <></>
+          )}
           {/* SECTION-6 */}
-          <SimpleReveal sequence={4}>
-            <div className="justify-center flex items-center py-8 font-black text-xl md:text-2xl lg:text-3xl text-center  ">
-              <p>
-                Coordinate and publish posts,
-                <br /> all from one platform
-              </p>
-            </div>
-          </SimpleReveal>
+          {service.pageData.section6.title ? (
+            <SimpleReveal sequence={4}>
+              <div className="justify-center flex items-center py-8 font-black text-xl md:text-2xl lg:text-3xl text-center px-6 lg:px-0  ">
+                <p>{service?.pageData?.section6.title}</p>
+              </div>
+            </SimpleReveal>
+          ) : (
+            <></>
+          )}
           {/* section-7 */}
-          <SimpleReveal sequence={4}>
-            <div className="grid grid-cols-1 lg:grid-cols-2  items-center p-2 md:p-4 xl:p-24">
-              <div className="rounded-lg  xl:h-[60vh] h-[40vh]  xl:ml-24   overflow-hidden">
-                <div className="h-full w-full relative">
-                  <Image
-                    src={
-                      // service?.pageData?.section7?.imgUrl ||
-                      socialmediamanagement
-                    }
-                    alt="image"
-                    objectFit="cover"
-                    layout="fill"
-                    className="w-full align-middle transition duration-300 hover:ease-linear "
-                  />
+          {service.pageData.section7.title ? (
+            <SimpleReveal sequence={4}>
+              <div className="grid grid-cols-1 lg:grid-cols-2  items-center p-2 md:p-4 xl:p-24">
+                <div className="rounded-lg  xl:h-[60vh] h-[40vh]     overflow-hidden">
+                  <div className="h-full w-full relative">
+                    <Image
+                      src={
+                        // service?.pageData?.section7?.imgUrl ||
+                        socialmediamarketing
+                      }
+                      alt="image"
+                      objectFit="cover"
+                      layout="fill"
+                      className="w-full align-middle transition duration-300 hover:ease-linear "
+                    />
+                  </div>
+                </div>
+                <div className="w-full md:gap-8 flex flex-col gap-4  p-4 py-12 lg:py-24 md:p-8 lg:p-16 xl:p-24 ">
+                  <div className="text-xl md:text-2xl xl:text-3xl font-black px-2 lg:px-0">
+                    {service?.pageData?.section7.title}
+                  </div>
+                  <div className="text-sm px-2 lg:px-0 mb-6">
+                    {service?.pageData?.section7?.content}
+                  </div>
+                  <motion.button
+                    whileTap={{ scale: 0.85 }}
+                    className="text-[0.5rem] w-[150px] rounded-2xl border-2 border-dashed border-black bg-white px-4 py-2 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none ml-2 xl:ml-0"
+                  >
+                    <Link href="/contactus">Get Started</Link>
+                  </motion.button>
                 </div>
               </div>
-              <div className="w-full md:gap-8 flex flex-col gap-4  p-4 py-12 lg:py-24 md:p-8 lg:p-16 xl:p-24 ">
-                <div className="text-xl md:text-2xl xl:text-3xl font-black">
-                  {service?.pageData?.section7.title}
-                </div>
-                <div className="text-sm">
-                  {service?.pageData?.section7?.content}
-                </div>
-                <motion.button
-                  whileTap={{ scale: 0.85 }}
-                  className="text-[0.5rem] w-[150px] rounded-2xl border-2 border-dashed border-black bg-white px-4 py-2 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none"
-                >
-                  <Link href="/contactus">Get Started</Link>
-                </motion.button>
-              </div>
-            </div>
-          </SimpleReveal>
+            </SimpleReveal>
+          ) : (
+            <></>
+          )}
           {/* section-8 */}
-          <SimpleReveal sequence={4}>
-            <div className="justify-center flex items-center py-8 font-black text-xl md:text-2xl lg:text-3xl text-center  ">
-              <p>
-                Use your social channels to drive
-                <br />
-                engagement and revenue
-              </p>
-            </div>
-          </SimpleReveal>
+          {service.pageData.section8.title ? (
+            <SimpleReveal sequence={4}>
+              <div className="justify-center flex items-center py-8 font-black text-xl md:text-2xl lg:text-3xl text-center px-6 lg:px-0  ">
+                <p>{service?.pageData?.section8.title}</p>
+              </div>
+            </SimpleReveal>
+          ) : (
+            <></>
+          )}
           {/* section-9 */}
-          <SimpleReveal sequence={4}>
-            <div className="grid grid-cols-1 lg:grid-cols-2  items-center p-2 md:p-4 xl:p-24">
-              <div className="rounded-lg  xl:h-[60vh] h-[40vh]  xl:ml-24   overflow-hidden">
-                <div className="h-full w-full relative">
-                  <Image
-                    src={
-                      // service?.pageData?.section9?.imgUrl ||
-                      socialmediamanagement
-                    }
-                    alt="image"
-                    objectFit="cover"
-                    layout="fill"
-                    className="w-full align-middle transition duration-300 hover:ease-linear "
-                  />
+          {service.pageData.section9.title ? (
+            <SimpleReveal sequence={4}>
+              <div className="grid grid-cols-1 lg:grid-cols-2  items-center p-2 md:p-4 xl:p-24">
+                <div className="rounded-lg  xl:h-[60vh] h-[40vh]     overflow-hidden">
+                  <div className="h-full w-full relative">
+                    <Image
+                      src={
+                        // service?.pageData?.section9?.imgUrl ||
+                        socialmediamarketing
+                      }
+                      alt="image"
+                      objectFit="cover"
+                      layout="fill"
+                      className="w-full align-middle transition duration-300 hover:ease-linear "
+                    />
+                  </div>
                 </div>
-              </div>
-              <div className="w-full md:gap-8 flex flex-col gap-4  p-4 py-12 lg:py-24 md:p-8 lg:p-16 xl:p-24 ">
-                <div className="text-[0.6rem] font-bold ">
-                  {service?.title.toUpperCase() || "SOCIAL MEDIA MARKETING"}
-                </div>
-                <div className="text-xl md:text-2xl xl:text-3xl font-black">
-                  {service?.pageData?.section7.title}
-                </div>
-                <div className="text-sm">
-                  {service?.pageData?.section7?.content}
-                </div>
-                <motion.button
-                  whileTap={{ scale: 0.85 }}
-                  className="text-[0.5rem] w-[150px] rounded-2xl border-2 border-dashed border-black bg-white px-4 py-2 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none"
+                <div
+                  className="w-full md:gap-8 
+              {service.pageData.section1.title ? (flex flex-col gap-4  p-4 py-12 lg:py-24 md:p-8 lg:p-16 xl:p-24 "
                 >
-                  <Link href="/contactus">Get Started</Link>
-                </motion.button>
-              </div>
-            </div>
-          </SimpleReveal>
-          <SimpleReveal sequence={4}>
-            <div className="grid grid-cols-1 lg:grid-cols-2  items-center p-2 md:p-4 xl:p-24">
-              <div className="rounded-lg  xl:h-[60vh] h-[40vh]  xl:ml-24   overflow-hidden">
-                <div className="h-full w-full relative">
-                  <Image
-                    src={
-                      // service?.pageData?.section9?.imgUrl ||
-                      socialmediamanagement
-                    }
-                    alt="image"
-                    objectFit="cover"
-                    layout="fill"
-                    className="w-full align-middle transition duration-300 hover:ease-linear "
-                  />
+                  <div className="text-[0.6rem] font-bold ">
+                    {service?.title.toUpperCase() || "SOCIAL MEDIA MARKETING"}
+                  </div>
+                  <div className="text-xl md:text-2xl xl:text-3xl font-black px-2 lg:px-0">
+                    {service?.pageData?.section9.title}
+                  </div>
+                  <div className="text-sm px-2 lg:px-0 mb-6">
+                    {service?.pageData?.section9?.content}
+                  </div>
+                  <motion.button
+                    whileTap={{ scale: 0.85 }}
+                    className="text-[0.5rem] w-[150px] rounded-2xl border-2 border-dashed border-black bg-white px-4 py-2 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none ml-2 xl:ml-0"
+                  >
+                    <Link href="/contactus">Get Started</Link>
+                  </motion.button>
                 </div>
               </div>
-              <div className="w-full md:gap-8 flex flex-col gap-4  p-4 py-12 lg:py-24 md:p-8 lg:p-16 xl:p-24 ">
-                <div className="text-xl md:text-2xl xl:text-3xl font-black">
-                  {service?.pageData?.section7.title}
-                </div>
-                <div className="text-sm">
-                  {service?.pageData?.section7?.content}
-                </div>
-                <motion.button
-                  whileTap={{ scale: 0.85 }}
-                  className="text-[0.5rem] w-[150px] rounded-2xl border-2 border-dashed border-black bg-white px-4 py-2 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none"
-                >
-                  <Link href="/contactus">Get Started</Link>
-                </motion.button>
-              </div>
-            </div>
-          </SimpleReveal>
+            </SimpleReveal>
+          ) : (
+            <></>
+          )}
           {/* section-10 */}
+          {service.pageData.section10.title ? (
+            <SimpleReveal sequence={4}>
+              <div className="grid grid-cols-1 lg:grid-cols-2  items-center p-2 md:p-4 xl:p-24">
+                <div className="rounded-lg  xl:h-[60vh] h-[40vh]     overflow-hidden">
+                  <div className="h-full w-full relative">
+                    <Image
+                      src={
+                        // service?.pageData?.section9?.imgUrl ||
+                        socialmediamarketing
+                      }
+                      alt="image"
+                      objectFit="cover"
+                      layout="fill"
+                      className="w-full align-middle transition duration-300 hover:ease-linear "
+                    />
+                  </div>
+                </div>
+                <div className="w-full md:gap-8 flex flex-col gap-4  p-4 py-12 lg:py-24 md:p-8 lg:p-16 xl:p-24 ">
+                  <div className="text-xl md:text-2xl xl:text-3xl font-black px-2 lg:px-0">
+                    {service?.pageData?.section10.title}
+                  </div>
+                  <div className="text-sm px-2 lg:px-0 mb-6">
+                    {service?.pageData?.section10?.content}
+                  </div>
+                  <motion.button
+                    whileTap={{ scale: 0.85 }}
+                    className="text-[0.5rem] w-[150px] rounded-2xl border-2 border-dashed border-black bg-white px-4 py-2 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none ml-2 xl:ml-0"
+                  >
+                    <Link href="/contactus">Get Started</Link>
+                  </motion.button>
+                </div>
+              </div>
+            </SimpleReveal>
+          ) : (
+            <></>
+          )}
+          {/* section-11 */}
           <SimpleReveal sequence={4}>
             <Gallery
               setIsOpen={setIsOpen}
@@ -302,7 +338,7 @@ export default function services() {
           </SimpleReveal>
         </div>
       ) : (
-        <p>Processing</p>
+        <p>Loading</p>
       )}
     </div>
   );
