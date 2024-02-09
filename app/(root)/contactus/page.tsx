@@ -8,7 +8,6 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import ContactUsPageSvg from "@/public/images/contactus/ContactUsPage.svg";
-import axios from "axios";
 
 export default function Contact() {
   const router = useRouter();
@@ -38,11 +37,27 @@ export default function Contact() {
     try {
       setLoading(true);
       setButtonDisabled(true);
-
-      const response = await axios.post("/api/mailInquiry", formData);
-
+      const response = await fetch("/api/sendEmail", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          clientName: formData.clientName,
+          clientNumber: formData.clientNumber,
+          clientEmailId: formData.clientEmailId,
+          clientMessage: formData.clientMessage,
+        }), // Convert formData to JSON string
+      });
       alert("Message successfully sent");
+      setFormData({
+        clientName: "",
+        clientNumber: "",
+        clientEmailId: "",
+        clientMessage: "",
+      });
       setButtonDisabled(false);
+      setLoading(false);
     } catch (err: any) {
       console.error(err);
       alert("Error, please try resubmitting the form");

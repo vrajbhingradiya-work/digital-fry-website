@@ -2,17 +2,18 @@ import nodemailer from "nodemailer";
 
 export const sendEmail = async ({ formData }: any) => {
   try {
-    const transporter = nodemailer.createTransport({
-      service: "Gmail", // Use your email service
+    var transport = nodemailer.createTransport({
+      host: "sandbox.smtp.mailtrap.io",
+      port: 2525,
       auth: {
-        user: "junexus.edgerunners@gmail.com", // Replace with your email
-        pass: "zxcw vinh mfyy jrej", // Replace with your email password
+        user: "8851bea3115f5f",
+        pass: "53ee4c53d14ad5",
       },
     });
 
     const mailOptions = {
-      from: "junexus.edgerunners@gmail.com",
-      to: "lll.rg3.lll@gmail.com",
+      from: "lll.rg3.lll@gmail.com",
+      to: "vraj.21bcon069@jecrcu.edu.in",
       //   to: "info@digitalfry.in"
       subject: `Inquiry Raised by ${formData.clientName}`,
       text: `Please find the attached file Client Name : ${formData.clientName}
@@ -20,7 +21,7 @@ export const sendEmail = async ({ formData }: any) => {
       Client Number : ${formData.clientNumber}
       Client Message : ${formData.clientMessage} `,
     };
-    const mailresponse = transporter.sendMail(mailOptions, (error) => {
+    const mailresponse = await transport.sendMail(mailOptions, (error) => {
       if (error) {
         console.error("Email error:", error);
       }
