@@ -6,7 +6,7 @@ import RevealUp from "./utils/RevealUp";
 import RevealLeft from "./utils/RevealLeft";
 const Footer = () => {
   return (
-    <footer className=" p-6 bg-blue-200 sm:mt-16 shadow-3xl">
+    <footer className=" p-6 bg-black/70 sm:mt-16 shadow-3xl text-white">
       <hr className="py-6" />
 
       <div className="mx-auto max-w-screen-xl">
@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="mb-12 md:mb-0  flex flex-col gap-4 items-start">
               <Link href="/" className="flex items-center w-full">
                 <svg
-                  className={` md:h-24 md:w-40 overflow-hidden fill-black`}
+                  className={` md:h-24 md:w-40 overflow-hidden fill-white`}
                   xmlns="http://www.w3.org/2000/svg"
                   width="320"
                   zoomAndPan="magnify"
@@ -104,7 +104,7 @@ const Footer = () => {
                   </g>
                 </svg>
               </Link>
-              <div className=" text-gray-500 text-[0.85rem] leading-4 ">
+              <div className=" text-white text-[0.85rem] leading-4 ">
                 With profound expertise in cutting-edge technologies,
                 <br /> market trends, and user behavior, we meticulously
                 engineer <br /> digital marketing solutions designed for
@@ -115,7 +115,7 @@ const Footer = () => {
                 {/* facebook */}
                 <Link
                   href="https://www.facebook.com/profile.php?id=100083335640634"
-                  className="text-gray-500 hover:text-gray-900 dark:hover:text-black"
+                  className="text-white hover:text-white "
                 >
                   <svg
                     className="w-8 h-8"
@@ -133,7 +133,7 @@ const Footer = () => {
                 {/* Instagram */}
                 <Link
                   href="https://www.instagram.com/digitalfry.in?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-                  className="text-gray-500 hover:text-gray-900 dark:hover:text-black"
+                  className="text-white hover:text-white "
                 >
                   <svg
                     className="w-8 h-8"
@@ -151,7 +151,7 @@ const Footer = () => {
                 {/* linked In */}
                 <Link
                   href="https://www.linkedin.com/in/digital-fry-5baa72276/"
-                  className="text-gray-500 hover:text-gray-900 dark:hover:text-black"
+                  className="text-white hover:text-white "
                 >
                   <svg
                     className="w-8 h-8"
@@ -170,10 +170,10 @@ const Footer = () => {
             <div>
               <RevealLeft sequence={3}>
                 <div>
-                  <h1 className="mb-3 text-lg font-semibold text-gray-900 ">
+                  <h1 className="mb-3 text-lg font-semibold text-white ">
                     Services
                   </h1>
-                  <div className="w-full text-gray-600 dark:text-gray-400  flex flex-row md:flex-col gap-4 ">
+                  <div className="w-full text-white  flex flex-row md:flex-col gap-4 ">
                     <div>
                       <div className="">
                         <Link
@@ -259,10 +259,10 @@ const Footer = () => {
               <div>
                 <RevealLeft sequence={7}>
                   <div>
-                    <h1 className="mb-3 text-lg font-semibold text-gray-900 ">
+                    <h1 className="mb-3 text-lg font-semibold text-white ">
                       Legals
                     </h1>
-                    <div className="text-gray-600 dark:text-gray-400">
+                    <div className="text-white">
                       <div className="">
                         <Link
                           href="/aboutus"
@@ -290,10 +290,10 @@ const Footer = () => {
               <div>
                 <RevealLeft sequence={7}>
                   <div>
-                    <h1 className="mb-3 text-lg font-semibold text-gray-900 ">
+                    <h1 className="mb-3 text-lg font-semibold text-white ">
                       Legals
                     </h1>
-                    <div className="text-gray-600 dark:text-gray-400">
+                    <div className="text-white">
                       <div className="">
                         <Link
                           href="https://drive.google.com/file/d/1Hcw_FxnPFAK_Lpo6rZslXQcK6KVcjh_K/view?usp=drive_link"
