@@ -57,7 +57,7 @@ URL: https://flowbite.com/docs/components/typography/
         className="py-8 lg:py-24 bg-gray-600 rounded-xl p-1 sm:p-4 sm:py-8 "
       >
         <div className="px-4 mx-auto max-w-screen-xl">
-          <h2 className="mb-8 text-2xl text-center sm:text-left w-full font-bold text-blue-600 ">
+          <h2 className="mb-8 text-2xl text-center sm:text-left w-full font-bold text-white ">
             Related Blogs
           </h2>
           <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
@@ -84,13 +84,6 @@ function BlogCard({ blog }: any) {
       <h2 className="mb-2 text-xl font-bold leading-tight text-white/90 ">
         <Link href={`/blog/${blog?.id}`}>{blog?.content.title}</Link>
       </h2>
-
-      <Link
-        href={`/blog/${blog?.id}`}
-        className="inline-flex items-center font-medium underline underline-offset-4 text-primary-600 dark:text-primary-500 hover:no-underline"
-      >
-        {blog?.content.readTime}
-      </Link>
     </article>
   );
 }
