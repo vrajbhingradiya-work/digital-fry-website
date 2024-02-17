@@ -3,6 +3,8 @@ import { ClientLogosList } from "./Data/ClientsLogos";
 import Logo from "./Logo";
 import { Marquee } from "@devnomic/marquee";
 import "@devnomic/marquee/dist/index.css";
+import { InfiniteMovingCards } from "./inifinite-moving-cards";
+import { InfiniteMovingCardsDemo } from "./Testimonials";
 
 const Clients = () => {
   const clientLogos1 = ClientLogosList.slice(0, 14);
@@ -169,6 +171,7 @@ const Clients = () => {
           })}
         </div>
       </Marquee>
+      <InfiniteMovingCardsDemo />
     </div>
   );
 };
