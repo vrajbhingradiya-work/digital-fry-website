@@ -90,12 +90,12 @@ export const ClientLogosList = [
     title: "The Workship",
     imgUrl: "/images/ClientLogo/TheWorkship.png",
   },
-  {
-    start: "mx-0",
-    size: "h-[95px] w-[95px]",
-    title: "Shop QSE",
-    imgUrl: "/images/ClientLogo/ShopQSE.png",
-  },
+  // {
+  //   start: "mx-0",
+  //   size: "h-[95px] w-[95px]",
+  //   title: "Shop QSE",
+  //   imgUrl: "/images/ClientLogo/ShopQSE.png",
+  // },
 
   {
     start: "mx-0",
