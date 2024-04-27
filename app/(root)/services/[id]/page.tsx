@@ -8,7 +8,6 @@ import { useState } from "react";
 import Link from "next/link";
 import SimpleReveal from "@/components/utils/SimpleReveal";
 import ImageModal from "@/components/servicesPage/ImageModal";
-import socialmediamarketing from "@/public/images/services/socialmediamarketing.svg";
 
 export default function services() {
   const params = useParams();
@@ -53,12 +52,9 @@ export default function services() {
                 <div className="  w-full xl:h-[60vh] h-[40vh]  ">
                   <div className=" w-full relative h-full">
                     <Image
-                      src={
-                        // service.pageData.section1.imgUrl ||
-                        socialmediamarketing
-                      }
+                      src={service.pageData.section1.imgUrl}
                       alt="image"
-                      objectFit="cover"
+                      objectFit="contain"
                       layout="fill"
                       className="w-full align-middle transition duration-300 hover:ease-linear "
                     />
@@ -101,12 +97,9 @@ export default function services() {
                 <div className="rounded-lg xl:h-[60vh] h-[40vh]  lg:mr-16 xl:mr-24   overflow-hidden w-full lg:h-full ">
                   <div className="h-full w-full relative">
                     <Image
-                      src={
-                        // service?.pageData?.section3?.imgUrl ||
-                        socialmediamarketing
-                      }
+                      src={service?.pageData?.section3?.imgUrl}
                       alt="image"
-                      objectFit="cover"
+                      objectFit="contain"
                       layout="fill"
                       className="w-full align-middle transition duration-300 hover:ease-linear "
                     />
@@ -138,12 +131,9 @@ export default function services() {
                 <div className="rounded-lg  xl:h-[60vh] h-[40vh]  lg:mr-16 xl:mr-24   overflow-hidden w-full lg:h-full ">
                   <div className="h-full w-full relative">
                     <Image
-                      src={
-                        // service?.pageData?.section4?.imgUrl ||
-                        socialmediamarketing
-                      }
+                      src={service?.pageData?.section4?.imgUrl}
                       alt="image"
-                      objectFit="cover"
+                      objectFit="contain"
                       layout="fill"
                       className="w-full align-middle transition duration-300 hover:ease-linear "
                     />
@@ -175,12 +165,9 @@ export default function services() {
                 <div className=" w-full xl:h-full p-16 h-[40vh]">
                   <div className="h-full w-full relative">
                     <Image
-                      src={
-                        // service.pageData.section1.imgUrl ||
-                        socialmediamarketing
-                      }
+                      src={service.pageData.section1.imgUrl}
                       alt="image"
-                      objectFit="cover"
+                      objectFit="contain"
                       layout="fill"
                       className="w-full align-middle transition duration-300 hover:ease-linear "
                     />
@@ -208,12 +195,9 @@ export default function services() {
                 <div className="rounded-lg  xl:h-[60vh] h-[40vh]     overflow-hidden">
                   <div className="h-full w-full relative">
                     <Image
-                      src={
-                        // service?.pageData?.section7?.imgUrl ||
-                        socialmediamarketing
-                      }
+                      src={service?.pageData?.section7?.imgUrl}
                       alt="image"
-                      objectFit="cover"
+                      objectFit="contain"
                       layout="fill"
                       className="w-full align-middle transition duration-300 hover:ease-linear "
                     />
@@ -255,12 +239,9 @@ export default function services() {
                 <div className="rounded-lg  xl:h-[60vh] h-[40vh]     overflow-hidden">
                   <div className="h-full w-full relative">
                     <Image
-                      src={
-                        // service?.pageData?.section9?.imgUrl ||
-                        socialmediamarketing
-                      }
+                      src={service?.pageData?.section9?.imgUrl}
                       alt="image"
-                      objectFit="cover"
+                      objectFit="contain"
                       layout="fill"
                       className="w-full align-middle transition duration-300 hover:ease-linear "
                     />
@@ -298,12 +279,9 @@ export default function services() {
                 <div className="rounded-lg  xl:h-[60vh] h-[40vh]     overflow-hidden">
                   <div className="h-full w-full relative">
                     <Image
-                      src={
-                        // service?.pageData?.section9?.imgUrl ||
-                        socialmediamarketing
-                      }
+                      src={service?.pageData?.section10?.imgUrl}
                       alt="image"
-                      objectFit="cover"
+                      objectFit="contain"
                       layout="fill"
                       className="w-full align-middle transition duration-300 hover:ease-linear "
                     />
