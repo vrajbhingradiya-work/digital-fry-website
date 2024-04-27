@@ -35,10 +35,7 @@ URL: https://flowbite.com/docs/components/typography/
               </div>
             </Reveal>
             <figure>
-              <img
-                src="https://flowbite.s3.amazonaws.com/typography-plugin/typography-image-1.png"
-                alt=""
-              />
+              <img src={blog?.content.imgUrl.img1} alt="" />
             </figure>
             <p>{blog?.content.maindescription.part4}</p>
             <br />
@@ -76,8 +73,8 @@ function BlogCard({ blog }: any) {
     <article className="max-w-xs">
       <Link href={`/blog/${blog?.id}`}>
         <img
-          src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/article/blog-4.png"
-          className="mb-5 rounded-lg"
+          src={blog.content.imgUrl.img1}
+          className="mb-5 rounded-lg h-[225px] w-full"
           alt="Image 4"
         />
       </Link>
