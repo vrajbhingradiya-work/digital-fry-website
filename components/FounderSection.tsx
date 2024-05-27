@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 
 const FounderSection = () => {
   return (
@@ -20,7 +19,7 @@ const FounderSection = () => {
           </p>
         </div>
         <div className="grid ">
-          <div className=" text-center">
+          {/* <div className=" text-center">
             <div className="mx-auto h-56 w-56 rotate-45 overflow-hidden rounded-[4rem] md:h-40 md:w-40 lg:h-56 lg:w-56">
               <img
                 className="mx-auto h-full w-full -rotate-45 scale-125 object-cover transition duration-300 group-hover:scale-[1.4]"
@@ -35,7 +34,7 @@ const FounderSection = () => {
               <h4 className="text-2xl text-white">Sushil Kantya</h4>
               <span className="block text-sm text-white">CEO-Founder</span>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
