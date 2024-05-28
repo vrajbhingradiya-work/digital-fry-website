@@ -17,7 +17,8 @@ export const InfiniteMovingCards = ({
     name: string;
     title: string;
   }[];
-  direction?: "left" | "right";
+  // direction?: "left" | "right";
+  direction?: "right";
   speed?: "fast" | "normal" | "slow";
   pauseOnHover?: boolean;
   className?: string;
@@ -47,7 +48,7 @@ export const InfiniteMovingCards = ({
   }
   const getDirection = () => {
     if (containerRef.current) {
-      if (direction === "left") {
+      if (direction === "right") {
         containerRef.current.style.setProperty(
           "--animation-direction",
           "forwards"
