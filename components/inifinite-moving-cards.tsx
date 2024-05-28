@@ -87,7 +87,7 @@ export const InfiniteMovingCards = ({
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
-        {ClientLogosList.reverse().map((Logo) => (
+        {ClientLogosList.map((Logo) => (
           <li
             className="mx-8 max-w-full relative rounded-2xl  overflow-hidden flex items-center"
             // style={{
@@ -110,7 +110,7 @@ export const InfiniteMovingCards = ({
             </div>
           </li>
         ))}
-        <div className="flex items-center">
+        {/* <div className="flex items-center">
           <svg
             version="1.0"
             xmlns="http://www.w3.org/2000/svg"
@@ -252,7 +252,7 @@ export const InfiniteMovingCards = ({
               />
             </g>
           </svg>
-        </div>
+        </div> */}
       </ul>
     </div>
   );
