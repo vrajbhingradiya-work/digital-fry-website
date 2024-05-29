@@ -1,13 +1,11 @@
 import React from "react";
 import LatestWorksCard from "./LatestWorksCard";
 import Popup from "./utils/PopUp";
-import { servicesCardsInfo } from "./Data/ServicesInfo";
 import RevealLeft from "./utils/RevealLeft";
 import SimpleReveal from "./utils/SimpleReveal";
 import Reveal from "./utils/Reveal";
-
+import { LatestWorksInfo } from "./Data/LatestWorks";
 const LatestWorks = () => {
-  const works = servicesCardsInfo.slice(0, 3);
   return (
     <div className="section flex flex-col justify-center gap-6  md:px-16">
       <div className="text-sm font-semibold text-blue-600 ">
@@ -33,7 +31,7 @@ const LatestWorks = () => {
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {works.map((work, i) => {
+        {LatestWorksInfo.map((work, i) => {
           return (
             <Popup sequence={i} key={i}>
               <LatestWorksCard work={work} />

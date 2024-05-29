@@ -55,10 +55,10 @@ function ProjectCards({ project, setIsOpen, setSelectedCardProject }: any) {
       data-te-ripple-color="dark"
     >
       <Image
-        src={project?.imgUrl ? project?.imgUrl : Icon}
+        src={project?.imgLogo ? project?.imgLogo : Icon}
         alt={project.title}
         layout="fill"
-        objectFit="cover"
+        objectFit="contain"
         className="w-full align-middle transition duration-300 hover:ease-linear"
       />
 

@@ -72,6 +72,7 @@ export const servicesCardsInfo = [
             "Looks Salon has grown into a trusted name in the beauty industry, known for its commitment to quality, innovation, and exceptional customer service.",
           df: "At Digitalfry we enhanced Look's online presence and drove customer engagement through our expertise in social media marketing. Over the past 1.5 years, our team implemented various strategies across multiple platforms to increase brand awareness, attract new clients, and foster loyalty among existing customers.",
         },
+        imgLogo: "/images/projects/smm/looks-salon-logo.png",
         imgUrl: "/images/projects/smm/smm-looks- salon-min.png",
       },
       {
@@ -82,6 +83,7 @@ export const servicesCardsInfo = [
             "Joy e-bike is one of India’s leading electric two-wheeler manufacturers. With innovation being an integral part, their idea is to bring something new to the market, which can also help fight climate change.",
           df: " At Digitalfry we focused on promoting their innovative electric scooters, specifically the electric Activa models. Our goal was to raise awareness, grab potential customers, and drive sales through social media platforms.",
         },
+        imgLogo: "/images/projects/smm/joy-e-bike-logo.png",
         imgUrl: "/images/projects/smm/smm-joy-e-bike-min.png",
       },
 
@@ -93,6 +95,7 @@ export const servicesCardsInfo = [
             "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
           df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
         },
+        imgLogo: "/images/projects/smm/rominus-logo.png",
         imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
       },
       // {
@@ -202,14 +205,15 @@ export const servicesCardsInfo = [
     projects: [
       {
         id: 1,
-        title: "Shop QSE",
+        title: "Fully Loaded",
         content: {
           company:
-            "At Shop QSE, they believe in the timeless allure of diamonds. The brand is devoted to bringing you the finest diamond jewellery, crafted with unparalleled craftsmanship and a passion for perfection. Shop QSE offers a stunning array of diamond jewellery that reflects elegance, sophistication, and beauty.",
-          df: "At Digital Fry we aimed to enhance the brand's identity and elevate the customer experience. We ensure that every piece of jewellery is showcased in a manner that befits elegance and value. We created packaging that reflects the luxury and sophistication of Shop QSE diamond jewellery and developed durable packaging solutions that protect the jewellery during transit and storage.",
+            "Fully Loaded, your one-stop shop for premium protein supplements designed to elevate the fitness journey.",
+          df: "We recently partnered with this leading provider of premium protein supplements to develop a new packaging and labeling solution that reflects their commitment to quality and performance.",
         },
-        imgUrl:
-          "/images/projects/packaging-and-labelling/ishana-celestial-min.png",
+        imgLogo:
+          "/images/projects/packaging-and-labelling/whey-protein-logo.png",
+        imgUrl: "/images/projects/packaging-and-labelling/whey-protein.png",
       },
 
       {
@@ -220,6 +224,8 @@ export const servicesCardsInfo = [
             "At Ishana, they believe true beauty lies in embracing your natural beauty. They create cosmetics that not only enhance one’s natural beauty but also nourish the skin. Established by a team of beauty enthusiasts who were tired of the harsh chemicals and unnatural ingredients found in many mainstream products.",
           df: "Sustainability is at the heart of everything we do. Our new packaging is crafted from eco-friendly materials that are not only beautiful but also kind to the planet. We use materials which are easily recycled, reduce waste and promote a circular economy. Our designs use fewer ingredients without compromising quality or durability, which helps in reducing the overall carbon footprint.",
         },
+        imgLogo:
+          "/images/projects/packaging-and-labelling/ishana-celestial-logo.png",
         imgUrl:
           "/images/projects/packaging-and-labelling/ishana-celestial-min-1.png",
       },
@@ -232,6 +238,7 @@ export const servicesCardsInfo = [
           //   "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
           df: "Our packaging and labeling design for Mount Fuji A Organic Green Tea celebrates the pristine beauty and natural purity of Japan's iconic Mount Fuji, while embodying the essence of premium quality and organic excellence. Inspired by the tranquil landscapes, lush greenery, and cultural heritage of the region, our design invites consumers on a journey of discovery and rejuvenation with every sip.",
         },
+        imgLogo: "/images/projects/packaging-and-labelling/mount-fuji-logo.png",
         imgUrl:
           "/images/projects/packaging-and-labelling/mount-fuji-01-min.png",
       },
@@ -351,7 +358,8 @@ export const servicesCardsInfo = [
             "O2 is a luxury gym that redefine the concept of business. The mission is to create a sanctuary where you can achieve your health and wellness goals in the most luxurious and inspiring environment.",
           df: "Our logo design for O2 Gym embodies strength, vitality, and a commitment to holistic well-being. It merges the elements of oxygen (O2) – essential for life – with the dynamic energy of physical fitness. The design encapsulates the spirit of empowerment and transformation that defines the O2 Gym experience.",
         },
-        imgUrl: "/images/projects/logo-designing/o2-gym.png",
+        imgLogo: "/images/projects/logo-designing/o2-gym-logo.png",
+        imgUrl: "/images/projects/logo-designing/O2-logo-min-min-min.png",
       },
 
       {
@@ -362,7 +370,8 @@ export const servicesCardsInfo = [
           //   "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
           df: "Our logo design for Havana Cafe captures the essence of Cuban charm and Jaipur's vibrant culture, blending the rich flavors of Havana with the eclectic spirit of Rajasthan. It evokes a sense of warmth, relaxation, and exotic indulgence, inviting patrons to savor a unique culinary experience.",
         },
-        imgUrl: "/images/projects/logo-designing/havana-logo.png",
+        imgLogo: "/images/projects/logo-designing/havana-logo.png",
+        imgUrl: "/images/projects/logo-designing/havana-logo-min-min-min.png",
       },
 
       {
@@ -373,7 +382,8 @@ export const servicesCardsInfo = [
           //   "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
           df: "Our logo design for Workship Coworking Spaces embodies the dynamic synergy of collaboration, innovation, and community that defines modern coworking environments. It reflects the ethos of professional growth, creative exchange, and shared aspirations that thrive within Workship's vibrant ecosystem.",
         },
-        imgUrl: "/images/projects/logo-designing/work-ship.png",
+        imgLogo: "/images/projects/logo-designing/workship-logo.png",
+        imgUrl: "/images/projects/logo-designing/workship-color-palettes.png",
       },
 
       // {
@@ -491,6 +501,7 @@ export const servicesCardsInfo = [
             "At Wheels of World, they redefine luxury with an exclusive collection of the finest automobiles from around the globe. The showroom is an experience designed for individuals who expect nothing less than the best, not merely a place to visit.",
           df: "We had the privilege of partnering with Wheels of World, to enhance their digital footprint. We begin with an in-depth analysis of the brand, target audience, and industry trends to develop a customized content strategy that aligns with business goals.",
         },
+        imgLogo: "/images/projects/content-creation/wow-logo.png",
         imgUrl: "/images/projects/content-creation/wow.png",
       },
 
@@ -502,6 +513,7 @@ export const servicesCardsInfo = [
             "24-Carat Builders believe in transforming your dreams into tangible realities. Whether it's building your dream home, renovating your space, or creating a commercial masterpiece,  24-carat is doing it with precision, passion, and integrity.",
           df: "With digital fry, they benefited from our strategic guidance and expertise as we develop a customized content strategy tailored to your goals, audience, and brand voice.",
         },
+        imgLogo: "/images/projects/content-creation/24-carats-logo.png",
         imgUrl: "/images/projects/content-creation/24-carats.png",
       },
       {
@@ -512,6 +524,7 @@ export const servicesCardsInfo = [
             "O2 is a luxury gym that redefine the concept of business. The mission is to create a sanctuary where you can achieve your health and wellness goals in the most luxurious and inspiring environment.",
           df: "Video content is a powerful tool for storytelling and engagement. Our video production services include promotional videos, client testimonials, virtual tours, and workout tutorials, all crafted to showcase the luxury and expertise of O2 gym.",
         },
+        imgLogo: "/images/projects/content-creation/o2-gym-logo.png",
         imgUrl: "/images/projects/content-creation/o2.png",
       },
 
@@ -627,9 +640,10 @@ export const servicesCardsInfo = [
         title: "Ishana Celestial",
         content: {
           company:
-            "At Ishana, they believe true beauty lies in embracing your natural beauty. They create cosmetics that not only enhance one’s natural beauty but also nourish the skin. Established by a team of beauty enthusiasts who were tired of the harsh chemicals and unnatural ingredients found in many mainstream products.",
-          // df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+            "At Ishana, they believe true beauty lies in embracing your natural beauty. They create cosmetics that not only enhance one’s natural beauty but also nourish the skin.",
+          df: "At Digital Fry, we're passionate about helping beauty brands like Isyana Cosmetics flourish online. We understand the power of a captivating website in today's digital age, and we take pride in crafting user-friendly experiences that convert visitors into loyal customers.",
         },
+        imgLogo: "/images/projects/web-development/ishana-celestial-logo.png",
         imgUrl: "/images/projects/web-development/Ishana-min.png",
       },
 
@@ -641,6 +655,7 @@ export const servicesCardsInfo = [
             "We understand that every co-working space is unique, which is why we take a personalized approach to every project. Our team of experienced designers and developers works closely with the workship to understand vision, goals, and brand identity, ensuring that the website reflects the essence of space and resonates with the target audience.",
           df: "We prioritize usability and functionality, ensuring that the website is easy to navigate and provides visitors with a seamless browsing experience.",
         },
+        imgLogo: "/images/projects/web-development/workship-logo.png",
         imgUrl: "/images/projects/web-development/workship-min.png",
       },
 
@@ -652,6 +667,7 @@ export const servicesCardsInfo = [
             "Arora Hyundai is not just a dealership; it's a gateway to a world of automotive excellence. Whether you're in the market for a sleek sedan, a spacious SUV, or a versatile crossover, the showroom boasts an extensive selection of Hyundai vehicles to suit every taste and lifestyle.",
           df: "Recently, we had the privilege of partnering with Arora Hyundai. We specialize in crafting stunning, user-friendly websites tailored to elevate their face presence and drive results. Our team is proud to have partnered with Arora Hyundai while helping them to create an online platform that showcases their exceptional vehicles and unparalleled service.",
         },
+        imgLogo: "/images/projects/web-development/arora-hyundai-logo.png",
         imgUrl: "/images/projects/web-development/Arora-Hyundai-min.png",
       },
 
@@ -702,568 +718,568 @@ export const servicesCardsInfo = [
     ],
   },
   // Paid Advertising
-  {
-    title: "Paid Advertising",
-    desc: "Amplify your brand's reach with targeted paid advertising solutions by Digital Fry. We create effective ad campaigns that resonate with your audience, driving traffic and conversions. Maximize your ROI with our strategic paid advertising services.  ",
-    imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-    pageData: {
-      section1: {
-        title: "Strategic Campaign Planning",
-        content:
-          "At Digital Fry, we kick off your journey into paid advertising with meticulous planning. Our experts craft strategic campaigns that align with your business goals, ensuring every investment yields maximum returns. From audience targeting to budget optimization, we leave no stone unturned",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      section2: {
-        // title: "Unify your team’s digital assets",
+  // {
+  //   title: "Paid Advertising",
+  //   desc: "Amplify your brand's reach with targeted paid advertising solutions by Digital Fry. We create effective ad campaigns that resonate with your audience, driving traffic and conversions. Maximize your ROI with our strategic paid advertising services.  ",
+  //   imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //   pageData: {
+  //     section1: {
+  //       title: "Strategic Campaign Planning",
+  //       content:
+  //         "At Digital Fry, we kick off your journey into paid advertising with meticulous planning. Our experts craft strategic campaigns that align with your business goals, ensuring every investment yields maximum returns. From audience targeting to budget optimization, we leave no stone unturned",
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //     section2: {
+  //       // title: "Unify your team’s digital assets",
 
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      section3: {
-        title: "Data-Driven Ad Strategies",
-        content:
-          "Our approach to paid advertising is grounded in data. Leveraging analytics and insights, we tailor ad strategies that resonate with your target audience. Every click and conversion is tracked, providing a foundation for continual refinement and increased effectiveness.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      section4: {
-        title: "Dynamic Ad Creatives",
-        content:
-          "In the world of paid advertising, creativity is the key to capturing attention. Digital Fry specializes in crafting dynamic ad creatives that not only grab eyeballs but also communicate your brand message effectively. From visuals to copy, we ensure every element speaks volumes. ",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      section5: {
-        title: "Targeted Audience Engagement",
-        content:
-          "Unlock the potential of reaching the right audience at the right time. Our paid advertising services prioritize targeted audience engagement. Through precise demographics, interests, and behavior targeting, we connect your brand with those who matter most to your business.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      section6: {
-        // title:""
-      },
-      section7: {
-        title: "Ad Campaign Optimization",
-        content:
-          "The journey doesn't end with launch. Digital Fry is committed to ongoing optimization. We monitor campaign performance, analyze data, and make strategic adjustments to ensure your paid advertising campaigns remain on the path to success, delivering optimal results",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      section8: {
-        title: "Crafting Stories, Designing Success",
-      },
-      section9: {
-        title: "Multi-Platform Advertising",
-        content:
-          "Diversify your reach with multi-platform advertising. Our expertise spans across various platforms, from social media giants to search engines. Whether it's Google Ads, Facebook, or beyond, we design and implement campaigns that maximize your presence where it matters most.          ",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      section10: {
-        title: "Transparent Reporting and Analytics",
-        content:
-          "Transparency is at the core of our services. Receive detailed reports and analytics that demystify the performance of your paid advertising campaigns. Understand the impact, ROI, and areas for improvement, empowering you with insights to make informed decisions for future strategies.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-    },
-    projects: [
-      {
-        id: 1,
-        title: "Sea Stone",
-        content: {
-          // company:
-          //   "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
-          df: "We take great pride in our ability to use clever advertising to support business growth. Our commitment towards achieving tangible outcomes for our clients is demonstrated by our collaboration with Sea Stone Merchant Navy Institute. Sea-stone is a leading merchant navy institute which gives training and placement to students.",
-        },
-        // imgUrl:
-        //   "/images/projects/paid-advertising/paid-advertising-Rominus-PIZZA-min.png",
-      },
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //     section3: {
+  //       title: "Data-Driven Ad Strategies",
+  //       content:
+  //         "Our approach to paid advertising is grounded in data. Leveraging analytics and insights, we tailor ad strategies that resonate with your target audience. Every click and conversion is tracked, providing a foundation for continual refinement and increased effectiveness.",
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //     section4: {
+  //       title: "Dynamic Ad Creatives",
+  //       content:
+  //         "In the world of paid advertising, creativity is the key to capturing attention. Digital Fry specializes in crafting dynamic ad creatives that not only grab eyeballs but also communicate your brand message effectively. From visuals to copy, we ensure every element speaks volumes. ",
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //     section5: {
+  //       title: "Targeted Audience Engagement",
+  //       content:
+  //         "Unlock the potential of reaching the right audience at the right time. Our paid advertising services prioritize targeted audience engagement. Through precise demographics, interests, and behavior targeting, we connect your brand with those who matter most to your business.",
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //     section6: {
+  //       // title:""
+  //     },
+  //     section7: {
+  //       title: "Ad Campaign Optimization",
+  //       content:
+  //         "The journey doesn't end with launch. Digital Fry is committed to ongoing optimization. We monitor campaign performance, analyze data, and make strategic adjustments to ensure your paid advertising campaigns remain on the path to success, delivering optimal results",
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //     section8: {
+  //       title: "Crafting Stories, Designing Success",
+  //     },
+  //     section9: {
+  //       title: "Multi-Platform Advertising",
+  //       content:
+  //         "Diversify your reach with multi-platform advertising. Our expertise spans across various platforms, from social media giants to search engines. Whether it's Google Ads, Facebook, or beyond, we design and implement campaigns that maximize your presence where it matters most.          ",
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //     section10: {
+  //       title: "Transparent Reporting and Analytics",
+  //       content:
+  //         "Transparency is at the core of our services. Receive detailed reports and analytics that demystify the performance of your paid advertising campaigns. Understand the impact, ROI, and areas for improvement, empowering you with insights to make informed decisions for future strategies.",
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //   },
+  //   projects: [
+  //     {
+  //       id: 1,
+  //       title: "Sea Stone",
+  //       content: {
+  //         // company:
+  //         //   "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+  //         df: "We take great pride in our ability to use clever advertising to support business growth. Our commitment towards achieving tangible outcomes for our clients is demonstrated by our collaboration with Sea Stone Merchant Navy Institute. Sea-stone is a leading merchant navy institute which gives training and placement to students.",
+  //       },
+  //       // imgUrl:
+  //       //   "/images/projects/paid-advertising/paid-advertising-Rominus-PIZZA-min.png",
+  //     },
 
-      {
-        id: 2,
-        title: "Rtech",
-        content: {
-          // company:
-          //   "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
-          df: "We at Digital Fry are dedicatedly to helping businesses like Rtech Group achieve their marketing objectives and elevate their brands to new heights. Whether they are launching a new project, expanding reach, or seeking to maximize ROI, our team of experts is here to help you navigate the ever-evolving landscape of digital advertising with confidence and success.",
-        },
-        // imgUrl:
-        //   "/images/projects/paid-advertising/paid-advertising-Rominus-PIZZA-min.png",
-      },
+  //     {
+  //       id: 2,
+  //       title: "Rtech",
+  //       content: {
+  //         // company:
+  //         //   "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+  //         df: "We at Digital Fry are dedicatedly to helping businesses like Rtech Group achieve their marketing objectives and elevate their brands to new heights. Whether they are launching a new project, expanding reach, or seeking to maximize ROI, our team of experts is here to help you navigate the ever-evolving landscape of digital advertising with confidence and success.",
+  //       },
+  //       // imgUrl:
+  //       //   "/images/projects/paid-advertising/paid-advertising-Rominus-PIZZA-min.png",
+  //     },
 
-      {
-        id: 3,
-        title: "Arora Hyundai",
-        content: {
-          company:
-            "Arora Hyundai is not just a dealership; it's a gateway to a world of automotive excellence. Whether you're in the market for a sleek sedan, a spacious SUV, or a versatile crossover, the showroom boasts an extensive selection of Hyundai vehicles to suit every taste and lifestyle.",
-          df: "We are excited to present our latest partnership with Arora Hyundai, in which we worked together to improve their online visibility and achieve significant outcomes through well-thought-out paid advertising campaigns.",
-        },
-        // imgUrl:
-        //   "/images/projects/paid-advertising/paid-advertising-Rominus-PIZZA-min.png",
-      },
+  //     {
+  //       id: 3,
+  //       title: "Arora Hyundai",
+  //       content: {
+  //         company:
+  //           "Arora Hyundai is not just a dealership; it's a gateway to a world of automotive excellence. Whether you're in the market for a sleek sedan, a spacious SUV, or a versatile crossover, the showroom boasts an extensive selection of Hyundai vehicles to suit every taste and lifestyle.",
+  //         df: "We are excited to present our latest partnership with Arora Hyundai, in which we worked together to improve their online visibility and achieve significant outcomes through well-thought-out paid advertising campaigns.",
+  //       },
+  //       // imgUrl:
+  //       //   "/images/projects/paid-advertising/paid-advertising-Rominus-PIZZA-min.png",
+  //     },
 
-      // {
-      //   id: 4,
-      //   title: "Rominus PIZZA",
-      //   content: {
-      //     company:
-      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
-      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
-      //   },
-      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
-      // },
-      // },
-      // {
-      //   id: 5,
-      //   title: "Rominus PIZZA",
-      //   content: {
-      //     company:
-      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
-      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
-      //   },
-      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
-      // },
-      // },
-      // {
-      //   id: 6,
-      //   title: "Rominus PIZZA",
-      //   content: {
-      //     company:
-      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
-      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
-      //   },
-      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
-      // },
-      // },
-      // {
-      //   id: 7,
-      //   title: "Rominus PIZZA",
-      //   content: {
-      //     company:
-      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
-      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
-      //   },
-      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
-      // },
-      // },
-    ],
-  },
+  //     // {
+  //     //   id: 4,
+  //     //   title: "Rominus PIZZA",
+  //     //   content: {
+  //     //     company:
+  //     //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+  //     //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+  //     //   },
+  //     //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+  //     // },
+  //     // },
+  //     // {
+  //     //   id: 5,
+  //     //   title: "Rominus PIZZA",
+  //     //   content: {
+  //     //     company:
+  //     //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+  //     //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+  //     //   },
+  //     //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+  //     // },
+  //     // },
+  //     // {
+  //     //   id: 6,
+  //     //   title: "Rominus PIZZA",
+  //     //   content: {
+  //     //     company:
+  //     //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+  //     //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+  //     //   },
+  //     //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+  //     // },
+  //     // },
+  //     // {
+  //     //   id: 7,
+  //     //   title: "Rominus PIZZA",
+  //     //   content: {
+  //     //     company:
+  //     //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+  //     //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+  //     //   },
+  //     //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+  //     // },
+  //     // },
+  //   ],
+  // },
   // SEO
-  {
-    title: "Search Engine Optimization",
-    desc: "Boost your online visibility with Digital Fry's SEO strategies. We optimize your website to rank higher on search engines, driving organic traffic and increasing your brand's digital presence. Stay ahead in search results with our SEO expertise. ",
-    imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-    pageData: {
-      section1: {
-        title: "Dominating Digital Landscapes: SEO Excellence Unleashed",
-        content:
-          "At Digital Fry, we don't just optimize for search engines; we empower your brand to dominate digital landscapes. Explore the world of SEO excellence as we strategically position your business for visibility, relevance, and lasting success.          ",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      section2: {
-        // title: "Strategic Keyword Mastery",
+  // {
+  //   title: "Search Engine Optimization",
+  //   desc: "Boost your online visibility with Digital Fry's SEO strategies. We optimize your website to rank higher on search engines, driving organic traffic and increasing your brand's digital presence. Stay ahead in search results with our SEO expertise. ",
+  //   imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //   pageData: {
+  //     section1: {
+  //       title: "Dominating Digital Landscapes: SEO Excellence Unleashed",
+  //       content:
+  //         "At Digital Fry, we don't just optimize for search engines; we empower your brand to dominate digital landscapes. Explore the world of SEO excellence as we strategically position your business for visibility, relevance, and lasting success.          ",
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //     section2: {
+  //       // title: "Strategic Keyword Mastery",
 
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      section3: {
-        title: "Strategic Keyword Mastery",
-        content:
-          "In the realm of SEO, keywords are the currency of visibility. Our experts delve deep into keyword research, ensuring that your business is strategically aligned with the terms your audience searches for. Harness the power of strategic keyword mastery to propel your brand to the forefront of search results.          ",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      section4: {
-        title: "Content that Speaks and Ranks",
-        content:
-          "Content isn't just information; it's the heartbeat of SEO. Experience the fusion of creativity and strategy as we craft content that not only speaks to your audience but also ranks high in search engine results. Elevate your online presence with content that resonates and ranks.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      section5: {
-        title: "Technical SEO Excellence",
-        content:
-          "Behind every successful SEO strategy is a foundation of technical excellence. From website structure to crawlability, we delve into the technical nuances that optimize your site for search engines. Unlock the full potential of your online presence with Digital Fry's technical SEO expertise.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      section6: {
-        // title:""
-      },
-      section7: {
-        title: "Local SEO Triumph",
-        content:
-          "For businesses targeting local audiences, our Local SEO strategies are tailored to ensure your brand shines in local searches. From Google My Business optimization to localized content, we put your business on the map, both figuratively and literally, ensuring local success.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      section8: {
-        title: "Crafting Stories, Designing Success",
-      },
-      section9: {
-        title: "Link Building Strategies that Soar",
-        content:
-          "In the digital ecosystem, links are the connectors of authority. Our link building strategies are not just about quantity; they're about quality and relevance. Witness your website's authority soar as we implement strategic link-building techniques that stand the test of search engine algorithms.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      section10: {
-        title: "Data-Driven Insights for Continuous Growth",
-        content:
-          "SEO is not a one-time effort; it's an ongoing journey. Our commitment to your success goes beyond implementation. With data-driven insights, we continually refine and optimize your SEO strategy, ensuring your business stays ahead in the ever-evolving landscape of digital visibility.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-    },
-    // projects: [
-    //   {
-    //     id: 1,
-    //     title: "Rominus PIZZA",
-    //     content: {
-    //       company:
-    //         "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
-    //       df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
-    //     },
-    //     imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
-    //   },
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //     section3: {
+  //       title: "Strategic Keyword Mastery",
+  //       content:
+  //         "In the realm of SEO, keywords are the currency of visibility. Our experts delve deep into keyword research, ensuring that your business is strategically aligned with the terms your audience searches for. Harness the power of strategic keyword mastery to propel your brand to the forefront of search results.          ",
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //     section4: {
+  //       title: "Content that Speaks and Ranks",
+  //       content:
+  //         "Content isn't just information; it's the heartbeat of SEO. Experience the fusion of creativity and strategy as we craft content that not only speaks to your audience but also ranks high in search engine results. Elevate your online presence with content that resonates and ranks.",
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //     section5: {
+  //       title: "Technical SEO Excellence",
+  //       content:
+  //         "Behind every successful SEO strategy is a foundation of technical excellence. From website structure to crawlability, we delve into the technical nuances that optimize your site for search engines. Unlock the full potential of your online presence with Digital Fry's technical SEO expertise.",
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //     section6: {
+  //       // title:""
+  //     },
+  //     section7: {
+  //       title: "Local SEO Triumph",
+  //       content:
+  //         "For businesses targeting local audiences, our Local SEO strategies are tailored to ensure your brand shines in local searches. From Google My Business optimization to localized content, we put your business on the map, both figuratively and literally, ensuring local success.",
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //     section8: {
+  //       title: "Crafting Stories, Designing Success",
+  //     },
+  //     section9: {
+  //       title: "Link Building Strategies that Soar",
+  //       content:
+  //         "In the digital ecosystem, links are the connectors of authority. Our link building strategies are not just about quantity; they're about quality and relevance. Witness your website's authority soar as we implement strategic link-building techniques that stand the test of search engine algorithms.",
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //     section10: {
+  //       title: "Data-Driven Insights for Continuous Growth",
+  //       content:
+  //         "SEO is not a one-time effort; it's an ongoing journey. Our commitment to your success goes beyond implementation. With data-driven insights, we continually refine and optimize your SEO strategy, ensuring your business stays ahead in the ever-evolving landscape of digital visibility.",
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //   },
+  //   // projects: [
+  //   //   {
+  //   //     id: 1,
+  //   //     title: "Rominus PIZZA",
+  //   //     content: {
+  //   //       company:
+  //   //         "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+  //   //       df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+  //   //     },
+  //   //     imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+  //   //   },
 
-    //   {
-    //     id: 2,
-    //     title: "Rominus PIZZA",
-    //     content: {
-    //       company:
-    //         "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
-    //       df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
-    //     },
-    //     imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
-    //   },
+  //   //   {
+  //   //     id: 2,
+  //   //     title: "Rominus PIZZA",
+  //   //     content: {
+  //   //       company:
+  //   //         "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+  //   //       df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+  //   //     },
+  //   //     imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+  //   //   },
 
-    //   {
-    //     id: 3,
-    //     title: "Rominus PIZZA",
-    //     content: {
-    //       company:
-    //         "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
-    //       df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
-    //     },
-    //     imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
-    //   },
+  //   //   {
+  //   //     id: 3,
+  //   //     title: "Rominus PIZZA",
+  //   //     content: {
+  //   //       company:
+  //   //         "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+  //   //       df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+  //   //     },
+  //   //     imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+  //   //   },
 
-    //   // {
-    //   //   id: 4,
-    //   //   title: "Rominus PIZZA",
-    //   //   content: {
-    //   //     company:
-    //   //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
-    //   //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
-    //   //   },
-    //   //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
-    //   // },
-    //   // },
-    //   // {
-    //   //   id: 5,
-    //   //   title: "Rominus PIZZA",
-    //   //   content: {
-    //   //     company:
-    //   //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
-    //   //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
-    //   //   },
-    //   //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
-    //   // },
-    //   // },
-    //   // {
-    //   //   id: 6,
-    //   //   title: "Rominus PIZZA",
-    //   //   content: {
-    //   //     company:
-    //   //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
-    //   //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
-    //   //   },
-    //   //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
-    //   // },
-    //   // },
-    //   // {
-    //   //   id: 7,
-    //   //   title: "Rominus PIZZA",
-    //   //   content: {
-    //   //     company:
-    //   //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
-    //   //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
-    //   //   },
-    //   //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
-    //   // },
-    //   // },
-    // ],
-  },
+  //   //   // {
+  //   //   //   id: 4,
+  //   //   //   title: "Rominus PIZZA",
+  //   //   //   content: {
+  //   //   //     company:
+  //   //   //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+  //   //   //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+  //   //   //   },
+  //   //   //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+  //   //   // },
+  //   //   // },
+  //   //   // {
+  //   //   //   id: 5,
+  //   //   //   title: "Rominus PIZZA",
+  //   //   //   content: {
+  //   //   //     company:
+  //   //   //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+  //   //   //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+  //   //   //   },
+  //   //   //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+  //   //   // },
+  //   //   // },
+  //   //   // {
+  //   //   //   id: 6,
+  //   //   //   title: "Rominus PIZZA",
+  //   //   //   content: {
+  //   //   //     company:
+  //   //   //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+  //   //   //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+  //   //   //   },
+  //   //   //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+  //   //   // },
+  //   //   // },
+  //   //   // {
+  //   //   //   id: 7,
+  //   //   //   title: "Rominus PIZZA",
+  //   //   //   content: {
+  //   //   //     company:
+  //   //   //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+  //   //   //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+  //   //   //   },
+  //   //   //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+  //   //   // },
+  //   //   // },
+  //   // ],
+  // },
   // Ecommerce Management
-  {
-    title: "Ecommerce Management",
-    desc: "Optimize your online store for success with Digital Fry's ecommerce management services. From inventory management to customer experience, we streamline your ecommerce operations for increased sales and customer satisfaction. Boost your online retail presence with us.  ",
-    imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-    pageData: {
-      section1: {
-        title: "End-to-End Ecommerce Excellence",
-        content:
-          "At Digital Fry, we offer comprehensive Ecommerce Management solutions that cover every aspect of your online store. From inventory management to customer experience, our end-to-end approach ensures seamless operation and unparalleled success.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      section2: {
-        // title: "Unify your team’s digital assets",
+  // {
+  //   title: "Ecommerce Management",
+  //   desc: "Optimize your online store for success with Digital Fry's ecommerce management services. From inventory management to customer experience, we streamline your ecommerce operations for increased sales and customer satisfaction. Boost your online retail presence with us.  ",
+  //   imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //   pageData: {
+  //     section1: {
+  //       title: "End-to-End Ecommerce Excellence",
+  //       content:
+  //         "At Digital Fry, we offer comprehensive Ecommerce Management solutions that cover every aspect of your online store. From inventory management to customer experience, our end-to-end approach ensures seamless operation and unparalleled success.",
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //     section2: {
+  //       // title: "Unify your team’s digital assets",
 
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      section3: {
-        title: "Optimize Your Online Store for Success",
-        content:
-          "Maximize your Ecommerce potential with our optimization strategies. We analyze, tweak, and fine-tune every element of your online store to ensure optimal performance, enhancing user experience and driving conversions.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      section4: {
-        title: "Strategic Product Placement and Merchandising",
-        content:
-          "Our Ecommerce Management service focuses on strategic product placement and effective merchandising. We curate a shopping experience that not only showcases your products but encourages upsells and cross-sells, boosting your average order value.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      section5: {
-        title: "Efficient Inventory and Order Management",
-        content:
-          "Say goodbye to inventory headaches. Our Ecommerce Management team ensures efficient inventory management, preventing stockouts and overstock situations. Streamlined order processing guarantees timely fulfillment and satisfied customers.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      section6: {
-        // title:""
-      },
-      section7: {
-        title: "Seamless Payment Processing Integration",
-        content:
-          "Digital Fry integrates seamless payment processing solutions into your Ecommerce platform. From traditional methods to the latest digital wallets, we ensure that your customers have a frictionless and secure payment experience.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      section8: {
-        title: "Crafting Stories, Designing Success",
-      },
-      section9: {
-        title: "Responsive Customer Support and Engagement",
-        content:
-          "Deliver exceptional customer service with our Ecommerce Management solutions. We implement responsive customer support systems and engagement strategies to build trust, resolve issues promptly, and create loyal customers.          ",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      section10: {
-        title: "Data-Driven Insights for Informed Decisions",
-        content:
-          "Harness the power of data. Our Ecommerce Management service provides data-driven insights into customer behavior, sales patterns, and market trends. Use this valuable information to make informed decisions and stay ahead of the competition.          ",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-    },
-    projects: [
-      {
-        id: 1,
-        title: "Rominus PIZZA",
-        content: {
-          company:
-            "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
-          df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
-        },
-        imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
-      },
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //     section3: {
+  //       title: "Optimize Your Online Store for Success",
+  //       content:
+  //         "Maximize your Ecommerce potential with our optimization strategies. We analyze, tweak, and fine-tune every element of your online store to ensure optimal performance, enhancing user experience and driving conversions.",
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //     section4: {
+  //       title: "Strategic Product Placement and Merchandising",
+  //       content:
+  //         "Our Ecommerce Management service focuses on strategic product placement and effective merchandising. We curate a shopping experience that not only showcases your products but encourages upsells and cross-sells, boosting your average order value.",
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //     section5: {
+  //       title: "Efficient Inventory and Order Management",
+  //       content:
+  //         "Say goodbye to inventory headaches. Our Ecommerce Management team ensures efficient inventory management, preventing stockouts and overstock situations. Streamlined order processing guarantees timely fulfillment and satisfied customers.",
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //     section6: {
+  //       // title:""
+  //     },
+  //     section7: {
+  //       title: "Seamless Payment Processing Integration",
+  //       content:
+  //         "Digital Fry integrates seamless payment processing solutions into your Ecommerce platform. From traditional methods to the latest digital wallets, we ensure that your customers have a frictionless and secure payment experience.",
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //     section8: {
+  //       title: "Crafting Stories, Designing Success",
+  //     },
+  //     section9: {
+  //       title: "Responsive Customer Support and Engagement",
+  //       content:
+  //         "Deliver exceptional customer service with our Ecommerce Management solutions. We implement responsive customer support systems and engagement strategies to build trust, resolve issues promptly, and create loyal customers.          ",
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //     section10: {
+  //       title: "Data-Driven Insights for Informed Decisions",
+  //       content:
+  //         "Harness the power of data. Our Ecommerce Management service provides data-driven insights into customer behavior, sales patterns, and market trends. Use this valuable information to make informed decisions and stay ahead of the competition.          ",
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //   },
+  //   projects: [
+  //     {
+  //       id: 1,
+  //       title: "Rominus PIZZA",
+  //       content: {
+  //         company:
+  //           "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+  //         df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+  //       },
+  //       imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+  //     },
 
-      {
-        id: 2,
-        title: "Rominus PIZZA",
-        content: {
-          company:
-            "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
-          df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
-        },
-        imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
-      },
+  //     {
+  //       id: 2,
+  //       title: "Rominus PIZZA",
+  //       content: {
+  //         company:
+  //           "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+  //         df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+  //       },
+  //       imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+  //     },
 
-      {
-        id: 3,
-        title: "Rominus PIZZA",
-        content: {
-          company:
-            "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
-          df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
-        },
-        imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
-      },
+  //     {
+  //       id: 3,
+  //       title: "Rominus PIZZA",
+  //       content: {
+  //         company:
+  //           "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+  //         df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+  //       },
+  //       imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+  //     },
 
-      // {
-      //   id: 4,
-      //   title: "Rominus PIZZA",
-      //   content: {
-      //     company:
-      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
-      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
-      //   },
-      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
-      // },
-      // },
-      // {
-      //   id: 5,
-      //   title: "Rominus PIZZA",
-      //   content: {
-      //     company:
-      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
-      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
-      //   },
-      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
-      // },
-      // },
-      // {
-      //   id: 6,
-      //   title: "Rominus PIZZA",
-      //   content: {
-      //     company:
-      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
-      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
-      //   },
-      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
-      // },
-      // },
-      // {
-      //   id: 7,
-      //   title: "Rominus PIZZA",
-      //   content: {
-      //     company:
-      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
-      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
-      //   },
-      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
-      // },
-      // },
-    ],
-  },
+  //     // {
+  //     //   id: 4,
+  //     //   title: "Rominus PIZZA",
+  //     //   content: {
+  //     //     company:
+  //     //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+  //     //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+  //     //   },
+  //     //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+  //     // },
+  //     // },
+  //     // {
+  //     //   id: 5,
+  //     //   title: "Rominus PIZZA",
+  //     //   content: {
+  //     //     company:
+  //     //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+  //     //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+  //     //   },
+  //     //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+  //     // },
+  //     // },
+  //     // {
+  //     //   id: 6,
+  //     //   title: "Rominus PIZZA",
+  //     //   content: {
+  //     //     company:
+  //     //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+  //     //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+  //     //   },
+  //     //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+  //     // },
+  //     // },
+  //     // {
+  //     //   id: 7,
+  //     //   title: "Rominus PIZZA",
+  //     //   content: {
+  //     //     company:
+  //     //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+  //     //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+  //     //   },
+  //     //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+  //     // },
+  //     // },
+  //   ],
+  // },
   // Brand StoryTelling
-  {
-    title: "Brand Storytelling",
-    desc: "Let Digital Fry narrate your brand's unique story. Our brand storytelling services create a compelling narrative that resonates with your audience, building emotional connections and brand loyalty. Stand out with a captivating brand story.  ",
-    imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-    pageData: {
-      section1: {
-        title: "Crafting Compelling Narratives",
-        content:
-          "At Digital Fry, we specialize in crafting compelling brand narratives that resonate with your audience. Our expert storytellers work collaboratively with you to bring your brand's essence to life, creating stories that captivate and leave a lasting impact.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      section2: {
-        // title: "Unify your team’s digital assets",
+  // {
+  //   title: "Brand Storytelling",
+  //   desc: "Let Digital Fry narrate your brand's unique story. Our brand storytelling services create a compelling narrative that resonates with your audience, building emotional connections and brand loyalty. Stand out with a captivating brand story.  ",
+  //   imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //   pageData: {
+  //     section1: {
+  //       title: "Crafting Compelling Narratives",
+  //       content:
+  //         "At Digital Fry, we specialize in crafting compelling brand narratives that resonate with your audience. Our expert storytellers work collaboratively with you to bring your brand's essence to life, creating stories that captivate and leave a lasting impact.",
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //     section2: {
+  //       // title: "Unify your team’s digital assets",
 
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      section3: {
-        title: "Unveiling Your Brand's Identity",
-        content:
-          "Explore the art of identity revelation as we peel back the layers of your brand, uncovering its unique personality and values. Our brand storytelling services go beyond the surface, delving into the core of what makes your brand truly distinctive.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      section4: {
-        title: "Visualizing Your Brand's Journey",
-        content:
-          "Through the lens of captivating visuals and engaging content, we visualize your brand's journey. Every element is meticulously curated to communicate your story, ensuring that your audience not only sees but emotionally connects with your brand's evolution.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      section5: {
-        title: "Authenticity in Every Word",
-        content:
-          "Authenticity is the cornerstone of powerful storytelling. We infuse your brand narrative with genuine and relatable elements, creating an authentic connection with your audience that goes beyond marketing messages.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      section6: {
-        // title:""
-      },
-      section7: {
-        title: "Strategic Story Placement",
-        content:
-          "Discover the strategic art of story placement. Our experts understand the importance of context, ensuring your brand stories are strategically placed across various platforms to maximize their impact and reach the right audience at the right time.          ",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      section8: {
-        title: "Crafting Stories, Designing Success",
-      },
-      section9: {
-        title: "Engaging Your Audience's Imagination",
-        content:
-          "Invite your audience to become a part of your brand's story. We go beyond traditional marketing by engaging your audience's imagination, encouraging them to not just buy a product but be a part of a narrative that resonates with their own aspirations and values.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      section10: {
-        title: "Measurable Impact through Storytelling",
-        content:
-          "Uncover the tangible impact of storytelling on your brand's success. Our data-driven approach allows us to measure the effectiveness of each narrative, refining and optimizing your brand story to achieve measurable results and long-term success.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-    },
-    // projects: [
-    //   {
-    //     id: 1,
-    //     title: "Rominus PIZZA",
-    //     content: {
-    //       company:
-    //         "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
-    //       df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
-    //     },
-    //     imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
-    //   },
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //     section3: {
+  //       title: "Unveiling Your Brand's Identity",
+  //       content:
+  //         "Explore the art of identity revelation as we peel back the layers of your brand, uncovering its unique personality and values. Our brand storytelling services go beyond the surface, delving into the core of what makes your brand truly distinctive.",
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //     section4: {
+  //       title: "Visualizing Your Brand's Journey",
+  //       content:
+  //         "Through the lens of captivating visuals and engaging content, we visualize your brand's journey. Every element is meticulously curated to communicate your story, ensuring that your audience not only sees but emotionally connects with your brand's evolution.",
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //     section5: {
+  //       title: "Authenticity in Every Word",
+  //       content:
+  //         "Authenticity is the cornerstone of powerful storytelling. We infuse your brand narrative with genuine and relatable elements, creating an authentic connection with your audience that goes beyond marketing messages.",
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //     section6: {
+  //       // title:""
+  //     },
+  //     section7: {
+  //       title: "Strategic Story Placement",
+  //       content:
+  //         "Discover the strategic art of story placement. Our experts understand the importance of context, ensuring your brand stories are strategically placed across various platforms to maximize their impact and reach the right audience at the right time.          ",
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //     section8: {
+  //       title: "Crafting Stories, Designing Success",
+  //     },
+  //     section9: {
+  //       title: "Engaging Your Audience's Imagination",
+  //       content:
+  //         "Invite your audience to become a part of your brand's story. We go beyond traditional marketing by engaging your audience's imagination, encouraging them to not just buy a product but be a part of a narrative that resonates with their own aspirations and values.",
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //     section10: {
+  //       title: "Measurable Impact through Storytelling",
+  //       content:
+  //         "Uncover the tangible impact of storytelling on your brand's success. Our data-driven approach allows us to measure the effectiveness of each narrative, refining and optimizing your brand story to achieve measurable results and long-term success.",
+  //       imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+  //     },
+  //   },
+  //   // projects: [
+  //   //   {
+  //   //     id: 1,
+  //   //     title: "Rominus PIZZA",
+  //   //     content: {
+  //   //       company:
+  //   //         "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+  //   //       df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+  //   //     },
+  //   //     imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+  //   //   },
 
-    //   {
-    //     id: 2,
-    //     title: "Rominus PIZZA",
-    //     content: {
-    //       company:
-    //         "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
-    //       df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
-    //     },
-    //     imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
-    //   },
+  //   //   {
+  //   //     id: 2,
+  //   //     title: "Rominus PIZZA",
+  //   //     content: {
+  //   //       company:
+  //   //         "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+  //   //       df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+  //   //     },
+  //   //     imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+  //   //   },
 
-    //   {
-    //     id: 3,
-    //     title: "Rominus PIZZA",
-    //     content: {
-    //       company:
-    //         "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
-    //       df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
-    //     },
-    //     imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
-    //   },
+  //   //   {
+  //   //     id: 3,
+  //   //     title: "Rominus PIZZA",
+  //   //     content: {
+  //   //       company:
+  //   //         "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+  //   //       df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+  //   //     },
+  //   //     imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+  //   //   },
 
-    //   // {
-    //   //   id: 4,
-    //   //   title: "Rominus PIZZA",
-    //   //   content: {
-    //   //     company:
-    //   //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
-    //   //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
-    //   //   },
-    //   //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
-    //   // },
-    //   // },
-    //   // {
-    //   //   id: 5,
-    //   //   title: "Rominus PIZZA",
-    //   //   content: {
-    //   //     company:
-    //   //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
-    //   //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
-    //   //   },
-    //   //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
-    //   // },
-    //   // },
-    //   // {
-    //   //   id: 6,
-    //   //   title: "Rominus PIZZA",
-    //   //   content: {
-    //   //     company:
-    //   //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
-    //   //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
-    //   //   },
-    //   //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
-    //   // },
-    //   // },
-    //   // {
-    //   //   id: 7,
-    //   //   title: "Rominus PIZZA",
-    //   //   content: {
-    //   //     company:
-    //   //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
-    //   //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
-    //   //   },
-    //   //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
-    //   // },
-    //   // },
-    // ],
-  },
+  //   //   // {
+  //   //   //   id: 4,
+  //   //   //   title: "Rominus PIZZA",
+  //   //   //   content: {
+  //   //   //     company:
+  //   //   //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+  //   //   //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+  //   //   //   },
+  //   //   //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+  //   //   // },
+  //   //   // },
+  //   //   // {
+  //   //   //   id: 5,
+  //   //   //   title: "Rominus PIZZA",
+  //   //   //   content: {
+  //   //   //     company:
+  //   //   //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+  //   //   //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+  //   //   //   },
+  //   //   //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+  //   //   // },
+  //   //   // },
+  //   //   // {
+  //   //   //   id: 6,
+  //   //   //   title: "Rominus PIZZA",
+  //   //   //   content: {
+  //   //   //     company:
+  //   //   //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+  //   //   //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+  //   //   //   },
+  //   //   //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+  //   //   // },
+  //   //   // },
+  //   //   // {
+  //   //   //   id: 7,
+  //   //   //   title: "Rominus PIZZA",
+  //   //   //   content: {
+  //   //   //     company:
+  //   //   //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+  //   //   //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+  //   //   //   },
+  //   //   //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+  //   //   // },
+  //   //   // },
+  //   // ],
+  // },
   // {
   //   title: "Email Marketing",
   //   desc: "Unlock the power of personalized communication with Digital Fry's email marketing services. We create impactful email campaigns, nurturing customer relationships and driving conversions. Leverage the potential of email marketing for your brand success. ",
