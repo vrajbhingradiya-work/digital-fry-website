@@ -1,10 +1,13 @@
 import Image from "next/image";
+import Icon from "@/public/logo/Icon.png";
 import React from "react";
-import socialmediamarketing from "@/public/images/services/socialmediamarketing.svg";
 
 const Gallery = ({ Projects, setIsOpen, setSelectedCardProject }: any) => {
   return (
-    <div className=" my-24 flex justify-center items-center w-full   md:px-6">
+    <div
+      id="1"
+      className=" my-24 flex justify-center items-center w-full   md:px-6"
+    >
       {/* Section: Design Block */}
       <section className="mb-32 w-full">
         <style
@@ -20,7 +23,7 @@ const Gallery = ({ Projects, setIsOpen, setSelectedCardProject }: any) => {
         <div className="flex justify-center items-center lg:w-full w-[95vw]">
           <div className="grid grid-cols-1 w-full  md:grid-cols-2 gap-3 lg:gap-6 lg:grid-cols-3 ">
             {/* card */}
-            {Projects?.map((project: any, index: number) => {
+            {Projects?.map((project: any, index: any) => {
               return (
                 <ProjectCards
                   setSelectedCardProject={setSelectedCardProject}
@@ -41,28 +44,29 @@ const Gallery = ({ Projects, setIsOpen, setSelectedCardProject }: any) => {
 export default Gallery;
 
 function ProjectCards({ project, setIsOpen, setSelectedCardProject }: any) {
-  setSelectedCardProject(project);
   return (
     <div
-      onClick={() => setIsOpen(true)}
+      onClick={() => {
+        setIsOpen(true);
+        setSelectedCardProject(project);
+      }}
       className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%] h-[30vh] lg:h-[30vh] w-full lg:w-[300px]"
       data-te-ripple-init=""
       data-te-ripple-color="dark"
     >
       <Image
-        src={
-          // project.imgUrl ||
-          socialmediamarketing
-        }
+        src={project?.imgUrl ? project?.imgUrl : Icon}
         alt={project.title}
         layout="fill"
         objectFit="cover"
         className="w-full align-middle transition duration-300 hover:ease-linear"
       />
 
-      <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]">
+      <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.6)]">
         <div className="flex h-full items-end justify-start">
-          <h5 className="m-6 text-lg font-bold text-white">{project.title}</h5>
+          <h5 className="m-6 text-2xl font-black text-white">
+            {project.title}
+          </h5>
         </div>
       </div>
       <div>

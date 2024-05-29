@@ -1,7 +1,7 @@
 import React from "react";
 import { motion, AnimatePresence, easeInOut } from "framer-motion";
-import Link from "next/link";
 import Image from "next/image";
+import Icon from "@/public/logo/Icon.png";
 
 const Modal = ({ isOpen, setIsOpen, project }: any) => {
   const backdrop = {
@@ -44,16 +44,18 @@ const Modal = ({ isOpen, setIsOpen, project }: any) => {
               data-te-ripple-color="dark"
             >
               <Image
-                src={project.imgUrl}
+                src={project?.imgUrl ? project?.imgUrl : Icon}
+                priority={true}
                 alt="boom"
                 layout="fill"
-                objectFit="cover"
+                objectFit="contain"
                 className="w-full align-middle transition duration-300 hover:ease-linear"
               />
             </div>
             <div className="flex flex-col h-full  justify-between w-full  p-4 gap-4 xl:col-span-1">
               <p className="text-lg text-[#444]">{project.title}</p>
-              <p className="text-xs text-[#444]">{project.content} </p>
+              <p className="text-xs text-[#444]">{project.content?.company} </p>
+              <p className="text-xs text-[#444]">{project.content?.df} </p>
               {/* <button
                 onClick={() => {
                   setIsOpen(false);

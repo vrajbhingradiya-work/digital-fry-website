@@ -9,7 +9,7 @@ import SimpleReveal from "@/components/utils/SimpleReveal";
 
 export default function Home() {
   return (
-    <div className="px-4  flex flex-col gap-4 w-full">
+    <div className="px-4 flex flex-col gap-4 w-full">
       <ShuffleHero />
       <div className="overflow-hidden w-full text-center mt-16 flex justify-center items-center text-black  text-5xl md:text-6xl lg:text-8xl font-bold  ">
         <SimpleReveal sequence={4}>

@@ -6,7 +6,7 @@ import contentcreation from "@/public/images/services/contentcreation.svg";
 
 const LatestWorksCard = ({ work }: any) => {
   return (
-    <Link href="/blog/1">
+    <Link href="/services/socialmediamarketing">
       <div className=" flex flex-col justify-start items-start rounded-xl overflow-hidden transition hover:scale-[102%] shadow-md hover:shadow-2xl shadow-black hover:ease-in-out ">
         {/* add container image */}
         <div className=" flex justify-center items-center w-full h-[250px] md:h-[250px]  bg-gray-400 relative">

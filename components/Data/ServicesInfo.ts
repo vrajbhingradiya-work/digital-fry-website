@@ -1,3 +1,4 @@
+import smmJoyEbike from "@/public/images/projects/smm/smm-joy-e-bike-min.png";
 export const servicesCardsInfo = [
   //  Social Media Marketing
   {
@@ -65,53 +66,79 @@ export const servicesCardsInfo = [
     projects: [
       {
         id: 1,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+        title: "Looks Salon",
+        content: {
+          company:
+            "Looks Salon has grown into a trusted name in the beauty industry, known for its commitment to quality, innovation, and exceptional customer service.",
+          df: "At Digitalfry we enhanced Look's online presence and drove customer engagement through our expertise in social media marketing. Over the past 1.5 years, our team implemented various strategies across multiple platforms to increase brand awareness, attract new clients, and foster loyalty among existing customers.",
+        },
+        imgUrl: "/images/projects/smm/smm-looks- salon-min.png",
       },
       {
         id: 2,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+        title: "Joy E-bikes",
+        content: {
+          company:
+            "Joy e-bike is one of India’s leading electric two-wheeler manufacturers. With innovation being an integral part, their idea is to bring something new to the market, which can also help fight climate change.",
+          df: " At Digitalfry we focused on promoting their innovative electric scooters, specifically the electric Activa models. Our goal was to raise awareness, grab potential customers, and drive sales through social media platforms.",
+        },
+        imgUrl: "/images/projects/smm/smm-joy-e-bike-min.png",
       },
+
       {
         id: 3,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+        title: "Rominus PIZZA",
+        content: {
+          company:
+            "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+          df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+        },
+        imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
       },
-      {
-        id: 4,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 5,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 6,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 7,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
+      // {
+      //   id: 4,
+      //   title: "Rominus PIZZA",
+      //   content: {
+      //     company:
+      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+      //   },
+      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+      // },
+      // },
+      // {
+      //   id: 5,
+      //   title: "Rominus PIZZA",
+      //   content: {
+      //     company:
+      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+      //   },
+      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+      // },
+      // },
+      // {
+      //   id: 6,
+      //   title: "Rominus PIZZA",
+      //   content: {
+      //     company:
+      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+      //   },
+      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+      // },
+      // },
+      // {
+      //   id: 7,
+      //   title: "Rominus PIZZA",
+      //   content: {
+      //     company:
+      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+      //   },
+      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+      // },
+      // },
     ],
   },
   // Packaging and Labelling
@@ -175,53 +202,84 @@ export const servicesCardsInfo = [
     projects: [
       {
         id: 1,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+        title: "Shop QSE",
+        content: {
+          company:
+            "At Shop QSE, they believe in the timeless allure of diamonds. The brand is devoted to bringing you the finest diamond jewellery, crafted with unparalleled craftsmanship and a passion for perfection. Shop QSE offers a stunning array of diamond jewellery that reflects elegance, sophistication, and beauty.",
+          df: "At Digital Fry we aimed to enhance the brand's identity and elevate the customer experience. We ensure that every piece of jewellery is showcased in a manner that befits elegance and value. We created packaging that reflects the luxury and sophistication of Shop QSE diamond jewellery and developed durable packaging solutions that protect the jewellery during transit and storage.",
+        },
+        imgUrl:
+          "/images/projects/packaging-and-labelling/ishana-celestial-min.png",
       },
+
       {
         id: 2,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+        title: "Ishana Celestial",
+        content: {
+          company:
+            "At Ishana, they believe true beauty lies in embracing your natural beauty. They create cosmetics that not only enhance one’s natural beauty but also nourish the skin. Established by a team of beauty enthusiasts who were tired of the harsh chemicals and unnatural ingredients found in many mainstream products.",
+          df: "Sustainability is at the heart of everything we do. Our new packaging is crafted from eco-friendly materials that are not only beautiful but also kind to the planet. We use materials which are easily recycled, reduce waste and promote a circular economy. Our designs use fewer ingredients without compromising quality or durability, which helps in reducing the overall carbon footprint.",
+        },
+        imgUrl:
+          "/images/projects/packaging-and-labelling/ishana-celestial-min-1.png",
       },
+
       {
         id: 3,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+        title: "Mount Fuji",
+        content: {
+          // company:
+          //   "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+          df: "Our packaging and labeling design for Mount Fuji A Organic Green Tea celebrates the pristine beauty and natural purity of Japan's iconic Mount Fuji, while embodying the essence of premium quality and organic excellence. Inspired by the tranquil landscapes, lush greenery, and cultural heritage of the region, our design invites consumers on a journey of discovery and rejuvenation with every sip.",
+        },
+        imgUrl:
+          "/images/projects/packaging-and-labelling/mount-fuji-01-min.png",
       },
-      {
-        id: 4,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 5,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 6,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 7,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
+
+      // {
+      //   id: 4,
+      //   title: "Rominus PIZZA",
+      //   content: {
+      //     company:
+      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+      //   },
+      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+      // },
+      // },
+      // {
+      //   id: 5,
+      //   title: "Rominus PIZZA",
+      //   content: {
+      //     company:
+      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+      //   },
+      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+      // },
+      // },
+      // {
+      //   id: 6,
+      //   title: "Rominus PIZZA",
+      //   content: {
+      //     company:
+      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+      //   },
+      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+      // },
+      // },
+      // {
+      //   id: 7,
+      //   title: "Rominus PIZZA",
+      //   content: {
+      //     company:
+      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+      //   },
+      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+      // },
+      // },
     ],
   },
   // Logo Designing
@@ -287,53 +345,81 @@ export const servicesCardsInfo = [
     projects: [
       {
         id: 1,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+        title: "O2 Oxygen Gym",
+        content: {
+          company:
+            "O2 is a luxury gym that redefine the concept of business. The mission is to create a sanctuary where you can achieve your health and wellness goals in the most luxurious and inspiring environment.",
+          df: "Our logo design for O2 Gym embodies strength, vitality, and a commitment to holistic well-being. It merges the elements of oxygen (O2) – essential for life – with the dynamic energy of physical fitness. The design encapsulates the spirit of empowerment and transformation that defines the O2 Gym experience.",
+        },
+        imgUrl: "/images/projects/logo-designing/o2-gym.png",
       },
+
       {
         id: 2,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+        title: "Havana",
+        content: {
+          // company:
+          //   "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+          df: "Our logo design for Havana Cafe captures the essence of Cuban charm and Jaipur's vibrant culture, blending the rich flavors of Havana with the eclectic spirit of Rajasthan. It evokes a sense of warmth, relaxation, and exotic indulgence, inviting patrons to savor a unique culinary experience.",
+        },
+        imgUrl: "/images/projects/logo-designing/havana-logo.png",
       },
+
       {
         id: 3,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+        title: "Workship",
+        content: {
+          // company:
+          //   "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+          df: "Our logo design for Workship Coworking Spaces embodies the dynamic synergy of collaboration, innovation, and community that defines modern coworking environments. It reflects the ethos of professional growth, creative exchange, and shared aspirations that thrive within Workship's vibrant ecosystem.",
+        },
+        imgUrl: "/images/projects/logo-designing/work-ship.png",
       },
-      {
-        id: 4,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 5,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 6,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 7,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
+
+      // {
+      //   id: 4,
+      //   title: "Rominus PIZZA",
+      //   content: {
+      //     company:
+      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+      //   },
+      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+      // },
+      // },
+      // {
+      //   id: 5,
+      //   title: "Rominus PIZZA",
+      //   content: {
+      //     company:
+      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+      //   },
+      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+      // },
+      // },
+      // {
+      //   id: 6,
+      //   title: "Rominus PIZZA",
+      //   content: {
+      //     company:
+      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+      //   },
+      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+      // },
+      // },
+      // {
+      //   id: 7,
+      //   title: "Rominus PIZZA",
+      //   content: {
+      //     company:
+      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+      //   },
+      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+      // },
+      // },
     ],
   },
   // Content Creation
@@ -399,53 +485,80 @@ export const servicesCardsInfo = [
     projects: [
       {
         id: 1,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+        title: "Wheels of World",
+        content: {
+          company:
+            "At Wheels of World, they redefine luxury with an exclusive collection of the finest automobiles from around the globe. The showroom is an experience designed for individuals who expect nothing less than the best, not merely a place to visit.",
+          df: "We had the privilege of partnering with Wheels of World, to enhance their digital footprint. We begin with an in-depth analysis of the brand, target audience, and industry trends to develop a customized content strategy that aligns with business goals.",
+        },
+        imgUrl: "/images/projects/content-creation/wow.png",
       },
+
       {
         id: 2,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+        title: "24 Carats",
+        content: {
+          company:
+            "24-Carat Builders believe in transforming your dreams into tangible realities. Whether it's building your dream home, renovating your space, or creating a commercial masterpiece,  24-carat is doing it with precision, passion, and integrity.",
+          df: "With digital fry, they benefited from our strategic guidance and expertise as we develop a customized content strategy tailored to your goals, audience, and brand voice.",
+        },
+        imgUrl: "/images/projects/content-creation/24-carats.png",
       },
       {
         id: 3,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+        title: "O2 Oxygen Gym",
+        content: {
+          company:
+            "O2 is a luxury gym that redefine the concept of business. The mission is to create a sanctuary where you can achieve your health and wellness goals in the most luxurious and inspiring environment.",
+          df: "Video content is a powerful tool for storytelling and engagement. Our video production services include promotional videos, client testimonials, virtual tours, and workout tutorials, all crafted to showcase the luxury and expertise of O2 gym.",
+        },
+        imgUrl: "/images/projects/content-creation/o2.png",
       },
-      {
-        id: 4,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 5,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 6,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 7,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
+
+      // {
+      //   id: 4,
+      //   title: "Rominus PIZZA",
+      //   content: {
+      //     company:
+      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+      //   },
+      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+      // },
+      // },
+      // {
+      //   id: 5,
+      //   title: "Rominus PIZZA",
+      //   content: {
+      //     company:
+      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+      //   },
+      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+      // },
+      // },
+      // {
+      //   id: 6,
+      //   title: "Rominus PIZZA",
+      //   content: {
+      //     company:
+      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+      //   },
+      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+      // },
+      // },
+      // {
+      //   id: 7,
+      //   title: "Rominus PIZZA",
+      //   content: {
+      //     company:
+      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+      //   },
+      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+      // },
+      // },
     ],
   },
   // Web Design and Development
@@ -511,53 +624,81 @@ export const servicesCardsInfo = [
     projects: [
       {
         id: 1,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+        title: "Ishana Celestial",
+        content: {
+          company:
+            "At Ishana, they believe true beauty lies in embracing your natural beauty. They create cosmetics that not only enhance one’s natural beauty but also nourish the skin. Established by a team of beauty enthusiasts who were tired of the harsh chemicals and unnatural ingredients found in many mainstream products.",
+          // df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+        },
+        imgUrl: "/images/projects/web-development/Ishana-min.png",
       },
+
       {
         id: 2,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+        title: "Workship",
+        content: {
+          company:
+            "We understand that every co-working space is unique, which is why we take a personalized approach to every project. Our team of experienced designers and developers works closely with the workship to understand vision, goals, and brand identity, ensuring that the website reflects the essence of space and resonates with the target audience.",
+          df: "We prioritize usability and functionality, ensuring that the website is easy to navigate and provides visitors with a seamless browsing experience.",
+        },
+        imgUrl: "/images/projects/web-development/workship-min.png",
       },
+
       {
         id: 3,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+        title: "Arora Hyundai",
+        content: {
+          company:
+            "Arora Hyundai is not just a dealership; it's a gateway to a world of automotive excellence. Whether you're in the market for a sleek sedan, a spacious SUV, or a versatile crossover, the showroom boasts an extensive selection of Hyundai vehicles to suit every taste and lifestyle.",
+          df: "Recently, we had the privilege of partnering with Arora Hyundai. We specialize in crafting stunning, user-friendly websites tailored to elevate their face presence and drive results. Our team is proud to have partnered with Arora Hyundai while helping them to create an online platform that showcases their exceptional vehicles and unparalleled service.",
+        },
+        imgUrl: "/images/projects/web-development/Arora-Hyundai-min.png",
       },
-      {
-        id: 4,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 5,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 6,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 7,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
+
+      // {
+      //   id: 4,
+      //   title: "Rominus PIZZA",
+      //   content: {
+      //     company:
+      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+      //   },
+      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+      // },
+      // },
+      // {
+      //   id: 5,
+      //   title: "Rominus PIZZA",
+      //   content: {
+      //     company:
+      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+      //   },
+      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+      // },
+      // },
+      // {
+      //   id: 6,
+      //   title: "Rominus PIZZA",
+      //   content: {
+      //     company:
+      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+      //   },
+      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+      // },
+      // },
+      // {
+      //   id: 7,
+      //   title: "Rominus PIZZA",
+      //   content: {
+      //     company:
+      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+      //   },
+      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+      // },
+      // },
     ],
   },
   // Paid Advertising
@@ -623,53 +764,84 @@ export const servicesCardsInfo = [
     projects: [
       {
         id: 1,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+        title: "Sea Stone",
+        content: {
+          // company:
+          //   "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+          df: "We take great pride in our ability to use clever advertising to support business growth. Our commitment towards achieving tangible outcomes for our clients is demonstrated by our collaboration with Sea Stone Merchant Navy Institute. Sea-stone is a leading merchant navy institute which gives training and placement to students.",
+        },
+        // imgUrl:
+        //   "/images/projects/paid-advertising/paid-advertising-Rominus-PIZZA-min.png",
       },
+
       {
         id: 2,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+        title: "Rtech",
+        content: {
+          // company:
+          //   "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+          df: "We at Digital Fry are dedicatedly to helping businesses like Rtech Group achieve their marketing objectives and elevate their brands to new heights. Whether they are launching a new project, expanding reach, or seeking to maximize ROI, our team of experts is here to help you navigate the ever-evolving landscape of digital advertising with confidence and success.",
+        },
+        // imgUrl:
+        //   "/images/projects/paid-advertising/paid-advertising-Rominus-PIZZA-min.png",
       },
+
       {
         id: 3,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+        title: "Arora Hyundai",
+        content: {
+          company:
+            "Arora Hyundai is not just a dealership; it's a gateway to a world of automotive excellence. Whether you're in the market for a sleek sedan, a spacious SUV, or a versatile crossover, the showroom boasts an extensive selection of Hyundai vehicles to suit every taste and lifestyle.",
+          df: "We are excited to present our latest partnership with Arora Hyundai, in which we worked together to improve their online visibility and achieve significant outcomes through well-thought-out paid advertising campaigns.",
+        },
+        // imgUrl:
+        //   "/images/projects/paid-advertising/paid-advertising-Rominus-PIZZA-min.png",
       },
-      {
-        id: 4,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 5,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 6,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 7,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
+
+      // {
+      //   id: 4,
+      //   title: "Rominus PIZZA",
+      //   content: {
+      //     company:
+      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+      //   },
+      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+      // },
+      // },
+      // {
+      //   id: 5,
+      //   title: "Rominus PIZZA",
+      //   content: {
+      //     company:
+      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+      //   },
+      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+      // },
+      // },
+      // {
+      //   id: 6,
+      //   title: "Rominus PIZZA",
+      //   content: {
+      //     company:
+      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+      //   },
+      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+      // },
+      // },
+      // {
+      //   id: 7,
+      //   title: "Rominus PIZZA",
+      //   content: {
+      //     company:
+      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+      //   },
+      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+      // },
+      // },
     ],
   },
   // SEO
@@ -732,57 +904,85 @@ export const servicesCardsInfo = [
         imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
       },
     },
-    projects: [
-      {
-        id: 1,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 2,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 3,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 4,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 5,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 6,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 7,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-    ],
+    // projects: [
+    //   {
+    //     id: 1,
+    //     title: "Rominus PIZZA",
+    //     content: {
+    //       company:
+    //         "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+    //       df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+    //     },
+    //     imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+    //   },
+
+    //   {
+    //     id: 2,
+    //     title: "Rominus PIZZA",
+    //     content: {
+    //       company:
+    //         "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+    //       df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+    //     },
+    //     imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+    //   },
+
+    //   {
+    //     id: 3,
+    //     title: "Rominus PIZZA",
+    //     content: {
+    //       company:
+    //         "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+    //       df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+    //     },
+    //     imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+    //   },
+
+    //   // {
+    //   //   id: 4,
+    //   //   title: "Rominus PIZZA",
+    //   //   content: {
+    //   //     company:
+    //   //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+    //   //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+    //   //   },
+    //   //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+    //   // },
+    //   // },
+    //   // {
+    //   //   id: 5,
+    //   //   title: "Rominus PIZZA",
+    //   //   content: {
+    //   //     company:
+    //   //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+    //   //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+    //   //   },
+    //   //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+    //   // },
+    //   // },
+    //   // {
+    //   //   id: 6,
+    //   //   title: "Rominus PIZZA",
+    //   //   content: {
+    //   //     company:
+    //   //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+    //   //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+    //   //   },
+    //   //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+    //   // },
+    //   // },
+    //   // {
+    //   //   id: 7,
+    //   //   title: "Rominus PIZZA",
+    //   //   content: {
+    //   //     company:
+    //   //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+    //   //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+    //   //   },
+    //   //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+    //   // },
+    //   // },
+    // ],
   },
   // Ecommerce Management
   {
@@ -847,53 +1047,81 @@ export const servicesCardsInfo = [
     projects: [
       {
         id: 1,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+        title: "Rominus PIZZA",
+        content: {
+          company:
+            "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+          df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+        },
+        imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
       },
+
       {
         id: 2,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+        title: "Rominus PIZZA",
+        content: {
+          company:
+            "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+          df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+        },
+        imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
       },
+
       {
         id: 3,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
+        title: "Rominus PIZZA",
+        content: {
+          company:
+            "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+          df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+        },
+        imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
       },
-      {
-        id: 4,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 5,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 6,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 7,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
+
+      // {
+      //   id: 4,
+      //   title: "Rominus PIZZA",
+      //   content: {
+      //     company:
+      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+      //   },
+      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+      // },
+      // },
+      // {
+      //   id: 5,
+      //   title: "Rominus PIZZA",
+      //   content: {
+      //     company:
+      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+      //   },
+      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+      // },
+      // },
+      // {
+      //   id: 6,
+      //   title: "Rominus PIZZA",
+      //   content: {
+      //     company:
+      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+      //   },
+      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+      // },
+      // },
+      // {
+      //   id: 7,
+      //   title: "Rominus PIZZA",
+      //   content: {
+      //     company:
+      //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+      //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+      //   },
+      //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+      // },
+      // },
     ],
   },
   // Brand StoryTelling
@@ -956,57 +1184,85 @@ export const servicesCardsInfo = [
         imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
       },
     },
-    projects: [
-      {
-        id: 1,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 2,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 3,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 4,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 5,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 6,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-      {
-        id: 7,
-        title: "Project Name",
-        content:
-          "For example, if you know your styling will cause an image to be full-width on mobile devices, in a 2-column layout on tablets, and a 3-column layout on desktop displays, you should include a sizes property such as the following.",
-        imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
-      },
-    ],
+    // projects: [
+    //   {
+    //     id: 1,
+    //     title: "Rominus PIZZA",
+    //     content: {
+    //       company:
+    //         "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+    //       df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+    //     },
+    //     imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+    //   },
+
+    //   {
+    //     id: 2,
+    //     title: "Rominus PIZZA",
+    //     content: {
+    //       company:
+    //         "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+    //       df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+    //     },
+    //     imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+    //   },
+
+    //   {
+    //     id: 3,
+    //     title: "Rominus PIZZA",
+    //     content: {
+    //       company:
+    //         "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+    //       df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+    //     },
+    //     imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+    //   },
+
+    //   // {
+    //   //   id: 4,
+    //   //   title: "Rominus PIZZA",
+    //   //   content: {
+    //   //     company:
+    //   //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+    //   //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+    //   //   },
+    //   //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+    //   // },
+    //   // },
+    //   // {
+    //   //   id: 5,
+    //   //   title: "Rominus PIZZA",
+    //   //   content: {
+    //   //     company:
+    //   //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+    //   //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+    //   //   },
+    //   //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+    //   // },
+    //   // },
+    //   // {
+    //   //   id: 6,
+    //   //   title: "Rominus PIZZA",
+    //   //   content: {
+    //   //     company:
+    //   //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+    //   //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+    //   //   },
+    //   //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+    //   // },
+    //   // },
+    //   // {
+    //   //   id: 7,
+    //   //   title: "Rominus PIZZA",
+    //   //   content: {
+    //   //     company:
+    //   //       "At Rominus, they believe that great food brings people together. Since its inception, Rominus served the finest pizzas, breads, burgers, and cold drinks, crafted with the freshest ingredients and a touch of love.",
+    //   //     df: "In our recent social media marketing project, we had the privilege of working with Rominus. We helped them elevate their brand identity and engage with their target audience. We enhanced the visibility and recognition of Rominus across various social media platforms, to build a strong relationship with existing and potential customers.",
+    //   //   },
+    //   //   imgUrl: "/images/projects/smm/smm-Rominus-PIZZA-min.png",
+    //   // },
+    //   // },
+    // ],
   },
   // {
   //   title: "Email Marketing",

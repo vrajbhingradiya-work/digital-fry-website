@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { useParams } from "next/navigation";
 import Image from "next/image";
 import { servicesCardsInfo } from "@/components/Data/ServicesInfo";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import SimpleReveal from "@/components/utils/SimpleReveal";
 import ImageModal from "@/components/servicesPage/ImageModal";
@@ -16,6 +16,10 @@ export default function services() {
   );
   const [isOpen, setIsOpen] = useState(false);
   const [selectedCardProject, setSelectedCardProject] = useState(null);
+
+  useEffect(() => {
+    console.log(selectedCardProject);
+  }, [selectedCardProject]);
   return (
     <div>
       <ImageModal
@@ -307,13 +311,15 @@ export default function services() {
             <></>
           )}
           {/* section-11 */}
-          <SimpleReveal sequence={4}>
-            <Gallery
-              setIsOpen={setIsOpen}
-              setSelectedCardProject={setSelectedCardProject}
-              Projects={service?.projects}
-            />
-          </SimpleReveal>
+          {service?.projects && (
+            <SimpleReveal sequence={4}>
+              <Gallery
+                setIsOpen={setIsOpen}
+                setSelectedCardProject={setSelectedCardProject}
+                Projects={service?.projects}
+              />
+            </SimpleReveal>
+          )}
         </div>
       ) : (
         <p>Loading</p>
