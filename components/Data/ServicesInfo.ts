@@ -507,7 +507,7 @@ export const servicesCardsInfo = [
 
       {
         id: 2,
-        title: "24 Carats",
+        title: "24 Carat",
         content: {
           company:
             "24-Carat Builders believe in transforming your dreams into tangible realities. Whether it's building your dream home, renovating your space, or creating a commercial masterpiece,  24-carat is doing it with precision, passion, and integrity.",
