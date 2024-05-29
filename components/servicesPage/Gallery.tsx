@@ -3,42 +3,46 @@ import Icon from "@/public/logo/Icon.png";
 import React from "react";
 
 const Gallery = ({ Projects, setIsOpen, setSelectedCardProject }: any) => {
-  return (
-    <div
-      id="1"
-      className=" my-24 flex justify-center items-center w-full   md:px-6"
-    >
-      {/* Section: Design Block */}
-      <section className="mb-32 w-full">
-        <style
-          dangerouslySetInnerHTML={{
-            __html:
-              "\n      .zoom:hover img {\n        transform: scale(1.1);\n      }\n    ",
-          }}
-        />
-        <h2 className="mb-12 text-left md:text-center text-3xl font-bold text-blue-600 py-8 lg:py-16">
-          Projects we are
-          <br /> proud of...
-        </h2>
-        <div className="flex justify-center items-center lg:w-full w-[95vw]">
-          <div className="grid grid-cols-1 w-full  md:grid-cols-2 gap-3 lg:gap-6 lg:grid-cols-3 ">
-            {/* card */}
-            {Projects?.map((project: any, index: any) => {
-              return (
-                <ProjectCards
-                  setSelectedCardProject={setSelectedCardProject}
-                  setIsOpen={setIsOpen}
-                  key={index}
-                  project={project}
-                />
-              );
-            })}
+  if (Projects.length != 0) {
+    return (
+      <div
+        id="1"
+        className=" my-24 flex justify-center items-center w-full   md:px-6"
+      >
+        {/* Section: Design Block */}
+        <section className="mb-32 w-full">
+          <style
+            dangerouslySetInnerHTML={{
+              __html:
+                "\n      .zoom:hover img {\n        transform: scale(1.1);\n      }\n    ",
+            }}
+          />
+          <h2 className="mb-12 text-left md:text-center text-3xl font-bold text-blue-600 py-8 lg:py-16">
+            Projects we are
+            <br /> proud of...
+          </h2>
+          <div className="flex justify-center items-center lg:w-full w-[95vw]">
+            <div className="grid grid-cols-1 w-full  md:grid-cols-2 gap-3 lg:gap-6 lg:grid-cols-3 ">
+              {/* card */}
+              {Projects?.map((project: any, index: any) => {
+                return (
+                  <ProjectCards
+                    setSelectedCardProject={setSelectedCardProject}
+                    setIsOpen={setIsOpen}
+                    key={index}
+                    project={project}
+                  />
+                );
+              })}
+            </div>
           </div>
-        </div>
-      </section>
-      {/* Section: Design Block */}
-    </div>
-  );
+        </section>
+        {/* Section: Design Block */}
+      </div>
+    );
+  } else {
+    return <></>;
+  }
 };
 
 export default Gallery;
