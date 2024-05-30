@@ -1,4 +1,3 @@
-import smmJoyEbike from "@/public/images/projects/smm/smm-joy-e-bike-min.png";
 export const servicesCardsInfo = [
   //  Social Media Marketing
   {
@@ -13,7 +12,7 @@ export const servicesCardsInfo = [
         imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
       },
       section2: {
-        title: "Direct Sales to Your Audience's Favorite Shopping Spots",
+        title: "Direct Sales to Your Audience's Favourite Shopping Spots",
       },
       section3: {
         title: "Dynamic Designs, Effortlessly Delivered Across Channels",
@@ -22,9 +21,9 @@ export const servicesCardsInfo = [
         imgUrl: "/images/services/smm/SocialLoad-amico.svg",
       },
       section4: {
-        title: "Harmonize Your Team's Digital Arsenal",
+        title: "Harmonize Your Team's Digital Tools",
         content:
-          "In the realm of digital campaigns, efficiency is paramount. Digital Fry introduces a seamless solution to elevate your team's performance - Mailchimp's unified platform. Now, effortlessly store and access all your digital assets in one place, eliminating the need to navigate through multiple design programs.",
+          "In the realm of digital campaigns, efficiency is paramount. Digital Fry introduces a seamless solution to elevate your team's performance - Digital Fry's unified platform. Now, effortlessly store and access all your digital assets in one place, eliminating the need to navigate through multiple design programs.",
         imgUrl: "/images/services/smm/SocialLoad-bro.svg",
       },
       section5: {
@@ -77,7 +76,7 @@ export const servicesCardsInfo = [
       },
       {
         id: 2,
-        title: "Joy E-bikes",
+        title: "Joy E-bike",
         content: {
           company:
             "Joy e-bike is one of India’s leading electric two-wheeler manufacturers. With innovation being an integral part, their idea is to bring something new to the market, which can also help fight climate change.",
@@ -153,7 +152,7 @@ export const servicesCardsInfo = [
       section1: {
         title: "Crafting Visual Narratives: Packaging and Labelling Mastery",
         content:
-          "At Digital Fry, we understand the profound impact packaging and labeling have on brand perception. Dive into a realm of visual storytelling as we expertly craft designs that not only captivate but communicate your brand essence seamlessly",
+          "At Digital Fry, we understand the profound impact packaging and labeling have on brand perception. Dive into a realm of visual storytelling as we expertly craft designs that not only captivate but communicate your brand essence seamlessly.",
         imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
       },
       section2: {
@@ -162,13 +161,13 @@ export const servicesCardsInfo = [
       section3: {
         title: "Strategic Brand Presentation",
         content:
-          "At Digital Fry, we believe packaging is more than a container; it's a strategic canvas for your brand. Our experts ensure your products stand out with purposeful designs that not only capture attention but tell a compelling story about your brand",
+          "At Digital Fry, we believe packaging is more than a container; it's a strategic canvas for your brand. Our experts ensure your products stand out with purposeful designs that not only capture attention but tell a compelling story about your brand.",
         imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
       },
       section4: {
         title: "Cohesive Labelling Across Platforms",
         content:
-          "Maintain a seamless visual identity across all your products. Our cohesive labeling approach ensures that whether it's on a shelf or online, your brand's visual language remains consistent, creating a unified and recognizable presence",
+          "Maintain a seamless visual identity across all your products. Our cohesive labeling approach ensures that whether it's on a shelf or online, your brand's visual language remains consistent, creating a unified and recognizable presence.",
         imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
       },
       section5: {
@@ -192,7 +191,7 @@ export const servicesCardsInfo = [
       section9: {
         title: "Consistent Brand Aesthetics",
         content:
-          "Harmony in design is crucial. Digital Fry ensures that your brand's aesthetic remains consistent across all packaging and labeling materials, reinforcing a strong and unified visual identity that leaves a lasting imprint",
+          "Harmony in design is crucial. Digital Fry ensures that your brand's aesthetic remains consistent across all packaging and labeling materials, reinforcing a strong and unified visual identity that leaves a lasting imprint.",
         imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
       },
       section10: {
@@ -205,14 +204,14 @@ export const servicesCardsInfo = [
     projects: [
       {
         id: 1,
-        title: "Fully Loaded",
+        title: "Multi Fit Nutrition ",
         content: {
           company:
-            "Fully Loaded, your one-stop shop for premium protein supplements designed to elevate the fitness journey.",
+            "Multi Fit Nutrition, your one-stop shop for premium protein supplements designed to elevate the fitness journey.",
           df: "We recently partnered with this leading provider of premium protein supplements to develop a new packaging and labeling solution that reflects their commitment to quality and performance.",
         },
         imgLogo:
-          "/images/projects/packaging-and-labelling/whey-protein-logo.png",
+          "/images/projects/packaging-and-labelling/multifit-nutrition-logo.png",
         imgUrl: "/images/projects/packaging-and-labelling/whey-protein.png",
       },
 
@@ -292,7 +291,7 @@ export const servicesCardsInfo = [
   // Logo Designing
   {
     title: "Logo Designing",
-    desc: "Unlock the power of personalized communication with Digital Fry's email marketing services. We create impactful email campaigns, nurturing customer relationships and driving conversions. Leverage the potential of email marketing for your brand success. ",
+    desc: "Unlock the power of personalized communication with Digital Fry's email marketing services. We create impactful email campaigns, nurturing customer relationships and driving conversions. Leverage the potential of email marketing for your brand success.",
     imgUrl: "/images/services/smm/SocialGrowth-amico.svg",
     pageData: {
       section1: {

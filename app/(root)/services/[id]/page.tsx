@@ -255,10 +255,7 @@ export default function services() {
                   className="w-full md:gap-8 
               {service.pageData.section1.title ? (flex flex-col gap-4  p-4 py-12 lg:py-24 md:p-8 lg:p-16 xl:p-24 "
                 >
-                  <div className="text-[0.6rem] font-bold ">
-                    {service?.title.toUpperCase() || "SOCIAL MEDIA MARKETING"}
-                  </div>
-                  <div className="text-xl md:text-2xl xl:text-3xl font-black px-2 lg:px-0">
+                  <div className="text-xl md:text-2xl xl:text-3xl font-black px-2 lg:px-0 mb-6">
                     {service?.pageData?.section9.title}
                   </div>
                   <div className="text-sm px-2 lg:px-0 mb-6">

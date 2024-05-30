@@ -63,18 +63,18 @@ function ProjectCards({ project, setIsOpen, setSelectedCardProject }: any) {
         alt={project.title}
         layout="fill"
         objectFit="contain"
-        className="w-full align-middle transition duration-300 hover:ease-linear"
+        className="w-full align-middle transition duration-300 hover:ease-linear p-2"
       />
 
       <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.6)]">
         <div className="flex h-full items-end justify-start">
           <h5 className="m-6 text-2xl font-black text-white">
-            {project.title}
+            {/* {project.title} */}
           </h5>
         </div>
       </div>
       <div>
-        <div className="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,99.2%,0.15)]"></div>
+        <div className="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-50 bg-[hsla(0,0%,99.2%,0.15)]"></div>
       </div>
     </div>
   );
