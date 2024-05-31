@@ -20,9 +20,9 @@ const LatestWorksCard = ({ work }: any) => {
           <RevealLeft sequence={2}>
             <div className=" text-xl font-semibold">{work.title}</div>
           </RevealLeft>
-          <RevealLeft sequence={6}>
+          {/* <RevealLeft sequence={6}>
             <div className="text-xs ">{work.title.slice(0, 100)}</div>
-          </RevealLeft>
+          </RevealLeft> */}
         </div>
       </div>
     </Link>
