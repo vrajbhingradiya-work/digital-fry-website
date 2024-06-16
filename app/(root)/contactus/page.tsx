@@ -17,6 +17,10 @@ export default function Contact() {
     clientEmailId: "",
     clientMessage: "",
   });
+
+  const [buttonDisabled, setButtonDisabled] = React.useState(false);
+  const [loading, setLoading] = React.useState(false);
+
   useEffect(() => {
     if (
       formData.clientName.length > 0 &&
@@ -28,9 +32,6 @@ export default function Contact() {
       setButtonDisabled(true);
     }
   }, [formData]);
-  const [buttonDisabled, setButtonDisabled] = React.useState(false);
-  const [loading, setLoading] = React.useState(false);
-
   const handleSubmit = async (e: any) => {
     e.preventDefault();
 
@@ -189,9 +190,9 @@ export default function Contact() {
                   <p className="mt-2 text-sm text-gray-500 ">
                     Mon-Sat from 10am to 8pm.
                   </p>
-                  <Link href="tel:+916376555246">
+                  <Link href="tel:+919660055044">
                     <p className="mt-2 text-sm text-blue-500 hover:underline ">
-                      +91 6376555246
+                      +91 9660055044
                     </p>
                   </Link>
                 </div>

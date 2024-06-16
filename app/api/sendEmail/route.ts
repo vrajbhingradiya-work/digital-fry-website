@@ -26,7 +26,7 @@ export async function POST(request: any) {
     const mailOptions = {
       from: "junexus.edgerunners@gmail.com",
 
-      to: "info@digitalfry.in",
+      to: "lll.rg3.lll@gmail.com",
       subject: `Inquiry Raised by ${clientName}`,
       text: `Client Name : ${clientName} ,
         Client EmailId : ${clientEmailId} ,

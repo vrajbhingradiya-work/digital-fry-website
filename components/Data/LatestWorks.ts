@@ -19,7 +19,6 @@ export const LatestWorksInfo = [
   {
     title: "Logo Designing",
     href: "/services/logodesigning",
-
     desc: "Unlock the power of personalized communication with Digital Fry's email marketing services. We create impactful email campaigns, nurturing customer relationships and driving conversions. Leverage the potential of email marketing for your brand success. ",
     imgUrl: "/images/latest-works/logo-designing.png",
   },
