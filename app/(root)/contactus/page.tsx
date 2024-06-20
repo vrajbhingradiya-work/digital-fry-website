@@ -38,7 +38,7 @@ export default function Contact() {
     try {
       setLoading(true);
       setButtonDisabled(true);
-      const response = await fetch("/api/sendEmail", {
+      const response = await fetch("/api/send-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -50,6 +50,7 @@ export default function Contact() {
           clientMessage: formData.clientMessage,
         }), // Convert formData to JSON string
       });
+      console.log(response);
       alert("Message successfully sent");
       setFormData({
         clientName: "",
@@ -88,7 +89,6 @@ export default function Contact() {
               <Image
                 src={ContactUsPageSvg}
                 alt="Footer"
-                layout="fill"
                 objectFit="cover"
                 className="w-full align-middle transition duration-300 hover:ease-linear  "
               />
