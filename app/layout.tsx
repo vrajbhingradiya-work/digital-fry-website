@@ -13,7 +13,12 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Digital Fry",
   description: "Digital Marketing Agency",
-  icons: "Icon.svg",
+  icons: {
+    icon: ["/favicon.ico?v=4"],
+    apple: ["/apple-touch-icon.png?v=4"],
+    shortcut: ["/apple-touch-icon.png"],
+  },
+  manifest: "site.webmanifest",
 };
 
 export default function RootLayout({
