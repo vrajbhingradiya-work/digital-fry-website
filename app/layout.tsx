@@ -17,31 +17,31 @@ export const metadata: Metadata = {
     {
       rel: "apple-touch-icon",
       sizes: "180x180",
-      url: "/layout/favicon/apple-touch-icon.png",
+      url: "/apple-touch-icon.png",
     },
     {
       rel: "icon",
       type: "image/png",
       sizes: "32x32",
-      url: "/layout/favicon/favicon-32x32.png",
+      url: "/favicon-32x32.png",
     },
     {
       rel: "icon",
       type: "image/png",
       sizes: "16x16",
-      url: "/layout/favicon/favicon-16x16.png",
+      url: "/favicon-16x16.png",
     },
     {
       rel: "mask-icon",
       color: "#f8893a",
-      url: "/layout/favicon/safari-pinned-tab.svg",
+      url: "/safari-pinned-tab.svg",
     },
     {
       rel: "shortcut icon",
-      url: "/layout/favicon/favicon.ico",
+      url: "/favicon.ico",
     },
   ],
-  manifest: "/layout/favicon/site.webmanifest",
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
