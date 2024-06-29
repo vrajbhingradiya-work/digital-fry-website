@@ -13,12 +13,6 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Digital Fry",
   description: "Digital Marketing Agency",
-  icons: {
-    icon: ["/favicon-32x32.png", "/favicon-16x16.png", "/favicon.ico?v=4"],
-    apple: "/apple-touch-icon.png?v=4",
-    shortcut: "/favicon-32x32.png",
-  },
-  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
@@ -29,6 +23,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
         <link
           rel="icon"
           type="image/png"
@@ -41,11 +40,12 @@ export default function RootLayout({
           sizes="16x16"
           href="/favicon-16x16.png"
         />
-        <link rel="icon" href="/favicon.ico?v=4" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=4" />
-        <link rel="shortcut icon" href="/favicon-32x32.png" />
         <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000" />
+        <meta name="msapplication-TileColor" content="#2d89ef" />
+        <meta name="theme-color" content="#ffffff" />
       </head>
+
       <body className={` ${montserrat.className}`}>
         <Navbar />
         {children}
