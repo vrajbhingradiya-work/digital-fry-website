@@ -13,6 +13,35 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Digital Fry",
   description: "Digital Marketing Agency",
+  icons: [
+    {
+      rel: "apple-touch-icon",
+      sizes: "180x180",
+      url: "/layout/favicon/apple-touch-icon.png",
+    },
+    {
+      rel: "icon",
+      type: "image/png",
+      sizes: "32x32",
+      url: "/layout/favicon/favicon-32x32.png",
+    },
+    {
+      rel: "icon",
+      type: "image/png",
+      sizes: "16x16",
+      url: "/layout/favicon/favicon-16x16.png",
+    },
+    {
+      rel: "mask-icon",
+      color: "#f8893a",
+      url: "/layout/favicon/safari-pinned-tab.svg",
+    },
+    {
+      rel: "shortcut icon",
+      url: "/layout/favicon/favicon.ico",
+    },
+  ],
+  manifest: "/layout/favicon/site.webmanifest",
 };
 
 export default function RootLayout({
@@ -22,7 +51,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
+      {/* <head>
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -43,8 +72,8 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000" />
         <meta name="msapplication-TileColor" content="#2d89ef" />
-        <meta name="theme-color" content="#ffffff" />
-      </head>
+        <meta name="theme-color" content="#ffffff" /> */}
+      {/* </head> */}
 
       <body className={` ${montserrat.className}`}>
         <Navbar />
